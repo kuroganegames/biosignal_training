@@ -1,0 +1,472 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ファインデックス半日業務体験｜初学者向け用語集</title>
+<style>
+:root{--ink:#202c37;--muted:#607285;--line:#dde6ed;--navy:#173a54;--blue:#e9f3f9;--bg:#f5f8fa;--warn:#fff6e8;--orange:#a46214;--green:#246f63}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.7;background:var(--bg);color:var(--ink)}.wrap{max-width:1170px;margin:auto;padding:0 24px}header{background:linear-gradient(115deg,#16364e,#245b6e);color:white;padding:42px 0 32px}header h1{margin:0 0 8px;font-size:clamp(1.7rem,3.2vw,2.55rem);line-height:1.35}header p{max-width:950px;margin:0;color:#e8eff5}.eyebrow{font-size:.82rem;letter-spacing:.15em;font-weight:700;color:#badde8;margin-bottom:8px}.summary{margin:25px 0 19px;padding:22px 24px;background:white;border-left:5px solid #3c8490;border-radius:8px;box-shadow:0 3px 20px #17405b0c}.summary strong{color:#173a54}.callouts{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:18px 0 28px}.callout{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;font-size:.88rem;line-height:1.55}.callout b{display:block;color:#20536d;font-size:.94rem;margin-bottom:5px}.controls{position:sticky;top:0;z-index:10;background:#f5f8faed;backdrop-filter:blur(8px);padding:16px 0;border-bottom:1px solid var(--line)}.search{display:flex;flex-wrap:wrap;gap:9px;align-items:center}input[type=search]{flex:1 1 310px;min-height:46px;border-radius:9px;border:1px solid #b9cbd6;padding:10px 16px;font-size:1rem;background:#fff}button{border-radius:100px;background:#fff;border:1px solid #b7cbd4;color:#25475e;font:inherit;cursor:pointer;padding:7px 13px}button.on{background:#1d5669;border-color:#1d5669;color:#fff}.small{font-size:.89rem;color:var(--muted)}.count{font-weight:700;margin:12px 0 2px;color:#45647a}h2{font-size:1.35rem;line-height:1.35;margin:40px 0 16px;padding-left:12px;border-left:4px solid #30858d;color:var(--navy)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px 20px;box-shadow:0 2px 5px #193b5210;scroll-margin-top:95px}.card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.card-head h3{margin:0;color:#18475b;font-size:1.15rem;overflow-wrap:anywhere}.card-head>div{display:flex;justify-content:end;flex-wrap:wrap;gap:5px}.tag,.star{white-space:nowrap;display:inline-block;font-size:.74rem;padding:2px 7px;border-radius:5px;background:#edf2f7;color:#46677d;font-weight:700}.star{background:#e2f4e8;color:#166544}.english{margin:2px 0 8px;font-size:.83rem;color:var(--muted);overflow-wrap:anywhere}.description{margin:8px 0 12px}.caution{padding:10px 12px;background:var(--warn);border-left:3px solid #dba55a;font-size:.9rem;border-radius:4px}.caution b{color:var(--orange)}.is-hidden{display:none!important}.footer{margin-top:42px;padding:28px 0 55px;border-top:1px solid var(--line)}.example{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px 24px;margin:26px 0}code,pre{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#142c3a;color:#eaf2fa;padding:17px 18px;border-radius:7px;line-height:1.7}a{color:#166d83}.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(max-width:920px){.callouts{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.grid{grid-template-columns:1fr}.callouts{grid-template-columns:1fr}header{padding:29px 0 22px}.wrap{padding:0 14px}.card-head{flex-wrap:wrap}.controls{position:static}}@media print{.controls{display:none}body{background:white}header{background:white;color:black;padding:10px 0 15px}header p{color:#555}.eyebrow{color:#555}.grid{display:block}.card{break-inside:avoid;box-shadow:none;margin-bottom:9px}.summary{box-shadow:none}a{color:inherit}}
+</style></head><body>
+<header><div class="wrap"><div class="eyebrow">HALF-DAY TUTORIAL COMPANION</div><h1>視野データ解析｜初学者向け用語集</h1><p>添付HTML・Jupyterノートブックに対応。略語の正式名称から、コードの変数名まで、<b>90語</b>を検索できます。</p></div></header>
+<main class="wrap"><div class="summary"><strong>この教材でしていること</strong>：30人の360回の視野検査から、過去3回の測定を用いて次の1回の52地点の感度（dB）を予測し、21人で学習・9人で評価します。これは病気の有無や長期進行の予測ではありません。<div class="small" style="margin-top:7px">★は優先的に覚える用語。英語の正式名称や一般的な概念については、教材外の公開資料・一般的な用語説明による補足も含みます。</div></div>
+<div class="callouts"><div class="callout"><b>MS ≠ MD</b>単純平均と、正常値からの偏差は別の指標。</div><div class="callout"><b>0 dB ≠ 欠測</b>ゼロも視野計で記録された数値。</div><div class="callout"><b>FPR ≠ 診断の偽陽性率</b>今回は検査中の反応品質の指標。</div><div class="callout"><b>270窓 ≠ 270人</b>30人の繰り返し測定から作成。</div><div class="callout"><b>実測値 ≠ 真の感度</b>予測対象にも測定ノイズが含まれる。</div></div></main>
+<div class="controls"><div class="wrap"><div class="search"><label class="visually-hidden" for="q">用語を検索</label><input type="search" id="q" placeholder="例：MAE、FPR、Ridge、欠測、SVD、X…" autocomplete="off"><button class="filter on" data-cat="all" aria-pressed="true">すべて</button><button class="filter" data-cat="0" aria-pressed="false">視野・眼科</button><button class="filter" data-cat="1" aria-pressed="false">統計・解析</button><button class="filter" data-cat="2" aria-pressed="false">ファイル・技術</button><button class="filter" data-cat="3" aria-pressed="false">コード</button><button class="filter" data-cat="star" aria-pressed="false">★優先</button></div><div class="count" id="counter">90語を表示中</div></div></div>
+<div class="wrap" id="sections"><section class="section" data-category="0"><h2>① 視野検査・眼科の略語</h2><div class="grid"><article class="card" data-category="0" data-priority="1" data-search="gap gaze analyzing perimeter ファインデックスの「視線分析型視野計」の製品名。視線の動きを解析して視野を検査する。 本教材ではgapの生データを解析しない。hfa由来の別の公開データを使う。 第0章">
+  <div class="card-head"><h3>GAP</h3><div><span class="star">★ 優先</span><span class="tag">第0章</span></div></div>
+  <p class="english">Gaze Analyzing Perimeter</p>
+  <p class="description">ファインデックスの「視線分析型視野計」の製品名。視線の動きを解析して視野を検査する。</p>
+  <div class="caution"><b>この教材では</b> 本教材ではGAPの生データを解析しない。HFA由来の別の公開データを使う。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="hfa humphrey field analyzer ハンフリー視野計。光刺激への反応から視野の感度を測る標準的な自動視野計。 この教材の公開データはhfa由来。gapと同一装置ではない。 第0・1章">
+  <div class="card-head"><h3>HFA</h3><div><span class="star">★ 優先</span><span class="tag">第0・1章</span></div></div>
+  <p class="english">Humphrey Field Analyzer</p>
+  <p class="description">ハンフリー視野計。光刺激への反応から視野の感度を測る標準的な自動視野計。</p>
+  <div class="caution"><b>この教材では</b> この教材の公開データはHFA由来。GAPと同一装置ではない。</div>
+</article><article class="card" data-category="0" data-priority="0" data-search="vf visual field 視野。目を動かさずに見える範囲・その場所ごとの機能を意味する。 「vf検査」は視野検査。「眼底写真」とは異なる。 第0・7章">
+  <div class="card-head"><h3>VF</h3><div><span class="tag">第0・7章</span></div></div>
+  <p class="english">Visual Field</p>
+  <p class="description">視野。目を動かさずに見える範囲・その場所ごとの機能を意味する。</p>
+  <div class="caution"><b>この教材では</b> 「VF検査」は視野検査。「眼底写真」とは異なる。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="od oculus dexter（ラテン語） 右眼。検査表の `eye` 列に出る。 この資料のodは右眼で、ソフトウェアの他の略語を意味しない。 第1・6章">
+  <div class="card-head"><h3>OD</h3><div><span class="star">★ 優先</span><span class="tag">第1・6章</span></div></div>
+  <p class="english">Oculus Dexter（ラテン語）</p>
+  <p class="description">右眼。検査表の `eye` 列に出る。</p>
+  <div class="caution"><b>この教材では</b> この資料のODは右眼で、ソフトウェアの他の略語を意味しない。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="os oculus sinister（ラテン語） 左眼。検査表の `eye` 列に出る。 左眼も図では右眼基準の座標にそろえて表示する。 第1・2・6章">
+  <div class="card-head"><h3>OS</h3><div><span class="star">★ 優先</span><span class="tag">第1・2・6章</span></div></div>
+  <p class="english">Oculus Sinister（ラテン語）</p>
+  <p class="description">左眼。検査表の `eye` 列に出る。</p>
+  <div class="caution"><b>この教材では</b> 左眼も図では右眼基準の座標にそろえて表示する。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="db decibel（デシベル） 刺激検出の閾値に対応する視野感度の対数尺度。一般に視野計では値が大きいほど弱い刺激を検出できる。 「0 db」は欠測を意味しない。dbの平均と光強度の平均は同じでない。 第1・2・5章">
+  <div class="card-head"><h3>dB</h3><div><span class="star">★ 優先</span><span class="tag">第1・2・5章</span></div></div>
+  <p class="english">decibel（デシベル）</p>
+  <p class="description">刺激検出の閾値に対応する視野感度の対数尺度。一般に視野計では値が大きいほど弱い刺激を検出できる。</p>
+  <div class="caution"><b>この教材では</b> 「0 dB」は欠測を意味しない。dBの平均と光強度の平均は同じでない。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="fpr / fpr false positive rate 視野検査で刺激がないのに反応するなどの偽陽性反応の割合。 病気の有無を判定する分類器の偽陽性率と混同しない。資料中のfprは全件0だが、検査が完全だった根拠にはならない。 第1章">
+  <div class="card-head"><h3>FPR / fpr</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">False Positive Rate</p>
+  <p class="description">視野検査で刺激がないのに反応するなどの偽陽性反応の割合。</p>
+  <div class="caution"><b>この教材では</b> 病気の有無を判定する分類器の偽陽性率と混同しない。資料中のfprは全件0だが、検査が完全だった根拠にはならない。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="fnr / fnr false negative rate 本来見えると見込まれる刺激に反応しなかった割合。 疾患の診断における偽陰性率ではなく、検査中の反応の信頼性に関する値。 第1章">
+  <div class="card-head"><h3>FNR / fnr</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">False Negative Rate</p>
+  <p class="description">本来見えると見込まれる刺激に反応しなかった割合。</p>
+  <div class="caution"><b>この教材では</b> 疾患の診断における偽陰性率ではなく、検査中の反応の信頼性に関する値。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="fl / fl fixation loss(es) 固視不良。検査中に注視点から視線が外れた可能性を示す指標。 この教材では値を点検するが、予測の入力特徴には使わない。 第1・6章">
+  <div class="card-head"><h3>FL / fl</h3><div><span class="star">★ 優先</span><span class="tag">第1・6章</span></div></div>
+  <p class="english">Fixation Loss(es)</p>
+  <p class="description">固視不良。検査中に注視点から視線が外れた可能性を示す指標。</p>
+  <div class="caution"><b>この教材では</b> この教材では値を点検するが、予測の入力特徴には使わない。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="bs / bs blind spot 盲点。視神経乳頭のため視覚受容が成立しない視野位置。 本データでは盲点付近の l26、l35 を位置定義に基づき除く。低い値を見て恣意的に除いたのではない。 第1章">
+  <div class="card-head"><h3>BS / bs</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">Blind Spot</p>
+  <p class="description">盲点。視神経乳頭のため視覚受容が成立しない視野位置。</p>
+  <div class="caution"><b>この教材では</b> 本データでは盲点付近の l26、l35 を位置定義に基づき除く。低い値を見て恣意的に除いたのではない。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="ms mean sensitivity 平均感度。今回扱う52個の視野感度（db）の算術平均。 mdと違う。msを正常値補正済みの指標と解釈しない。 第2章">
+  <div class="card-head"><h3>MS</h3><div><span class="star">★ 優先</span><span class="tag">第2章</span></div></div>
+  <p class="english">Mean Sensitivity</p>
+  <p class="description">平均感度。今回扱う52個の視野感度（dB）の算術平均。</p>
+  <div class="caution"><b>この教材では</b> MDと違う。MSを正常値補正済みの指標と解釈しない。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="md mean deviation 平均偏差。年齢などに応じた正常期待値と比較して視野全体のずれを要約する指標。 この教材で計算している52点の単純平均（ms）はmdではない。 第2章">
+  <div class="card-head"><h3>MD</h3><div><span class="star">★ 優先</span><span class="tag">第2章</span></div></div>
+  <p class="english">Mean Deviation</p>
+  <p class="description">平均偏差。年齢などに応じた正常期待値と比較して視野全体のずれを要約する指標。</p>
+  <div class="caution"><b>この教材では</b> この教材で計算している52点の単純平均（MS）はMDではない。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="gpa guided progression analysis hfa等で使われる、視野検査の経時的な変化・進行を判定する解析機能。 元の研究にgpaが登場するが、この教材はそのgpa解析を再現しない。 第1章">
+  <div class="card-head"><h3>GPA</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">Guided Progression Analysis</p>
+  <p class="description">HFA等で使われる、視野検査の経時的な変化・進行を判定する解析機能。</p>
+  <div class="caution"><b>この教材では</b> 元の研究にGPAが登場するが、この教材はそのGPA解析を再現しない。</div>
+</article><article class="card" data-category="0" data-priority="0" data-search="24-2 視野検査の測定パターン名 中心視野を一定の格子状の位置で測るhfaの代表的な検査パターン。 「24 引く 2」という計算式ではない。資料名の 24d2 と関連する。 第1・7章">
+  <div class="card-head"><h3>24-2</h3><div><span class="tag">第1・7章</span></div></div>
+  <p class="english">視野検査の測定パターン名</p>
+  <p class="description">中心視野を一定の格子状の位置で測るHFAの代表的な検査パターン。</p>
+  <div class="caution"><b>この教材では</b> 「24 引く 2」という計算式ではない。資料名の 24d2 と関連する。</div>
+</article><article class="card" data-category="0" data-priority="0" data-search="gazebase データセットの固有名 複数人の視線・眼球運動の時系列を含む公開データ。 今回の実習に同梱されていない。第7章で将来の発展先として紹介される。 第7章">
+  <div class="card-head"><h3>GazeBase</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">データセットの固有名</p>
+  <p class="description">複数人の視線・眼球運動の時系列を含む公開データ。</p>
+  <div class="caution"><b>この教材では</b> 今回の実習に同梱されていない。第7章で将来の発展先として紹介される。</div>
+</article><article class="card" data-category="0" data-priority="0" data-search="uwhvf university of washington humphrey visual field（データセット名） ワシントン大学の実臨床hfa視野検査をまとめた公開データ。 今回使用するvisualfieldsデータとは別物。第7章で追加候補として紹介される。 第7章">
+  <div class="card-head"><h3>UWHVF</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">University of Washington Humphrey Visual Field（データセット名）</p>
+  <p class="description">ワシントン大学の実臨床HFA視野検査をまとめた公開データ。</p>
+  <div class="caution"><b>この教材では</b> 今回使用するvisualFieldsデータとは別物。第7章で追加候補として紹介される。</div>
+</article><article class="card" data-category="0" data-priority="1" data-search="l1〜l54 視野位置の列番号 1回の検査で記録した54地点の感度を格納するデータ列名。 `l` の英語の正式展開はこの教材にない。l26・l35除外後は52点。 第1章">
+  <div class="card-head"><h3>l1〜l54</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">視野位置の列番号</p>
+  <p class="description">1回の検査で記録した54地点の感度を格納するデータ列名。</p>
+  <div class="caution"><b>この教材では</b> `l` の英語の正式展開はこの教材にない。l26・l35除外後は52点。</div>
+</article></div></section>
+<section class="section" data-category="1"><h2>② 解析・統計・機械学習の用語</h2><div class="grid"><article class="card" data-category="1" data-priority="1" data-search="qc quality control 品質管理・品質確認。患者id、日付、欠損、重複、不自然な固定値などを調べる。 qcを行っただけで測定が臨床的に正確と証明されたわけではない。 第1章">
+  <div class="card-head"><h3>QC</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">Quality Control</p>
+  <p class="description">品質管理・品質確認。患者ID、日付、欠損、重複、不自然な固定値などを調べる。</p>
+  <div class="caution"><b>この教材では</b> QCを行っただけで測定が臨床的に正確と証明されたわけではない。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="poc proof of concept 概念実証。アイデアを小規模な試作で実際に動かし、実現可能性を確かめること。 製品化・臨床利用可能性の実証まで終えたという意味ではない。 第0・6章">
+  <div class="card-head"><h3>PoC</h3><div><span class="star">★ 優先</span><span class="tag">第0・6章</span></div></div>
+  <p class="english">Proof of Concept</p>
+  <p class="description">概念実証。アイデアを小規模な試作で実際に動かし、実現可能性を確かめること。</p>
+  <div class="caution"><b>この教材では</b> 製品化・臨床利用可能性の実証まで終えたという意味ではない。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="mae mean absolute error 平均絶対誤差。予測値と実測値の差の絶対値を平均する。例：3 dbと5 dbの誤差は2 db。 この教材の主要な評価指標。小さいほど「次回に観測された値」に近い。 第0・5章">
+  <div class="card-head"><h3>MAE</h3><div><span class="star">★ 優先</span><span class="tag">第0・5章</span></div></div>
+  <p class="english">Mean Absolute Error</p>
+  <p class="description">平均絶対誤差。予測値と実測値の差の絶対値を平均する。例：3 dBと5 dBの誤差は2 dB。</p>
+  <div class="caution"><b>この教材では</b> この教材の主要な評価指標。小さいほど「次回に観測された値」に近い。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="ci confidence interval 信頼区間。データが変わった場合の推定値の不確実さを表すための区間。 本教材の95%区間は9患者を単位としたpaired bootstrapのpercentile区間。0を含んでも同等性の証明ではない。 第5章">
+  <div class="card-head"><h3>CI</h3><div><span class="star">★ 優先</span><span class="tag">第5章</span></div></div>
+  <p class="english">Confidence Interval</p>
+  <p class="description">信頼区間。データが変わった場合の推定値の不確実さを表すための区間。</p>
+  <div class="caution"><b>この教材では</b> 本教材の95%区間は9患者を単位としたpaired bootstrapのpercentile区間。0を含んでも同等性の証明ではない。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="svd singular value decomposition 特異値分解。行列を分解する線形代数の手法。 `ridge(..., solver=&quot;svd&quot;)` で係数を計算する方法の指定。視野計の略語ではない。 第4章">
+  <div class="card-head"><h3>SVD</h3><div><span class="star">★ 優先</span><span class="tag">第4章</span></div></div>
+  <p class="english">Singular Value Decomposition</p>
+  <p class="description">特異値分解。行列を分解する線形代数の手法。</p>
+  <div class="caution"><b>この教材では</b> `Ridge(..., solver=&quot;svd&quot;)` で係数を計算する方法の指定。視野計の略語ではない。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="ridge回帰 ridge regression 線形回帰の係数が大きくなりすぎないよう罰則を加えた方法。 モデルは104入力→52出力。ridgeが単純平均を上回る保証はない。 第4章">
+  <div class="card-head"><h3>Ridge回帰</h3><div><span class="star">★ 優先</span><span class="tag">第4章</span></div></div>
+  <p class="english">Ridge Regression</p>
+  <p class="description">線形回帰の係数が大きくなりすぎないよう罰則を加えた方法。</p>
+  <div class="caution"><b>この教材では</b> モデルは104入力→52出力。Ridgeが単純平均を上回る保証はない。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="alpha / α 正則化係数（ridgeの調整パラメータ） ridge回帰で「係数を小さく抑える強さ」を決める数値。大きいほど抑制が強い。 この教材は `alpha=10.0` に固定。評価9患者の結果を見て変更しない。 第0・4章">
+  <div class="card-head"><h3>alpha / α</h3><div><span class="star">★ 優先</span><span class="tag">第0・4章</span></div></div>
+  <p class="english">正則化係数（Ridgeの調整パラメータ）</p>
+  <p class="description">Ridge回帰で「係数を小さく抑える強さ」を決める数値。大きいほど抑制が強い。</p>
+  <div class="caution"><b>この教材では</b> この教材は `ALPHA=10.0` に固定。評価9患者の結果を見て変更しない。</div>
+</article><article class="card" data-category="1" data-priority="0" data-search="正則化 regularization モデルを複雑にしすぎないよう制限して、未知データへの過学習を抑える工夫。 正則化したから必ず高精度になるわけではない。 第4・7章">
+  <div class="card-head"><h3>正則化</h3><div><span class="tag">第4・7章</span></div></div>
+  <p class="english">Regularization</p>
+  <p class="description">モデルを複雑にしすぎないよう制限して、未知データへの過学習を抑える工夫。</p>
+  <div class="caution"><b>この教材では</b> 正則化したから必ず高精度になるわけではない。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="過学習 overfitting 学習データの偶然の特徴に合わせすぎ、未知の人ではうまく予測できないこと。 独立患者が21人と少ないのに入力特徴104個を使うため注意する。 第4章">
+  <div class="card-head"><h3>過学習</h3><div><span class="star">★ 優先</span><span class="tag">第4章</span></div></div>
+  <p class="english">Overfitting</p>
+  <p class="description">学習データの偶然の特徴に合わせすぎ、未知の人ではうまく予測できないこと。</p>
+  <div class="caution"><b>この教材では</b> 独立患者が21人と少ないのに入力特徴104個を使うため注意する。</div>
+</article><article class="card" data-category="1" data-priority="0" data-search="ベースライン baseline（基準法） 高度なモデルと比較するための、単純で説明しやすい方法。 ここでは `last`（前回値）と `mean3`（3回平均）が比較の基準。 第4章">
+  <div class="card-head"><h3>ベースライン</h3><div><span class="tag">第4章</span></div></div>
+  <p class="english">Baseline（基準法）</p>
+  <p class="description">高度なモデルと比較するための、単純で説明しやすい方法。</p>
+  <div class="caution"><b>この教材では</b> ここでは `last`（前回値）と `mean3`（3回平均）が比較の基準。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="特徴量 feature 予測に使う入力側の数値。過去の測定値から計算する。 この教材のxは、52点の3回平均＋52点の前回平均との差で合計104個。 第3章">
+  <div class="card-head"><h3>特徴量</h3><div><span class="star">★ 優先</span><span class="tag">第3章</span></div></div>
+  <p class="english">Feature</p>
+  <p class="description">予測に使う入力側の数値。過去の測定値から計算する。</p>
+  <div class="caution"><b>この教材では</b> この教材のXは、52点の3回平均＋52点の前回平均との差で合計104個。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="目的変数 target / label モデルが予測しようとしている数値。 ここでは次回に記録された52点の感度。緑内障の有無や真の感度ではない。 第3章">
+  <div class="card-head"><h3>目的変数</h3><div><span class="star">★ 優先</span><span class="tag">第3章</span></div></div>
+  <p class="english">Target / Label</p>
+  <p class="description">モデルが予測しようとしている数値。</p>
+  <div class="caution"><b>この教材では</b> ここでは次回に記録された52点の感度。緑内障の有無や真の感度ではない。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="スライディングウィンドウ sliding window 時系列の連続する一定数のデータを少しずつずらして入力を作る方法。 1〜3回→4回、2〜4回→5回…で、12検査から各人9窓。 第3章">
+  <div class="card-head"><h3>スライディングウィンドウ</h3><div><span class="star">★ 優先</span><span class="tag">第3章</span></div></div>
+  <p class="english">Sliding Window</p>
+  <p class="description">時系列の連続する一定数のデータを少しずつずらして入力を作る方法。</p>
+  <div class="caution"><b>この教材では</b> 1〜3回→4回、2〜4回→5回…で、12検査から各人9窓。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="リーク data leakage 予測時には知り得ない未来の情報や、評価側の情報が学習側に紛れ込むこと。 全12回平均をxに使う、評価データでstandardscaler.fitするなどが問題になる。 第3章">
+  <div class="card-head"><h3>リーク</h3><div><span class="star">★ 優先</span><span class="tag">第3章</span></div></div>
+  <p class="english">Data Leakage</p>
+  <p class="description">予測時には知り得ない未来の情報や、評価側の情報が学習側に紛れ込むこと。</p>
+  <div class="caution"><b>この教材では</b> 全12回平均をXに使う、評価データでStandardScaler.fitするなどが問題になる。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="グループ分割 group split 同一患者の記録が学習用と評価用の両方に入らないように分けること。 21患者を学習、9患者を評価。同じ患者の9窓は独立した9人分の証拠ではない。 第2・3章">
+  <div class="card-head"><h3>グループ分割</h3><div><span class="star">★ 優先</span><span class="tag">第2・3章</span></div></div>
+  <p class="english">Group Split</p>
+  <p class="description">同一患者の記録が学習用と評価用の両方に入らないように分けること。</p>
+  <div class="caution"><b>この教材では</b> 21患者を学習、9患者を評価。同じ患者の9窓は独立した9人分の証拠ではない。</div>
+</article><article class="card" data-category="1" data-priority="0" data-search="ホールドアウト held-out test set モデル構築や設定変更には使わず、最後に評価するため残すデータ。 本教材では未学習の9人。評価後にalphaを調整すれば、独立した最終評価としての意味が薄れる。 第2・5章">
+  <div class="card-head"><h3>ホールドアウト</h3><div><span class="tag">第2・5章</span></div></div>
+  <p class="english">Held-out Test Set</p>
+  <p class="description">モデル構築や設定変更には使わず、最後に評価するため残すデータ。</p>
+  <div class="caution"><b>この教材では</b> 本教材では未学習の9人。評価後にalphaを調整すれば、独立した最終評価としての意味が薄れる。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="マクロ平均 macro average グループ別に平均したあと、そのグループを等しい重みで平均する集計。 患者別maeを計算し9人を等しく重みづける。患者ごとの回数差があっても患者を等しく扱える。 第5章">
+  <div class="card-head"><h3>マクロ平均</h3><div><span class="star">★ 優先</span><span class="tag">第5章</span></div></div>
+  <p class="english">Macro Average</p>
+  <p class="description">グループ別に平均したあと、そのグループを等しい重みで平均する集計。</p>
+  <div class="caution"><b>この教材では</b> 患者別MAEを計算し9人を等しく重みづける。患者ごとの回数差があっても患者を等しく扱える。</div>
+</article><article class="card" data-category="1" data-priority="1" data-search="paired bootstrap 対応のあるブートストラップ 同じ患者に対する2モデルの誤差の差を作り、患者単位で復元抽出して差の不確実性を調べる。 52点や81窓を独立した患者として再抽出しない。評価は9人のみで不確実。 第5章">
+  <div class="card-head"><h3>paired bootstrap</h3><div><span class="star">★ 優先</span><span class="tag">第5章</span></div></div>
+  <p class="english">対応のあるブートストラップ</p>
+  <p class="description">同じ患者に対する2モデルの誤差の差を作り、患者単位で復元抽出して差の不確実性を調べる。</p>
+  <div class="caution"><b>この教材では</b> 52点や81窓を独立した患者として再抽出しない。評価は9人のみで不確実。</div>
+</article><article class="card" data-category="1" data-priority="0" data-search="信頼区間95% 95% interval 同様の手順でデータを取り直したときの推定のばらつきを表現する区間。 各区間に「真値が95%の確率で入る」と単純に解釈するのは頻度主義の定義として不正確。 第5章">
+  <div class="card-head"><h3>信頼区間95%</h3><div><span class="tag">第5章</span></div></div>
+  <p class="english">95% interval</p>
+  <p class="description">同様の手順でデータを取り直したときの推定のばらつきを表現する区間。</p>
+  <div class="caution"><b>この教材では</b> 各区間に「真値が95%の確率で入る」と単純に解釈するのは頻度主義の定義として不正確。</div>
+</article><article class="card" data-category="1" data-priority="0" data-search="感度帯 sensitivity band 予測前に分かっている過去3回平均の感度で地点をグループ分けすること。 15 db・25 dbは教材での便宜的な境界。重症度の診断基準ではない。 第5章">
+  <div class="card-head"><h3>感度帯</h3><div><span class="tag">第5章</span></div></div>
+  <p class="english">Sensitivity Band</p>
+  <p class="description">予測前に分かっている過去3回平均の感度で地点をグループ分けすること。</p>
+  <div class="caution"><b>この教材では</b> 15 dB・25 dBは教材での便宜的な境界。重症度の診断基準ではない。</div>
+</article><article class="card" data-category="1" data-priority="0" data-search="交差検証 cross-validation 学習データの内部で分割を繰り返し、モデルの設定や安定性を確認する方法。 発展課題では患者単位のグループ交差検証が提案されている。 第7章">
+  <div class="card-head"><h3>交差検証</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">Cross-validation</p>
+  <p class="description">学習データの内部で分割を繰り返し、モデルの設定や安定性を確認する方法。</p>
+  <div class="caution"><b>この教材では</b> 発展課題では患者単位のグループ交差検証が提案されている。</div>
+</article></div></section>
+<section class="section" data-category="2"><h2>③ データ形式・ソフトウェアの略語</h2><div class="grid"><article class="card" data-category="2" data-priority="1" data-search="id identifier 識別子。患者・行などを見分けるためにつける番号や文字列。 `id` は患者を表す。360行が360人を意味しない。 第1〜6章">
+  <div class="card-head"><h3>ID</h3><div><span class="star">★ 優先</span><span class="tag">第1〜6章</span></div></div>
+  <p class="english">Identifier</p>
+  <p class="description">識別子。患者・行などを見分けるためにつける番号や文字列。</p>
+  <div class="caution"><b>この教材では</b> `id` は患者を表す。360行が360人を意味しない。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="cpu central processing unit 中央演算処理装置。通常のプログラムの計算を担う。 このノートブックはcpuだけで実行できる。 冒頭">
+  <div class="card-head"><h3>CPU</h3><div><span class="tag">冒頭</span></div></div>
+  <p class="english">Central Processing Unit</p>
+  <p class="description">中央演算処理装置。通常のプログラムの計算を担う。</p>
+  <div class="caution"><b>この教材では</b> このノートブックはCPUだけで実行できる。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="gpu graphics processing unit 画像処理装置。並列計算に使われることもある。 この教材を実行するのにgpuは必要ない。 冒頭">
+  <div class="card-head"><h3>GPU</h3><div><span class="tag">冒頭</span></div></div>
+  <p class="english">Graphics Processing Unit</p>
+  <p class="description">画像処理装置。並列計算に使われることもある。</p>
+  <div class="caution"><b>この教材では</b> この教材を実行するのにGPUは必要ない。</div>
+</article><article class="card" data-category="2" data-priority="1" data-search="csv comma-separated values カンマ区切りの表形式テキスト。表の各行・列がデータとして読める。 公開データをcsv化した同梱スナップショットを読み込む。 第1章">
+  <div class="card-head"><h3>CSV</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">Comma-Separated Values</p>
+  <p class="description">カンマ区切りの表形式テキスト。表の各行・列がデータとして読める。</p>
+  <div class="caution"><b>この教材では</b> 公開データをCSV化した同梱スナップショットを読み込む。</div>
+</article><article class="card" data-category="2" data-priority="1" data-search="json javascript object notation キーと値などを使って構造化したデータを保存するテキスト形式。 `qc.json`、`patient_split.json`、`poc_example.json` に使用。 第1・2・6章">
+  <div class="card-head"><h3>JSON</h3><div><span class="star">★ 優先</span><span class="tag">第1・2・6章</span></div></div>
+  <p class="english">JavaScript Object Notation</p>
+  <p class="description">キーと値などを使って構造化したデータを保存するテキスト形式。</p>
+  <div class="caution"><b>この教材では</b> `qc.json`、`patient_split.json`、`poc_example.json` に使用。</div>
+</article><article class="card" data-category="2" data-priority="1" data-search="ipynb ipython notebook（拡張子） コード・文章・図・実行結果をまとめたjupyterノートブックのファイル形式。 `.ipynb` はcolabやjupyterで「実行・編集」できる。htmlは主に閲覧用。 冒頭">
+  <div class="card-head"><h3>ipynb</h3><div><span class="star">★ 優先</span><span class="tag">冒頭</span></div></div>
+  <p class="english">IPython Notebook（拡張子）</p>
+  <p class="description">コード・文章・図・実行結果をまとめたJupyterノートブックのファイル形式。</p>
+  <div class="caution"><b>この教材では</b> `.ipynb` はColabやJupyterで「実行・編集」できる。HTMLは主に閲覧用。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="ipython interactive python 対話的にpythonを実行するための環境・ツール群。 `ipython.display` の `display`、`markdown` はノートブックへの表示に使う。 第0章のコード">
+  <div class="card-head"><h3>IPython</h3><div><span class="tag">第0章のコード</span></div></div>
+  <p class="english">Interactive Python</p>
+  <p class="description">対話的にPythonを実行するための環境・ツール群。</p>
+  <div class="caution"><b>この教材では</b> `IPython.display` の `display`、`Markdown` はノートブックへの表示に使う。</div>
+</article><article class="card" data-category="2" data-priority="1" data-search="cran comprehensive r archive network r言語のパッケージを公開・配布する仕組み。 `visualfields` パッケージの公開版を出典にしている。 第1章">
+  <div class="card-head"><h3>CRAN</h3><div><span class="star">★ 優先</span><span class="tag">第1章</span></div></div>
+  <p class="english">Comprehensive R Archive Network</p>
+  <p class="description">R言語のパッケージを公開・配布する仕組み。</p>
+  <div class="caution"><b>この教材では</b> `visualFields` パッケージの公開版を出典にしている。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="r プログラミング言語r 統計解析で広く使われるプログラミング言語の固有名。 本教材で使うのはpython。rをインストールせずに実行できる。 冒頭・第1章">
+  <div class="card-head"><h3>R</h3><div><span class="tag">冒頭・第1章</span></div></div>
+  <p class="english">プログラミング言語R</p>
+  <p class="description">統計解析で広く使われるプログラミング言語の固有名。</p>
+  <div class="caution"><b>この教材では</b> 本教材で使うのはPython。Rをインストールせずに実行できる。</div>
+</article><article class="card" data-category="2" data-priority="1" data-search="doi digital object identifier 論文などの電子資料に割り当てられる永続的な識別子。 出典の論文を特定するための番号。数字に意味があるとは限らない。 第7章・研究メモ">
+  <div class="card-head"><h3>DOI</h3><div><span class="star">★ 優先</span><span class="tag">第7章・研究メモ</span></div></div>
+  <p class="english">Digital Object Identifier</p>
+  <p class="description">論文などの電子資料に割り当てられる永続的な識別子。</p>
+  <div class="caution"><b>この教材では</b> 出典の論文を特定するための番号。数字に意味があるとは限らない。</div>
+</article><article class="card" data-category="2" data-priority="1" data-search="sha-256 secure hash algorithm 256-bit ファイル内容から256ビットの要約値（ハッシュ）を計算する方式。 同梱csvが想定した固定版か照合する。医療データの正確性そのものを保証する検査ではない。 第1章のコード">
+  <div class="card-head"><h3>SHA-256</h3><div><span class="star">★ 優先</span><span class="tag">第1章のコード</span></div></div>
+  <p class="english">Secure Hash Algorithm 256-bit</p>
+  <p class="description">ファイル内容から256ビットの要約値（ハッシュ）を計算する方式。</p>
+  <div class="caution"><b>この教材では</b> 同梱CSVが想定した固定版か照合する。医療データの正確性そのものを保証する検査ではない。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="iso形式の日付 iso 8601に沿った日付表記 例：`2026-11-08` のように年-月-日を一定の順番で表す形式。 この教材では元のrデータの日付をiso形式でcsv化している。 第1章">
+  <div class="card-head"><h3>ISO形式の日付</h3><div><span class="tag">第1章</span></div></div>
+  <p class="english">ISO 8601に沿った日付表記</p>
+  <p class="description">例：`2026-11-08` のように年-月-日を一定の順番で表す形式。</p>
+  <div class="caution"><b>この教材では</b> この教材では元のRデータの日付をISO形式でCSV化している。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="png portable network graphics 画像ファイル形式。グラフや図の保存に使う。 `01_three_fields.png` などの成果物が出力される。 第2・5章">
+  <div class="card-head"><h3>PNG</h3><div><span class="tag">第2・5章</span></div></div>
+  <p class="english">Portable Network Graphics</p>
+  <p class="description">画像ファイル形式。グラフや図の保存に使う。</p>
+  <div class="caution"><b>この教材では</b> `01_three_fields.png` などの成果物が出力される。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="dpi dots per inch 画像を出力するときの解像度を表す指定（1インチ当たりのドット数）。 `fig.savefig(..., dpi=170)` は保存する図の解像度。視野の感度ではない。 第2・5章">
+  <div class="card-head"><h3>dpi</h3><div><span class="tag">第2・5章</span></div></div>
+  <p class="english">Dots Per Inch</p>
+  <p class="description">画像を出力するときの解像度を表す指定（1インチ当たりのドット数）。</p>
+  <div class="caution"><b>この教材では</b> `fig.savefig(..., dpi=170)` は保存する図の解像度。視野の感度ではない。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="zip 圧縮アーカイブ形式の名称 複数ファイルをひとまとめにするファイル形式。略語の英語展開ではない。 `findex_results.zip` に成果物をまとめる。 第6章">
+  <div class="card-head"><h3>ZIP</h3><div><span class="tag">第6章</span></div></div>
+  <p class="english">圧縮アーカイブ形式の名称</p>
+  <p class="description">複数ファイルをひとまとめにするファイル形式。略語の英語展開ではない。</p>
+  <div class="caution"><b>この教材では</b> `findex_results.zip` に成果物をまとめる。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="gzip gnu zip データを圧縮する形式・ツール。 notebook内のcsvスナップショットを展開するときに使用。 第1章のコード">
+  <div class="card-head"><h3>gzip</h3><div><span class="tag">第1章のコード</span></div></div>
+  <p class="english">GNU zip</p>
+  <p class="description">データを圧縮する形式・ツール。</p>
+  <div class="caution"><b>この教材では</b> Notebook内のCSVスナップショットを展開するときに使用。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="base64 バイナリデータの文字列表現方式 バイナリデータを文字として持ち運ぶためのエンコード方式。 教材ではgzip圧縮したcsvをセル内に格納する。暗号化ではない。 第1章のコード">
+  <div class="card-head"><h3>Base64</h3><div><span class="tag">第1章のコード</span></div></div>
+  <p class="english">バイナリデータの文字列表現方式</p>
+  <p class="description">バイナリデータを文字として持ち運ぶためのエンコード方式。</p>
+  <div class="caution"><b>この教材では</b> 教材ではgzip圧縮したCSVをセル内に格納する。暗号化ではない。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="bsd-3-clause berkeley software distribution 由来の3条項ライセンス ソフトウェアの再配布条件を規定する許諾形式の一つ。 第7章でuwhvfの公開条件として記載。 第7章">
+  <div class="card-head"><h3>BSD-3-Clause</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">Berkeley Software Distribution 由来の3条項ライセンス</p>
+  <p class="description">ソフトウェアの再配布条件を規定する許諾形式の一つ。</p>
+  <div class="caution"><b>この教材では</b> 第7章でUWHVFの公開条件として記載。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="cc by 4.0 creative commons attribution 4.0 出典表示などを求めるライセンス。 第7章でgazebaseの公開条件として記載。 第7章">
+  <div class="card-head"><h3>CC BY 4.0</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">Creative Commons Attribution 4.0</p>
+  <p class="description">出典表示などを求めるライセンス。</p>
+  <div class="caution"><b>この教材では</b> 第7章でGazeBaseの公開条件として記載。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="readme read me（「最初に読んで」） ソフトウェア・データの利用方法や制約を説明するファイルの通称。 uwhvfのreadmeに件数表記の不一致があると教材が指摘。 第7章">
+  <div class="card-head"><h3>README</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">read me（「最初に読んで」）</p>
+  <p class="description">ソフトウェア・データの利用方法や制約を説明するファイルの通称。</p>
+  <div class="caution"><b>この教材では</b> UWHVFのREADMEに件数表記の不一致があると教材が指摘。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="gb gigabyte データ容量の単位。概ね10億バイト。 gazebase全体のサイズ説明に登場。 第7章">
+  <div class="card-head"><h3>GB</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">Gigabyte</p>
+  <p class="description">データ容量の単位。概ね10億バイト。</p>
+  <div class="caution"><b>この教材では</b> GazeBase全体のサイズ説明に登場。</div>
+</article><article class="card" data-category="2" data-priority="0" data-search="hz hertz 1秒当たりの回数。 gazebaseの眼球運動データで1,000 hzのサンプリング頻度として登場。 第7章">
+  <div class="card-head"><h3>Hz</h3><div><span class="tag">第7章</span></div></div>
+  <p class="english">Hertz</p>
+  <p class="description">1秒当たりの回数。</p>
+  <div class="caution"><b>この教材では</b> GazeBaseの眼球運動データで1,000 Hzのサンプリング頻度として登場。</div>
+</article></div></section>
+<section class="section" data-category="3"><h2>④ Pythonコード・変数の読み方</h2><div class="grid"><article class="card" data-category="3" data-priority="1" data-search="df / dataframe dataframe（pandasの表オブジェクト） 行と列を持つ表形式データ。`df` は「dataframe」の慣用的な短縮名。 ここでは1行が「1人の1眼の1回の検査」。 第1〜6章">
+  <div class="card-head"><h3>df / DataFrame</h3><div><span class="star">★ 優先</span><span class="tag">第1〜6章</span></div></div>
+  <p class="english">DataFrame（pandasの表オブジェクト）</p>
+  <p class="description">行と列を持つ表形式データ。`df` は「dataframe」の慣用的な短縮名。</p>
+  <div class="caution"><b>この教材では</b> ここでは1行が「1人の1眼の1回の検査」。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="np / pd / plt numpy / pandas / matplotlib.pyplot の別名 `import ... as ...` で付ける短い呼び名。数値計算／表処理／作図に対応。 略称ではあるが研究の専門指標ではない。 第0章のコード">
+  <div class="card-head"><h3>np / pd / plt</h3><div><span class="star">★ 優先</span><span class="tag">第0章のコード</span></div></div>
+  <p class="english">NumPy / pandas / matplotlib.pyplot の別名</p>
+  <p class="description">`import ... as ...` で付ける短い呼び名。数値計算／表処理／作図に対応。</p>
+  <div class="caution"><b>この教材では</b> 略称ではあるが研究の専門指標ではない。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="ax / axes axes（グラフの座標軸領域） matplotlibで図を描きこむ1枚のグラフ領域や、その集合。 `ax.scatter` は散布図を描き、`axes[0]` は最初のグラフを意味する。 第2・5章">
+  <div class="card-head"><h3>ax / axes</h3><div><span class="tag">第2・5章</span></div></div>
+  <p class="english">axes（グラフの座標軸領域）</p>
+  <p class="description">Matplotlibで図を描きこむ1枚のグラフ領域や、その集合。</p>
+  <div class="caution"><b>この教材では</b> `ax.scatter` は散布図を描き、`axes[0]` は最初のグラフを意味する。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="history 過去の検査を束ねた配列 各予測の直前3回×52点の測定値。 形は `270 × 3 × 52`。「270」は窓の数で患者数ではない。 第3章">
+  <div class="card-head"><h3>history</h3><div><span class="star">★ 優先</span><span class="tag">第3章</span></div></div>
+  <p class="english">過去の検査を束ねた配列</p>
+  <p class="description">各予測の直前3回×52点の測定値。</p>
+  <div class="caution"><b>この教材では</b> 形は `270 × 3 × 52`。「270」は窓の数で患者数ではない。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="x 入力特徴量の行列 機械学習モデルに与える予測前の情報。 形は `270 × 104`。過去3回平均52個＋直近の平均との差52個。 第3・4章">
+  <div class="card-head"><h3>X</h3><div><span class="star">★ 優先</span><span class="tag">第3・4章</span></div></div>
+  <p class="english">入力特徴量の行列</p>
+  <p class="description">機械学習モデルに与える予測前の情報。</p>
+  <div class="caution"><b>この教材では</b> 形は `270 × 104`。過去3回平均52個＋直近の平均との差52個。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="y / y_test 目的変数の行列／評価患者の実測値 xから予測したい次回の52点感度。 形は `270 × 52`。`y_test` は評価患者の次回測定値で、真の生理的感度そのものではない。 第3〜5章">
+  <div class="card-head"><h3>Y / y_test</h3><div><span class="star">★ 優先</span><span class="tag">第3〜5章</span></div></div>
+  <p class="english">目的変数の行列／評価患者の実測値</p>
+  <p class="description">Xから予測したい次回の52点感度。</p>
+  <div class="caution"><b>この教材では</b> 形は `270 × 52`。`y_test` は評価患者の次回測定値で、真の生理的感度そのものではない。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="mean3 / last 3回平均／直前1回の値 比較対象となる2つの単純な予測方法。 `mean3` は平均化でノイズ軽減をねらう。`last` は変化をすばやく反映し得る。 第3・4章">
+  <div class="card-head"><h3>mean3 / last</h3><div><span class="star">★ 優先</span><span class="tag">第3・4章</span></div></div>
+  <p class="english">3回平均／直前1回の値</p>
+  <p class="description">比較対象となる2つの単純な予測方法。</p>
+  <div class="caution"><b>この教材では</b> `mean3` は平均化でノイズ軽減をねらう。`last` は変化をすばやく反映し得る。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="preds predictions（予測値）の略 `last`・`mean3`・`ridge` が予測した値をまとめた辞書。 予測の正しさは `y` と比較して初めて評価する。 第4・5章">
+  <div class="card-head"><h3>preds</h3><div><span class="tag">第4・5章</span></div></div>
+  <p class="english">predictions（予測値）の略</p>
+  <p class="description">`last`・`mean3`・`ridge` が予測した値をまとめた辞書。</p>
+  <div class="caution"><b>この教材では</b> 予測の正しさは `Y` と比較して初めて評価する。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="meta / metadata メタデータ（補足情報） 患者id・対象回・日付など、測定値の背景を示す情報。 `target_date`、`gap_days`、`target_fl` は事後確認用で、xへ入れない。 第3・5章">
+  <div class="card-head"><h3>meta / metadata</h3><div><span class="star">★ 優先</span><span class="tag">第3・5章</span></div></div>
+  <p class="english">メタデータ（補足情報）</p>
+  <p class="description">患者ID・対象回・日付など、測定値の背景を示す情報。</p>
+  <div class="caution"><b>この教材では</b> `target_date`、`gap_days`、`target_fl` は事後確認用で、Xへ入れない。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="locs54 / locs 視野位置の列名リスト `locs54` はl1〜l54、`locs` は盲点付近2点を除いた52列。 `locs` はpandasの `.loc` と無関係な変数名。 第1〜6章">
+  <div class="card-head"><h3>locs54 / locs</h3><div><span class="star">★ 優先</span><span class="tag">第1〜6章</span></div></div>
+  <p class="english">視野位置の列名リスト</p>
+  <p class="description">`locs54` はl1〜l54、`locs` は盲点付近2点を除いた52列。</p>
+  <div class="caution"><b>この教材では</b> `locs` はpandasの `.loc` と無関係な変数名。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="coords / coords52 coordinates（座標）の略 各視野検査点をどの位置に描くかを示す表。 表示は右眼基準の共通座標。視野座標と網膜上の座標を混同しない。 第1・2章">
+  <div class="card-head"><h3>coords / coords52</h3><div><span class="tag">第1・2章</span></div></div>
+  <p class="english">coordinates（座標）の略</p>
+  <p class="description">各視野検査点をどの位置に描くかを示す表。</p>
+  <div class="caution"><b>この教材では</b> 表示は右眼基準の共通座標。視野座標と網膜上の座標を混同しない。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="train / test 学習用／評価用 モデルの係数を決めるデータと、未知患者で性能を確かめるデータ。 ここでは21人と9人に分割。行や窓をランダムに分けない。 第2〜5章">
+  <div class="card-head"><h3>train / test</h3><div><span class="star">★ 優先</span><span class="tag">第2〜5章</span></div></div>
+  <p class="english">学習用／評価用</p>
+  <p class="description">モデルの係数を決めるデータと、未知患者で性能を確かめるデータ。</p>
+  <div class="caution"><b>この教材では</b> ここでは21人と9人に分割。行や窓をランダムに分けない。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="is_train / is_test 学習行／評価行を示す真偽値配列 各予測窓が学習用か評価用かをtrue/falseで記録する。 `x[is_train]` は学習患者の行だけを抜き出す。 第3・4章">
+  <div class="card-head"><h3>is_train / is_test</h3><div><span class="tag">第3・4章</span></div></div>
+  <p class="english">学習行／評価行を示す真偽値配列</p>
+  <p class="description">各予測窓が学習用か評価用かをTrue/Falseで記録する。</p>
+  <div class="caution"><b>この教材では</b> `X[is_train]` は学習患者の行だけを抜き出す。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="seed 乱数の種（random seed） 同じ乱数手順で同じ患者分割などを再現するための初期値。 `seed=20261108`。数字の医学的な意味はない。 第0・2・5章">
+  <div class="card-head"><h3>SEED</h3><div><span class="star">★ 優先</span><span class="tag">第0・2・5章</span></div></div>
+  <p class="english">乱数の種（random seed）</p>
+  <p class="description">同じ乱数手順で同じ患者分割などを再現するための初期値。</p>
+  <div class="caution"><b>この教材では</b> `SEED=20261108`。数字の医学的な意味はない。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="history 履歴の長さ 予測に使う直近の検査回数を表す定数。 `history=3`。 第0・3・6章">
+  <div class="card-head"><h3>HISTORY</h3><div><span class="tag">第0・3・6章</span></div></div>
+  <p class="english">履歴の長さ</p>
+  <p class="description">予測に使う直近の検査回数を表す定数。</p>
+  <div class="caution"><b>この教材では</b> `HISTORY=3`。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="alpha 正則化係数の定数名 ridgeのalphaとして渡す数値の変数名。 `alpha=10.0` と教材上で固定する。 第0・4章">
+  <div class="card-head"><h3>ALPHA</h3><div><span class="tag">第0・4章</span></div></div>
+  <p class="english">正則化係数の定数名</p>
+  <p class="description">Ridgeのalphaとして渡す数値の変数名。</p>
+  <div class="caution"><b>この教材では</b> `ALPHA=10.0` と教材上で固定する。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="out output folder の変数名 保存先の `outputs/` フォルダを指すpathオブジェクト。 `out / &quot;qc.json&quot;` はファイルの保存場所を表す。 第0〜6章">
+  <div class="card-head"><h3>OUT</h3><div><span class="tag">第0〜6章</span></div></div>
+  <p class="english">output folder の変数名</p>
+  <p class="description">保存先の `outputs/` フォルダを指すPathオブジェクト。</p>
+  <div class="caution"><b>この教材では</b> `OUT / &quot;qc.json&quot;` はファイルの保存場所を表す。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="groupshufflesplit scikit-learnのグループ単位分割器 グループidをそろえて学習と評価に分けるクラス。 `groups=df[&quot;id&quot;]` により同一患者を両側に置かない。 第2章">
+  <div class="card-head"><h3>GroupShuffleSplit</h3><div><span class="star">★ 優先</span><span class="tag">第2章</span></div></div>
+  <p class="english">scikit-learnのグループ単位分割器</p>
+  <p class="description">グループIDをそろえて学習と評価に分けるクラス。</p>
+  <div class="caution"><b>この教材では</b> `groups=df[&quot;id&quot;]` により同一患者を両側に置かない。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="standardscaler 平均・標準偏差による標準化器 特徴ごとに学習データの平均と標準偏差を求め、数値の尺度をそろえる。 評価患者で `fit` せず、学習患者で得た値を評価患者に適用する。 第3・4章">
+  <div class="card-head"><h3>StandardScaler</h3><div><span class="star">★ 優先</span><span class="tag">第3・4章</span></div></div>
+  <p class="english">平均・標準偏差による標準化器</p>
+  <p class="description">特徴ごとに学習データの平均と標準偏差を求め、数値の尺度をそろえる。</p>
+  <div class="caution"><b>この教材では</b> 評価患者で `fit` せず、学習患者で得た値を評価患者に適用する。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="pipeline / make_pipeline 前処理とモデルを連結する仕組み 標準化→ridge回帰を1つのモデルとして扱う。 学習・予測の手順のずれやリークを防ぎやすい。 第4章">
+  <div class="card-head"><h3>Pipeline / make_pipeline</h3><div><span class="star">★ 優先</span><span class="tag">第4章</span></div></div>
+  <p class="english">前処理とモデルを連結する仕組み</p>
+  <p class="description">標準化→Ridge回帰を1つのモデルとして扱う。</p>
+  <div class="caution"><b>この教材では</b> 学習・予測の手順のずれやリークを防ぎやすい。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="fit / predict 学習する／予測する `fit(x,y)` は係数などを決め、`predict(x)` は学習済みの規則で予測する。 評価データに対して `model.fit` してはいけない。 第4章">
+  <div class="card-head"><h3>fit / predict</h3><div><span class="star">★ 優先</span><span class="tag">第4章</span></div></div>
+  <p class="english">学習する／予測する</p>
+  <p class="description">`fit(X,Y)` は係数などを決め、`predict(X)` は学習済みの規則で予測する。</p>
+  <div class="caution"><b>この教材では</b> 評価データに対して `model.fit` してはいけない。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="shape / axis 配列の形／計算する軸 `shape` は各次元の個数、`axis` は平均などを取る方向。 `history.mean(axis=1)` は3回の検査方向に平均し、270×52へ。 第3章">
+  <div class="card-head"><h3>shape / axis</h3><div><span class="star">★ 優先</span><span class="tag">第3章</span></div></div>
+  <p class="english">配列の形／計算する軸</p>
+  <p class="description">`shape` は各次元の個数、`axis` は平均などを取る方向。</p>
+  <div class="caution"><b>この教材では</b> `history.mean(axis=1)` は3回の検査方向に平均し、270×52へ。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="groupby / sort_values グループ化／値で並べ替え 患者ごとにまとめて処理する／日付順にそろえる。 同一人物の時系列を正しく組み立てるために使用。 第1・3章">
+  <div class="card-head"><h3>groupby / sort_values</h3><div><span class="tag">第1・3章</span></div></div>
+  <p class="english">グループ化／値で並べ替え</p>
+  <p class="description">患者ごとにまとめて処理する／日付順にそろえる。</p>
+  <div class="caution"><b>この教材では</b> 同一人物の時系列を正しく組み立てるために使用。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="loc / iloc ラベル／位置での行列選択 pandasの `df.loc[...]` は名前で指定、`df.iloc[...]` は順番で指定。 例：`df.iloc[0]` は最初の行。視野の `locs` と混同しない。 第1・2章">
+  <div class="card-head"><h3>loc / iloc</h3><div><span class="tag">第1・2章</span></div></div>
+  <p class="english">ラベル／位置での行列選択</p>
+  <p class="description">pandasの `df.loc[...]` は名前で指定、`df.iloc[...]` は順番で指定。</p>
+  <div class="caution"><b>この教材では</b> 例：`df.iloc[0]` は最初の行。視野の `locs` と混同しない。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="np.stack / np.concatenate 配列の積み重ね／結合 複数の配列を次元を増やしてまとめる／指定方向につなぐ。 `x=np.concatenate([mean3,last-mean3],axis=1)` で104特徴量に。 第3章">
+  <div class="card-head"><h3>np.stack / np.concatenate</h3><div><span class="tag">第3章</span></div></div>
+  <p class="english">配列の積み重ね／結合</p>
+  <p class="description">複数の配列を次元を増やしてまとめる／指定方向につなぐ。</p>
+  <div class="caution"><b>この教材では</b> `X=np.concatenate([mean3,last-mean3],axis=1)` で104特徴量に。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="isna / isfinite 欠測判定／有限の数値かの判定 空欄などや、nan・無限大といった不正な値がないか調べる。 0 dbを欠測と同じに扱わず、別に確認する。 第1・6章">
+  <div class="card-head"><h3>isna / isfinite</h3><div><span class="tag">第1・6章</span></div></div>
+  <p class="english">欠測判定／有限の数値かの判定</p>
+  <p class="description">空欄などや、NaN・無限大といった不正な値がないか調べる。</p>
+  <div class="caution"><b>この教材では</b> 0 dBを欠測と同じに扱わず、別に確認する。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="mask 真偽値による抽出条件 trueの要素だけ集計するための条件配列。 感度帯や患者別の誤差評価で利用。 第5章">
+  <div class="card-head"><h3>mask</h3><div><span class="tag">第5章</span></div></div>
+  <p class="english">真偽値による抽出条件</p>
+  <p class="description">Trueの要素だけ集計するための条件配列。</p>
+  <div class="caution"><b>この教材では</b> 感度帯や患者別の誤差評価で利用。</div>
+</article><article class="card" data-category="3" data-priority="1" data-search="target_fl / gap_days 対象回の固視不良率／検査間の日数 実測回の品質や日付の異常を後から調べるための変数。 未来の検査についての情報なのでxには入れない。 第3・5章">
+  <div class="card-head"><h3>target_fl / gap_days</h3><div><span class="star">★ 優先</span><span class="tag">第3・5章</span></div></div>
+  <p class="english">対象回の固視不良率／検査間の日数</p>
+  <p class="description">実測回の品質や日付の異常を後から調べるための変数。</p>
+  <div class="caution"><b>この教材では</b> 未来の検査についての情報なのでXには入れない。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="flags / status 確認フラグ／処理状態 入力や予測値が想定範囲外なら理由と状態を返す。 `review` は「確認が必要」の意味であり、診断結果ではない。 第6章">
+  <div class="card-head"><h3>flags / status</h3><div><span class="tag">第6章</span></div></div>
+  <p class="english">確認フラグ／処理状態</p>
+  <p class="description">入力や予測値が想定範囲外なら理由と状態を返す。</p>
+  <div class="caution"><b>この教材では</b> `review` は「確認が必要」の意味であり、診断結果ではない。</div>
+</article><article class="card" data-category="3" data-priority="0" data-search="assert / valueerror 条件を確認／入力不正のエラー `assert` は前提チェック、`raise valueerror` は不適切な入力を拒否する。 患者混在・日時重複・欠損値を黙って受け取らないための工夫。 第1〜6章">
+  <div class="card-head"><h3>assert / ValueError</h3><div><span class="tag">第1〜6章</span></div></div>
+  <p class="english">条件を確認／入力不正のエラー</p>
+  <p class="description">`assert` は前提チェック、`raise ValueError` は不適切な入力を拒否する。</p>
+  <div class="caution"><b>この教材では</b> 患者混在・日時重複・欠損値を黙って受け取らないための工夫。</div>
+</article></div></section>
+<section class="example"><h2 style="margin-top:0">3つの配列を読めれば、コードの核心が分かります</h2><pre>history.shape == (270, 3, 52)  # 270予測窓 × 過去3回 × 52点
+X.shape       == (270, 104)    # 52点の平均 + 52点の直近平均との差
+Y.shape       == (270, 52)     # 次回の実測52点</pre><p>例えば、ある地点の次回測定が20 dB、予測が24 dBなら絶対誤差は4 dBです。これを患者ごとにまとめ、9患者で等しく平均したのが教材の主要指標（患者マクロMAE）です。</p></section>
+</div><footer class="footer"><div class="wrap"><strong>資料の扱い</strong><p>教材の章番号は <code>findex_halfday.ipynb</code> / <code>findex_halfday_guide.html</code> に対応します。GAP・GPA・UWHVF等の略語の英語展開は、それぞれ公表されている製品・資料も参照して補足しました。ここで解説する性能・目的・制約は添付教材の内容に基づきます。</p><p class="small">用語確認：<a href="https://products.findex.co.jp/product/gap/">GAP公式</a> ｜ <a href="https://www.zeiss.com/meditec/en/products/perimetry/humphrey-field-analyzer-3.html">ZEISS HFA / GPA</a> ｜ <a href="https://github.com/uw-biomedical-ml/uwhvf">UWHVF</a></p><p><strong>要点：</strong>視野検査の略語はMS・MD・FPR・FNR・FL・dBを優先、解析の略語はQC・PoC・MAE・CIを優先。さらにX・Y・historyを区別すれば、このノートブックの分析の流れが追いやすくなります。</p></div></footer>
+<script>
+const cards=[...document.querySelectorAll('.card')];const sections=[...document.querySelectorAll('.section')];const inp=document.getElementById('q');let category='all';function update(){const q=inp.value.toLocaleLowerCase().trim();let visible=0;for(const card of cards){const categoryOK=category==='all'||(category==='star'&&card.dataset.priority==='1')||(card.dataset.category===category);const textOK=!q||card.dataset.search.includes(q);const show=categoryOK&&textOK;card.classList.toggle('is-hidden',!show);if(show)visible++}for(const sec of sections){sec.classList.toggle('is-hidden',![...sec.querySelectorAll('.card')].some(x=>!x.classList.contains('is-hidden')))}document.getElementById('counter').textContent=visible+'語を表示中'}
+inp.addEventListener('input',update);document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.cat;document.querySelectorAll('.filter').forEach(t=>{const selected=t===b;t.classList.toggle('on',selected);t.setAttribute('aria-pressed',String(selected))});update()}));
+</script></body></html>
