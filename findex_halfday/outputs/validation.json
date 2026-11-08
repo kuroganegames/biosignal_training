@@ -1,0 +1,15 @@
+{
+  "code_cells": 14,
+  "date": "2026-11-08",
+  "elapsed_seconds": 3.123,
+  "method": "Sequential execution in one fresh Python process; explicit display and matplotlib outputs captured without a kernel server.",
+  "notebook_errors": [],
+  "plot_files": [
+    "01_three_fields.png",
+    "02_retest_variation.png",
+    "03_model_comparison.png",
+    "04_pointwise_errors.png",
+    "05_error_review.png"
+  ],
+  "learner_runtime_note": "All code cells executed successfully in Python. Colab UI was not used for validation."
+}

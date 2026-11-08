@@ -1,0 +1,156 @@
+{
+  "package": "visualFields",
+  "version": "1.0.7",
+  "cran_commit": "d4e4c408655d236dd23ff4f748495cfac74bc77a",
+  "author_repo": "https://github.com/imarinfr/vf1",
+  "author_commit": "c05c2d7d3ae67332ee9f94c6299a492ce3a09191",
+  "source_rda": "https://raw.githubusercontent.com/cran/visualFields/d4e4c408655d236dd23ff4f748495cfac74bc77a/data/vfpwgRetest24d2.rda",
+  "source_locmaps": "https://raw.githubusercontent.com/cran/visualFields/d4e4c408655d236dd23ff4f748495cfac74bc77a/data/locmaps.rda",
+  "source_description": "https://raw.githubusercontent.com/cran/visualFields/d4e4c408655d236dd23ff4f748495cfac74bc77a/DESCRIPTION",
+  "source_license": "https://raw.githubusercontent.com/imarinfr/vf1/c05c2d7d3ae67332ee9f94c6299a492ce3a09191/LICENSE",
+  "license_declared_by_package": "Apache License 2.0",
+  "dataset_documentation": "https://cran.r-universe.dev/visualFields/doc/manual.html#vfpwgRetest24d2",
+  "publication": "Artes PH, O’Leary N, Nicolela MT, Chauhan BC, Crabb DP. Visual field progression in glaucoma: What is the specificity of the Guided Progression Analysis? Ophthalmology. 2014;121(10):2023–2027. DOI: 10.1016/j.ophtha.2014.04.015",
+  "publication_url": "https://openaccess.city.ac.uk/id/eprint/4999/",
+  "observed_shape": [
+    360,
+    64
+  ],
+  "participants": 30,
+  "eyes": 30,
+  "exams_per_participant": 12,
+  "eye_counts": {
+    "OD": 17,
+    "OS": 13
+  },
+  "columns": [
+    "id",
+    "eye",
+    "date",
+    "time",
+    "age",
+    "type",
+    "fpr",
+    "fnr",
+    "fl",
+    "duration",
+    "l1",
+    "l2",
+    "l3",
+    "l4",
+    "l5",
+    "l6",
+    "l7",
+    "l8",
+    "l9",
+    "l10",
+    "l11",
+    "l12",
+    "l13",
+    "l14",
+    "l15",
+    "l16",
+    "l17",
+    "l18",
+    "l19",
+    "l20",
+    "l21",
+    "l22",
+    "l23",
+    "l24",
+    "l25",
+    "l26",
+    "l27",
+    "l28",
+    "l29",
+    "l30",
+    "l31",
+    "l32",
+    "l33",
+    "l34",
+    "l35",
+    "l36",
+    "l37",
+    "l38",
+    "l39",
+    "l40",
+    "l41",
+    "l42",
+    "l43",
+    "l44",
+    "l45",
+    "l46",
+    "l47",
+    "l48",
+    "l49",
+    "l50",
+    "l51",
+    "l52",
+    "l53",
+    "l54"
+  ],
+  "missing_total": 0,
+  "blind_spot_nearby_exclusion_points": [
+    "l26",
+    "l35"
+  ],
+  "sensitivity_range_db": [
+    0,
+    43
+  ],
+  "date_observations": {
+    "first": "2007-07-05",
+    "last": "2009-06-05",
+    "subject7_span_days": 524,
+    "subject7_intervals_above_35_days": [
+      116,
+      175,
+      156
+    ],
+    "note": "Package documentation describes 12 consecutive weekly sessions; published file contains date intervals inconsistent with a universal one-week cadence. Do not relabel as weekly or silently repair."
+  },
+  "constant_fields": {
+    "time": "00:00:00",
+    "duration": "00:00:00",
+    "type": "pwg",
+    "fpr": 0
+  },
+  "quality_range": {
+    "fnr": [
+      0,
+      0.17
+    ],
+    "fl": [
+      0,
+      0.5
+    ]
+  },
+  "conversion": "R data frame via rdata 1.1.0; date converted from R days since 1970-01-01 to ISO YYYY-MM-DD. No other values changed. Location map exported from locmaps$p24d2 with point column l1...l54 and blind-spot exclusion indicator.",
+  "data_provenance_comparison": "Author latest source/data/vfpwgRetest24d2.rda and CRAN pinned data/vfpwgRetest24d2.rda have different compressed bytes but all data-frame values, columns, and dtypes agree.",
+  "files": {
+    "vfpwgRetest24d2.rda": {
+      "bytes": 10888,
+      "sha256": "8f74bc02995b213b0c448b0f9ce765c6e8e918a60f53c9ae0d1c130d839c6d8e"
+    },
+    "locmaps.rda": {
+      "bytes": 2361,
+      "sha256": "21d3f208cda0d302a264067f16d263c2d738257ace1a091690885952d99988b2"
+    },
+    "vfpwgRetest24d2.csv": {
+      "bytes": 76332,
+      "sha256": "2d387f3045b74dadd884c12f18c1a09ed7fe5b51168d85ebd34c61b6f14ae439"
+    },
+    "p24d2_coordinates.csv": {
+      "bytes": 866,
+      "sha256": "b75ecc679f2aa140aa5a4345314f311ca714db8ffe97055e21433695337756bf"
+    },
+    "LICENSE.visualFields.txt": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "DESCRIPTION.visualFields.txt": {
+      "bytes": 1849,
+      "sha256": "0230d4a071621a7ea78550fddf08b39c976464a34c5850211a7184bab41341e1"
+    }
+  }
+}

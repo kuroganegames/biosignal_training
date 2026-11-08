@@ -1,0 +1,20 @@
+{
+  "participants": 30,
+  "eyes": 30,
+  "exams": 360,
+  "missing_sensitivities": 0,
+  "duplicate_id_eye_date": 0,
+  "min_sensitivity_db": 0.0,
+  "max_sensitivity_db": 43.0,
+  "blind_spot_columns": [
+    "l26",
+    "l35"
+  ],
+  "constant_metadata": [
+    "time",
+    "duration",
+    "fpr",
+    "type"
+  ],
+  "max_gap_days": 175.0
+}
