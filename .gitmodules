@@ -1,3 +1,6 @@
 [submodule "work_sim/uwhv"]
 	path = work_sim/uwhv
 	url = https://github.com/uw-biomedical-ml/uwhvf.git
+[submodule "work_sim_2/EyeMovementDetectorEvaluation"]
+	path = work_sim_2/EyeMovementDetectorEvaluation
+	url = https://github.com/richardandersson/EyeMovementDetectorEvaluation.git
