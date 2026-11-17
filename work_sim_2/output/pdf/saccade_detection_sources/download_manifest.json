@@ -1,0 +1,219 @@
+[
+  {
+    "id": "01_Engbert_Kliegl_2003",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://wexler.free.fr/library/files/engbert%20%282003%29%20microsaccades%20uncover%20the%20orientation%20of%20covert%20attention.pdf",
+        "error": "ConnectionError"
+      },
+      {
+        "url": "http://wexler.free.fr/library/files/engbert%20%282003%29%20microsaccades%20uncover%20the%20orientation%20of%20covert%20attention.pdf",
+        "status": 200,
+        "final_url": "http://wexler.free.fr/library/files/engbert%20%282003%29%20microsaccades%20uncover%20the%20orientation%20of%20covert%20attention.pdf",
+        "bytes": 798574
+      }
+    ],
+    "file": "01_Engbert_Kliegl_2003.pdf",
+    "source_url": "http://wexler.free.fr/library/files/engbert%20%282003%29%20microsaccades%20uncover%20the%20orientation%20of%20covert%20attention.pdf",
+    "final_url": "http://wexler.free.fr/library/files/engbert%20%282003%29%20microsaccades%20uncover%20the%20orientation%20of%20covert%20attention.pdf",
+    "bytes": 798574,
+    "sha256": "d36153f2b8075f66adabdd25152e3e7b436a3cedb78607dda31a4e2fbf350c51"
+  },
+  {
+    "id": "02_Nystrom_Holmqvist_2010",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.3758/BRM.42.1.188.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/content/pdf/10.3758/BRM.42.1.188.pdf",
+        "bytes": 1420752
+      }
+    ],
+    "file": "02_Nystrom_Holmqvist_2010.pdf",
+    "source_url": "https://link.springer.com/content/pdf/10.3758/BRM.42.1.188.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.3758/BRM.42.1.188.pdf",
+    "bytes": 1420752,
+    "sha256": "e9cc151203efab4addc0575be96f19dbe65d8e5f26407c834b57eb0e54050949"
+  },
+  {
+    "id": "03_Friedman_et_al_2018",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1050-7.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1050-7.pdf",
+        "bytes": 2434383
+      }
+    ],
+    "file": "03_Friedman_et_al_2018.pdf",
+    "source_url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1050-7.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1050-7.pdf",
+    "bytes": 2434383,
+    "sha256": "512255de263ff0c8bdb7d1ddc714fa58c98f9c7fa4d127c81070a201165ddc54"
+  },
+  {
+    "id": "04_Konig_Buffalo_2014",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://static1.squarespace.com/static/5890ea10f7e0ab3023e931e0/t/5893b22a579fb35d028432d7/1486074417845/29%2B-%2B%281-14%29%2Ba%2Bnonparametric%2Bmethod%2Bfor%2Bdetecting%2Bfixations%2Band%2Bsaccades%2Busing%2Bcluster%2Banalysis%2B-%2Bremoving%2Bthe%2Bneed%2Bfor%2Barbitrary%2Bthresholds.pdf",
+        "status": 200,
+        "final_url": "https://static1.squarespace.com/static/5890ea10f7e0ab3023e931e0/t/5893b22a579fb35d028432d7/1486074417845/29%2B-%2B%281-14%29%2Ba%2Bnonparametric%2Bmethod%2Bfor%2Bdetecting%2Bfixations%2Band%2Bsaccades%2Busing%2Bcluster%2Banalysis%2B-%2Bremoving%2Bthe%2Bneed%2Bfor%2Barbitrary%2Bthresholds.pdf",
+        "bytes": 2184221
+      }
+    ],
+    "file": "04_Konig_Buffalo_2014.pdf",
+    "source_url": "https://static1.squarespace.com/static/5890ea10f7e0ab3023e931e0/t/5893b22a579fb35d028432d7/1486074417845/29%2B-%2B%281-14%29%2Ba%2Bnonparametric%2Bmethod%2Bfor%2Bdetecting%2Bfixations%2Band%2Bsaccades%2Busing%2Bcluster%2Banalysis%2B-%2Bremoving%2Bthe%2Bneed%2Bfor%2Barbitrary%2Bthresholds.pdf",
+    "final_url": "https://static1.squarespace.com/static/5890ea10f7e0ab3023e931e0/t/5893b22a579fb35d028432d7/1486074417845/29%2B-%2B%281-14%29%2Ba%2Bnonparametric%2Bmethod%2Bfor%2Bdetecting%2Bfixations%2Band%2Bsaccades%2Busing%2Bcluster%2Banalysis%2B-%2Bremoving%2Bthe%2Bneed%2Bfor%2Barbitrary%2Bthresholds.pdf",
+    "bytes": 2184221,
+    "sha256": "028145b64fff480fc163a2cd47017dbf6bc8568e4b107f3be12c443fbe29d3b0"
+  },
+  {
+    "id": "05_Zemblys_et_al_2018",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://www.uni-muenster.de/imperia/md/content/psyifp/ae_lappe/freie_dokumente/zemblys__niehorster-2017.pdf",
+        "status": 200,
+        "final_url": "https://www.uni-muenster.de/imperia/md/content/psyifp/ae_lappe/freie_dokumente/zemblys__niehorster-2017.pdf",
+        "bytes": 2514025
+      }
+    ],
+    "file": "05_Zemblys_et_al_2018.pdf",
+    "source_url": "https://www.uni-muenster.de/imperia/md/content/psyifp/ae_lappe/freie_dokumente/zemblys__niehorster-2017.pdf",
+    "final_url": "https://www.uni-muenster.de/imperia/md/content/psyifp/ae_lappe/freie_dokumente/zemblys__niehorster-2017.pdf",
+    "bytes": 2514025,
+    "sha256": "bd671b221fd8af32498c94fed69cf3351e5366474c43e501fa639a1e5e6c7740"
+  },
+  {
+    "id": "06_Salvucci_Goldberg_2000",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+        "error": "SSLError"
+      },
+      {
+        "url": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+        "error": "HTTPSConnectionPool(host='www.cs.drexel.edu', port=443): Max retries exceeded with url: /~dds26/publications/Salvucci-ETRA00.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERI"
+      },
+      {
+        "url": "http://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+        "error": "HTTPSConnectionPool(host='www.cs.drexel.edu', port=443): Max retries exceeded with url: /~dds26/publications/Salvucci-ETRA00.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERI"
+      },
+      {
+        "url": "https://dl.acm.org/doi/pdf/10.1145/355017.355028",
+        "status": 403,
+        "final_url": "https://dl.acm.org/doi/pdf/10.1145/355017.355028",
+        "bytes": 5519
+      },
+      {
+        "url": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+        "status": 200,
+        "final_url": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+        "bytes": 432736,
+        "tls_note": "The public host certificate failed validation; this single unauthenticated public-PDF request used verify=False."
+      }
+    ],
+    "file": "06_Salvucci_Goldberg_2000.pdf",
+    "source_url": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+    "final_url": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+    "bytes": 432736,
+    "sha256": "33bc3befec8426d48755b32dfac13d7570f8338c7e5df406cda34439afaa7962"
+  },
+  {
+    "id": "07_Komogortsev_et_al_2010",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://cs.odu.edu/~sampath/publications/journal/IEEE_TOBE_2010.pdf",
+        "status": 200,
+        "final_url": "https://cs.odu.edu/~sampath/publications/journal/IEEE_TOBE_2010.pdf",
+        "bytes": 861533
+      }
+    ],
+    "file": "07_Komogortsev_et_al_2010.pdf",
+    "source_url": "https://cs.odu.edu/~sampath/publications/journal/IEEE_TOBE_2010.pdf",
+    "final_url": "https://cs.odu.edu/~sampath/publications/journal/IEEE_TOBE_2010.pdf",
+    "bytes": 861533,
+    "sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471"
+  },
+  {
+    "id": "08_Sauter_et_al_1991",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/BF02446297.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/BF02446297",
+        "bytes": 275532
+      }
+    ]
+  },
+  {
+    "id": "09_Bahill_et_al_1981",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://citeseerx.ist.psu.edu/document?doi=22a5d5f1a64bef852eed97f202f167b53becbc3f&repid=rep1&type=pdf",
+        "status": 404,
+        "final_url": "https://web.archive.org/web/20251230112235/https://citeseerx.ist.psu.edu//document?doi=22a5d5f1a64bef852eed97f202f167b53becbc3f&repid=rep1&type=pdf",
+        "bytes": 4689
+      }
+    ]
+  },
+  {
+    "id": "10_Blignaut_2009",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.3758/APP.71.4.881.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/content/pdf/10.3758/APP.71.4.881.pdf",
+        "bytes": 1481932
+      }
+    ],
+    "file": "10_Blignaut_2009.pdf",
+    "source_url": "https://link.springer.com/content/pdf/10.3758/APP.71.4.881.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.3758/APP.71.4.881.pdf",
+    "bytes": 1481932,
+    "sha256": "f5eee7216750c19fd1f2130d28b33a479bfbc217c0087e6aaafd0efa2b9b39e5"
+  },
+  {
+    "id": "11_Zemblys_et_al_2019_Correction",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1127-3.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1127-3.pdf",
+        "bytes": 302366
+      }
+    ],
+    "file": "11_Zemblys_et_al_2019_Correction.pdf",
+    "source_url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1127-3.pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.3758/s13428-018-1127-3.pdf",
+    "bytes": 302366,
+    "sha256": "5e0b86daf360b01db5bba619c1ac5911a613964b727bfcef8cacb8c1c070d3ab"
+  },
+  {
+    "id": "00_Dai_et_al_2021_target",
+    "accessed": "2026-11-17",
+    "attempts": [
+      {
+        "url": "https://pdfs.semanticscholar.org/a8f4/a4d7f2a45a755cae655bbf10e681da2285c0.pdf",
+        "status": 200,
+        "final_url": "https://pdfs.semanticscholar.org/a8f4/a4d7f2a45a755cae655bbf10e681da2285c0.pdf",
+        "bytes": 1006536
+      }
+    ],
+    "file": "00_Dai_et_al_2021_target.pdf",
+    "source_url": "https://pdfs.semanticscholar.org/a8f4/a4d7f2a45a755cae655bbf10e681da2285c0.pdf",
+    "final_url": "https://pdfs.semanticscholar.org/a8f4/a4d7f2a45a755cae655bbf10e681da2285c0.pdf",
+    "bytes": 1006536,
+    "sha256": "13b85ba33c4ac5366910dfb3641ee815a5aeb481bca4fccd5d9c170572a38f1f"
+  }
+]
