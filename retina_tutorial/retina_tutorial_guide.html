@@ -3,7 +3,7 @@
 <html lang="ja">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>視野データ解析：ファインデックス業務体験（半日）</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>網膜感度データ解析チュートリアル</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7822,9 +7822,10 @@ a { color:#0b7285; }
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%83%87%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E7%A0%94%E7%A9%B6%E9%96%8B%E7%99%BA%E3%82%92%E5%8D%8A%E6%97%A5%E3%81%A7%E4%BD%93%E9%A8%93%E3%81%99%E3%82%8B">ファインデックスの研究開発を半日で体験する<a class="anchor-link" href="#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%83%87%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E7%A0%94%E7%A9%B6%E9%96%8B%E7%99%BA%E3%82%92%E5%8D%8A%E6%97%A5%E3%81%A7%E4%BD%93%E9%A8%93%E3%81%99%E3%82%8B">¶</a></h1><h2 id="%E8%A6%96%E9%87%8E%E6%A4%9C%E6%9F%BB%E3%81%AE%E3%81%B0%E3%82%89%E3%81%A4%E3%81%8D%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%80%81%E6%AC%A1%E5%9B%9E%E3%81%AE%E6%B8%AC%E5%AE%9A%E5%80%A4%E3%82%92%E4%BA%88%E6%B8%AC%E3%81%99%E3%82%8B">視野検査のばらつきを理解し、次回の測定値を予測する<a class="anchor-link" href="#%E8%A6%96%E9%87%8E%E6%A4%9C%E6%9F%BB%E3%81%AE%E3%81%B0%E3%82%89%E3%81%A4%E3%81%8D%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%80%81%E6%AC%A1%E5%9B%9E%E3%81%AE%E6%B8%AC%E5%AE%9A%E5%80%A4%E3%82%92%E4%BA%88%E6%B8%AC%E3%81%99%E3%82%8B">¶</a></h2><p><strong>所要時間：4時間（休憩10分を含む）／CPUで実行／R・GPU・非公開データは不要</strong></p>
-<p>作成・確認日：2026年11月8日（日本時間）。この教材は、公開求人と公開研究をもとに作成した独立の業務体験です。企業が配布・監修した教材ではありません。</p>
-<h3 id="%E3%81%93%E3%81%AE%E5%8D%8A%E6%97%A5%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%82%E3%81%AE">この半日で作るもの<a class="anchor-link" href="#%E3%81%93%E3%81%AE%E5%8D%8A%E6%97%A5%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%82%E3%81%AE">¶</a></h3><ul>
+<h1 id="%E7%B6%B2%E8%86%9C%E6%84%9F%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E8%A7%A3%E6%9E%90%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB">網膜感度データ解析チュートリアル<a class="anchor-link" href="#%E7%B6%B2%E8%86%9C%E6%84%9F%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E8%A7%A3%E6%9E%90%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB">¶</a></h1><h2 id="%E8%A6%96%E9%87%8E%E6%A4%9C%E6%9F%BB%E3%81%AE%E3%81%B0%E3%82%89%E3%81%A4%E3%81%8D%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%80%81%E6%AC%A1%E5%9B%9E%E3%81%AE%E6%B8%AC%E5%AE%9A%E5%80%A4%E3%82%92%E4%BA%88%E6%B8%AC%E3%81%99%E3%82%8B">視野検査のばらつきを理解し、次回の測定値を予測する<a class="anchor-link" href="#%E8%A6%96%E9%87%8E%E6%A4%9C%E6%9F%BB%E3%81%AE%E3%81%B0%E3%82%89%E3%81%A4%E3%81%8D%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%80%81%E6%AC%A1%E5%9B%9E%E3%81%AE%E6%B8%AC%E5%AE%9A%E5%80%A4%E3%82%92%E4%BA%88%E6%B8%AC%E3%81%99%E3%82%8B">¶</a></h2><p><strong>CPUで実行／R・GPU・非公開データは不要</strong></p>
+<p>教材作成日：2026年11月8日（日本時間）。</p>
+<p>このリポジトリは、網膜データを用いた解析のチュートリアルをChatGPTに作成してもらい、できるだけコードを見ずに解析を実行した記録です。扱うのは、公開されている視野検査の網膜感度データです。説明文・図・結果表を中心に、解析の流れと結果の意味を確認します。</p>
+<h3 id="%E3%81%93%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%82%E3%81%AE">このチュートリアルで作るもの<a class="anchor-link" href="#%E3%81%93%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%82%E3%81%AE">¶</a></h3><ul>
 <li>30患者・360検査の品質確認表と視野マップ。</li>
 <li>「前回値」「過去3回平均」「Ridge回帰」の比較表。</li>
 <li>患者別・検査点別の誤差の可視化と、患者単位の不確実性評価。</li>
@@ -7835,63 +7836,58 @@ a { color:#0b7285; }
 <p>到達点は、比較方法と結果の限界を説明することです。機械学習が勝つことは完了条件に含めません。対象は次回の<strong>ノイズを含む測定値</strong>で、疾病の有無、真の感度、長期進行を予測する課題ではありません。</p>
 <h3 id="%E9%96%8B%E3%81%8D%E6%96%B9">開き方<a class="anchor-link" href="#%E9%96%8B%E3%81%8D%E6%96%B9">¶</a></h3><ol>
 <li><a href="https://colab.research.google.com/">Google Colab</a>で、この <code>.ipynb</code> をアップロードするか、Jupyterで開きます。</li>
-<li>CPUの通常環境で上から順番に実行します。各章の「考える」をメモしながら進めます。</li>
+<li>CPUの通常環境で上から順番に実行します。コードの詳細は必要に応じて参照し、説明・図・結果表と各章の「考える」を中心に進めます。</li>
 <li>データはNotebook内に小さな圧縮スナップショットとして同梱しています。データのダウンロードやRの導入は不要です。</li>
 <li>完成図・結果表・研究メモは、実行場所の <code>outputs/</code> に保存されます。</li>
 </ol>
 <p>必要なライブラリは NumPy / pandas / Matplotlib / scikit-learn / IPython です。ローカル環境で不足する場合は同梱の <code>requirements.txt</code> を使用します。</p>
-<h3 id="4%E6%99%82%E9%96%93%E3%81%AE%E9%80%B2%E3%82%81%E6%96%B9">4時間の進め方<a class="anchor-link" href="#4%E6%99%82%E9%96%93%E3%81%AE%E9%80%B2%E3%82%81%E6%96%B9">¶</a></h3><table>
+<h3 id="%E8%A7%A3%E6%9E%90%E3%81%AE%E9%80%B2%E3%82%81%E6%96%B9">解析の進め方<a class="anchor-link" href="#%E8%A7%A3%E6%9E%90%E3%81%AE%E9%80%B2%E3%82%81%E6%96%B9">¶</a></h3><table>
 <thead>
 <tr>
-<th>経過時間</th>
+<th>順序</th>
 <th>内容</th>
 <th>手元に残すもの</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0:00–0:20</td>
-<td>仕事の背景、仮説と評価単位を決める</td>
+<td>1</td>
+<td>データと課題を確認し、仮説と評価単位を決める</td>
 <td>研究計画3行</td>
 </tr>
 <tr>
-<td>0:20–0:50</td>
+<td>2</td>
 <td>読込、ID・日付・欠測・品質指標を監査</td>
 <td>QC表</td>
 </tr>
 <tr>
-<td>0:50–1:20</td>
+<td>3</td>
 <td>学習患者の視野と変動を観察</td>
 <td>マップ・時系列</td>
 </tr>
 <tr>
-<td>1:20–1:30</td>
-<td>休憩</td>
-<td>—</td>
-</tr>
-<tr>
-<td>1:30–2:05</td>
+<td>4</td>
 <td>患者分割と過去3回→次回のデータ構成</td>
 <td>分割と配列</td>
 </tr>
 <tr>
-<td>2:05–2:40</td>
+<td>5</td>
 <td>基準法とRidgeを実行</td>
 <td>3候補の予測</td>
 </tr>
 <tr>
-<td>2:40–3:25</td>
+<td>6</td>
 <td>患者別・点別・感度帯別に誤差を調査</td>
 <td>評価図と比較表</td>
 </tr>
 <tr>
-<td>3:25–4:00</td>
-<td>予測関数と研究メモを完成</td>
+<td>7</td>
+<td>予測関数と研究メモを確認</td>
 <td>PoC・報告</td>
 </tr>
 </tbody>
 </table>
-<p>時間が足りない場合も、平均化との比較・患者別評価・研究メモは残してください。Ridgeの数式の詳読とbootstrapの発展説明は後日に回せます。</p>
+<p>説明と実行結果を読みながら、自分のペースで進めてください。平均化との比較・患者別評価・研究メモを重視し、Ridgeの数式やbootstrapの詳しい説明は必要に応じて参照できます。</p>
 </div>
 </div>
 </div>
@@ -7902,13 +7898,12 @@ a { color:#0b7285; }
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="0.-%E6%B1%82%E4%BA%BA%E3%81%A7%E6%B1%82%E3%82%81%E3%82%89%E3%82%8C%E3%82%8B%E4%BB%95%E4%BA%8B%E3%81%A8%E3%81%AE%E5%AF%BE%E5%BF%9C%EF%BC%8820%E5%88%86%EF%BC%89">0. 求人で求められる仕事との対応（20分）<a class="anchor-link" href="#0.-%E6%B1%82%E4%BA%BA%E3%81%A7%E6%B1%82%E3%82%81%E3%82%89%E3%82%8C%E3%82%8B%E4%BB%95%E4%BA%8B%E3%81%A8%E3%81%AE%E5%AF%BE%E5%BF%9C%EF%BC%8820%E5%88%86%EF%BC%89">¶</a></h2><p><a href="https://hrmos.co/pages/findex/jobs/0000227">求人</a>には、眼球運動・視野検査・網膜感度マップの解析、課題に応じたモデル構築、PoCと製品実装、共同研究が記載されています。ノイズ・個体差、生体理解、患者単位と検査点単位での安定性が重視されています。</p>
-<p>そこから、次のような作業が多いと<strong>推定</strong>できます。日々の配分や社内の具体的な技術構成は確認できません。</p>
+<h2 id="0.-%E8%A7%A3%E6%9E%90%E3%81%AE%E7%9B%AE%E7%9A%84%E3%81%A8%E9%80%B2%E3%82%81%E6%96%B9">0. 解析の目的と進め方<a class="anchor-link" href="#0.-%E8%A7%A3%E6%9E%90%E3%81%AE%E7%9B%AE%E7%9A%84%E3%81%A8%E9%80%B2%E3%82%81%E6%96%B9">¶</a></h2><p>過去3回の視野検査から次回の網膜感度値を予測し、単純な方法と機械学習を同じ条件で比較します。コードを細かく読まなくても流れを追えるよう、各段階で確認する内容と成果物を整理します。</p>
 <table>
 <thead>
 <tr>
-<th>想定する作業</th>
-<th>本教材での体験</th>
+<th>解析で確認すること</th>
+<th>本教材で行うこと</th>
 </tr>
 </thead>
 <tbody>
@@ -7933,12 +7928,12 @@ a { color:#0b7285; }
 <td>患者別MAEと点別誤差マップを作る</td>
 </tr>
 <tr>
-<td>チームに結果を渡す</td>
+<td>結果を説明できる形にまとめる</td>
 <td>入力仕様を持つ予測関数と研究メモを作る</td>
 </tr>
 </tbody>
 </table>
-<p>GAPと標準視野計HFAの<a href="https://doi.org/10.1016/j.ogla.2024.05.003">共同研究（Miyake et al., 2024）</a>では、全体の相関だけでなく一致度や不一致点の眼球運動を調べています。今回はHFA由来の公開視野データを使い、その「測定の吟味と誤差の調査」の一部を模擬します。GAPの生の眼球運動や社内アルゴリズムは使用しません。</p>
+<p>今回は標準視野計HFA由来の公開データを使い、測定値のばらつきと予測誤差を調べます。</p>
 <p><strong>考える：</strong>「入力」「予測対象」「評価の単位」をそれぞれ1文で書いてください。予測対象に「緑内障の診断」や「悪化」を書いた場合、今回のデータにその正解ラベルがあるか確認してください。</p>
 <h3 id="%E5%85%88%E3%81%AB%E5%9B%BA%E5%AE%9A%E3%81%99%E3%82%8B%E8%A7%A3%E6%9E%90%E6%96%B9%E9%87%9D">先に固定する解析方針<a class="anchor-link" href="#%E5%85%88%E3%81%AB%E5%9B%BA%E5%AE%9A%E3%81%99%E3%82%8B%E8%A7%A3%E6%9E%90%E6%96%B9%E9%87%9D">¶</a></h3><ul>
 <li>患者21人を学習、9人を評価に使用。分割のseedは固定します。</li>
@@ -8010,7 +8005,7 @@ a { color:#0b7285; }
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E8%AA%AD%E3%82%80%E3%83%BB%E7%9B%A3%E6%9F%BB%E3%81%99%E3%82%8B%EF%BC%8830%E5%88%86%EF%BC%89">1. データを読む・監査する（30分）<a class="anchor-link" href="#1.-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E8%AA%AD%E3%82%80%E3%83%BB%E7%9B%A3%E6%9F%BB%E3%81%99%E3%82%8B%EF%BC%8830%E5%88%86%EF%BC%89">¶</a></h2><h3 id="%E5%87%BA%E5%85%B8%E3%81%A8%E6%A7%8B%E9%80%A0">出典と構造<a class="anchor-link" href="#%E5%87%BA%E5%85%B8%E3%81%A8%E6%A7%8B%E9%80%A0">¶</a></h3><p>使用するのは、Rパッケージ <code>visualFields</code> の <code>vfpwgRetest24d2</code> です。作者の<a href="https://imarinfr.r-universe.dev/datasets">データ一覧</a>と<a href="https://cran.r-universe.dev/visualFields/doc/manual.html#vfpwgRetest24d2">公式マニュアル</a>で公開されています。CSVの提供先もありますが、本教材では再現性のため、固定したCRANソースのRデータをPythonでCSVへ変換したスナップショットを使います。</p>
+<h2 id="1.-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E8%AA%AD%E3%82%80%E3%83%BB%E7%9B%A3%E6%9F%BB%E3%81%99%E3%82%8B">1. データを読む・監査する<a class="anchor-link" href="#1.-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E8%AA%AD%E3%82%80%E3%83%BB%E7%9B%A3%E6%9F%BB%E3%81%99%E3%82%8B">¶</a></h2><h3 id="%E5%87%BA%E5%85%B8%E3%81%A8%E6%A7%8B%E9%80%A0">出典と構造<a class="anchor-link" href="#%E5%87%BA%E5%85%B8%E3%81%A8%E6%A7%8B%E9%80%A0">¶</a></h3><p>使用するのは、Rパッケージ <code>visualFields</code> の <code>vfpwgRetest24d2</code> です。作者の<a href="https://imarinfr.r-universe.dev/datasets">データ一覧</a>と<a href="https://cran.r-universe.dev/visualFields/doc/manual.html#vfpwgRetest24d2">公式マニュアル</a>で公開されています。CSVの提供先もありますが、本教材では再現性のため、固定したCRANソースのRデータをPythonでCSVへ変換したスナップショットを使います。</p>
 <p>元の研究は <a href="https://openaccess.city.ac.uk/id/eprint/4999/">Artes et al. (2014)</a> です。30人の開放隅角緑内障患者について1眼ずつを反復測定し、進行判定の偽陽性が患者ごとにどう異なるかを調べました。本教材はその研究のGPA解析の再現ではありません。</p>
 <ul>
 <li><strong>1行</strong>：ある患者のある眼の1回の検査。</li>
@@ -8308,7 +8303,7 @@ a { color:#0b7285; }
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-%E5%AD%A6%E7%BF%92%E6%82%A3%E8%80%85%E3%82%92%E5%88%86%E3%81%91%E3%80%81%E8%A6%96%E9%87%8E%E3%81%AE%E5%A4%89%E5%8B%95%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%99%E3%82%8B%EF%BC%8830%E5%88%86%EF%BC%89">2. 学習患者を分け、視野の変動を観察する（30分）<a class="anchor-link" href="#2.-%E5%AD%A6%E7%BF%92%E6%82%A3%E8%80%85%E3%82%92%E5%88%86%E3%81%91%E3%80%81%E8%A6%96%E9%87%8E%E3%81%AE%E5%A4%89%E5%8B%95%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%99%E3%82%8B%EF%BC%8830%E5%88%86%EF%BC%89">¶</a></h2><p>最初に患者IDで学習・評価を分けます。形状や欠測などの監査は全体で行いましたが、以下の探索的な生理学的観察は学習患者だけに限定します。</p>
+<h2 id="2.-%E5%AD%A6%E7%BF%92%E6%82%A3%E8%80%85%E3%82%92%E5%88%86%E3%81%91%E3%80%81%E8%A6%96%E9%87%8E%E3%81%AE%E5%A4%89%E5%8B%95%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%99%E3%82%8B">2. 学習患者を分け、視野の変動を観察する<a class="anchor-link" href="#2.-%E5%AD%A6%E7%BF%92%E6%82%A3%E8%80%85%E3%82%92%E5%88%86%E3%81%91%E3%80%81%E8%A6%96%E9%87%8E%E3%81%AE%E5%A4%89%E5%8B%95%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%99%E3%82%8B">¶</a></h2><p>最初に患者IDで学習・評価を分けます。形状や欠測などの監査は全体で行いましたが、以下の探索的な生理学的観察は学習患者だけに限定します。</p>
 <p>同じ人の検査は、病態や個人特有の視野パターンを共有しています。検査行を無作為に分割すると、評価したい「学習に使っていない人での性能」と違う問いになってしまいます。<a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GroupShuffleSplit.html">scikit-learnのグループ分割</a>を使って、この重複を防ぎます。</p>
 </div>
 </div>
@@ -8439,7 +8434,7 @@ test IDs : [2, 5, 7, 11, 14, 16, 18, 20, 21]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-%E9%81%8E%E5%8E%BB3%E5%9B%9E%E2%86%92%E6%AC%A1%E3%81%AE1%E5%9B%9E%E3%82%92%E4%BD%9C%E3%82%8B%EF%BC%8835%E5%88%86%EF%BC%89">3. 過去3回→次の1回を作る（35分）<a class="anchor-link" href="#3.-%E9%81%8E%E5%8E%BB3%E5%9B%9E%E2%86%92%E6%AC%A1%E3%81%AE1%E5%9B%9E%E3%82%92%E4%BD%9C%E3%82%8B%EF%BC%8835%E5%88%86%EF%BC%89">¶</a></h2><p>患者ごとに、検査1・2・3回目から4回目、2・3・4回目から5回目、という窓を作ります。12回から9窓が得られます。</p>
+<h2 id="3.-%E9%81%8E%E5%8E%BB3%E5%9B%9E%E2%86%92%E6%AC%A1%E3%81%AE1%E5%9B%9E%E3%82%92%E4%BD%9C%E3%82%8B">3. 過去3回→次の1回を作る<a class="anchor-link" href="#3.-%E9%81%8E%E5%8E%BB3%E5%9B%9E%E2%86%92%E6%AC%A1%E3%81%AE1%E5%9B%9E%E3%82%92%E4%BD%9C%E3%82%8B">¶</a></h2><p>患者ごとに、検査1・2・3回目から4回目、2・3・4回目から5回目、という窓を作ります。12回から9窓が得られます。</p>
 <table>
 <thead>
 <tr>
@@ -8640,7 +8635,7 @@ training / evaluation windows: 189 81
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="4.-3%E3%81%A4%E3%81%AE%E6%96%B9%E6%B3%95%E3%82%92%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B%EF%BC%8835%E5%88%86%EF%BC%89">4. 3つの方法を比較する（35分）<a class="anchor-link" href="#4.-3%E3%81%A4%E3%81%AE%E6%96%B9%E6%B3%95%E3%82%92%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B%EF%BC%8835%E5%88%86%EF%BC%89">¶</a></h2><h3 id="%E5%89%8D%E5%9B%9E%E5%80%A4%E3%81%A83%E5%9B%9E%E5%B9%B3%E5%9D%87">前回値と3回平均<a class="anchor-link" href="#%E5%89%8D%E5%9B%9E%E5%80%A4%E3%81%A83%E5%9B%9E%E5%B9%B3%E5%9D%87">¶</a></h3><p>位置を $p$ とすると、前回値は $\hat y_{t+1,p}=y_{t,p}$、3回平均は $\hat y_{t+1,p}=(y_{t,p}+y_{t-1,p}+y_{t-2,p})/3$ です。患者内で計算するため、この2つには他患者を用いる学習段階がありません。</p>
+<h2 id="4.-3%E3%81%A4%E3%81%AE%E6%96%B9%E6%B3%95%E3%82%92%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B">4. 3つの方法を比較する<a class="anchor-link" href="#4.-3%E3%81%A4%E3%81%AE%E6%96%B9%E6%B3%95%E3%82%92%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B">¶</a></h2><h3 id="%E5%89%8D%E5%9B%9E%E5%80%A4%E3%81%A83%E5%9B%9E%E5%B9%B3%E5%9D%87">前回値と3回平均<a class="anchor-link" href="#%E5%89%8D%E5%9B%9E%E5%80%A4%E3%81%A83%E5%9B%9E%E5%B9%B3%E5%9D%87">¶</a></h3><p>位置を $p$ とすると、前回値は $\hat y_{t+1,p}=y_{t,p}$、3回平均は $\hat y_{t+1,p}=(y_{t,p}+y_{t-1,p}+y_{t-2,p})/3$ です。患者内で計算するため、この2つには他患者を用いる学習段階がありません。</p>
 <h3 id="%E5%B9%B3%E5%9D%87%E5%8C%96%E3%81%8C%E5%8A%B9%E3%81%8F%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E7%90%86%E7%94%B1">平均化が効くかもしれない理由<a class="anchor-link" href="#%E5%B9%B3%E5%9D%87%E5%8C%96%E3%81%8C%E5%8A%B9%E3%81%8F%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E7%90%86%E7%94%B1">¶</a></h3><p>仮に真の感度 $\mu$ が一定で、$y_t=\mu+\epsilon_t$、独立・平均0・分散 $\sigma^2$ の測定誤差を仮定すると、前回値予測の誤差分散は $2\sigma^2$、3回平均では $4\sigma^2/3$ になります。平均化で入力側のノイズを減らしても、次回の観測ノイズは残るためです。</p>
 <p>これは仮定の下での計算です。実際の誤差に相関があったり、真の感度が変化したりすれば結果は変わります。変化を平均化でならすと、その変化への反応が遅れることもあります。</p>
 <h3 id="Ridge%E5%9B%9E%E5%B8%B0">Ridge回帰<a class="anchor-link" href="#Ridge%E5%9B%9E%E5%B8%B0">¶</a></h3><p><a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html">Ridge回帰</a>は、入力 $X$ と出力 $Y$ の線形関係を、係数を大きくしすぎない制約とともに学習します。標準化した $X$ に対し、おおむね次の目的関数を小さくします。</p>
@@ -8698,7 +8693,7 @@ Ridge negative predictions: 36
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="5.-%E6%82%A3%E8%80%85%E3%83%BB%E7%82%B9%E3%83%BB%E6%84%9F%E5%BA%A6%E5%B8%AF%E3%81%94%E3%81%A8%E3%81%AB%E8%A9%95%E4%BE%A1%E3%81%99%E3%82%8B%EF%BC%8845%E5%88%86%EF%BC%89">5. 患者・点・感度帯ごとに評価する（45分）<a class="anchor-link" href="#5.-%E6%82%A3%E8%80%85%E3%83%BB%E7%82%B9%E3%83%BB%E6%84%9F%E5%BA%A6%E5%B8%AF%E3%81%94%E3%81%A8%E3%81%AB%E8%A9%95%E4%BE%A1%E3%81%99%E3%82%8B%EF%BC%8845%E5%88%86%EF%BC%89">¶</a></h2><h3 id="%E6%82%A3%E8%80%85%E3%82%92%E7%AD%89%E3%81%97%E3%81%8F%E6%89%B1%E3%81%86MAE">患者を等しく扱うMAE<a class="anchor-link" href="#%E6%82%A3%E8%80%85%E3%82%92%E7%AD%89%E3%81%97%E3%81%8F%E6%89%B1%E3%81%86MAE">¶</a></h3><p>まず、各患者について全評価回・全52点の絶対誤差を平均します。その患者別MAEを9人で平均します。</p>
+<h2 id="5.-%E6%82%A3%E8%80%85%E3%83%BB%E7%82%B9%E3%83%BB%E6%84%9F%E5%BA%A6%E5%B8%AF%E3%81%94%E3%81%A8%E3%81%AB%E8%A9%95%E4%BE%A1%E3%81%99%E3%82%8B">5. 患者・点・感度帯ごとに評価する<a class="anchor-link" href="#5.-%E6%82%A3%E8%80%85%E3%83%BB%E7%82%B9%E3%83%BB%E6%84%9F%E5%BA%A6%E5%B8%AF%E3%81%94%E3%81%A8%E3%81%AB%E8%A9%95%E4%BE%A1%E3%81%99%E3%82%8B">¶</a></h2><h3 id="%E6%82%A3%E8%80%85%E3%82%92%E7%AD%89%E3%81%97%E3%81%8F%E6%89%B1%E3%81%86MAE">患者を等しく扱うMAE<a class="anchor-link" href="#%E6%82%A3%E8%80%85%E3%82%92%E7%AD%89%E3%81%97%E3%81%8F%E6%89%B1%E3%81%86MAE">¶</a></h3><p>まず、各患者について全評価回・全52点の絶対誤差を平均します。その患者別MAEを9人で平均します。</p>
 <p>$$MAE_i=\frac{1}{T_i\,52}\sum_t\sum_p |y_{itp}-\hat y_{itp}|,\qquad MAE_{macro}=\frac{1}{9}\sum_i MAE_i$$</p>
 <p>単位はdBです。「平均して何dBずれたか」を読みます。MAEが小さいほど、この課題の次回値に近いという意味です。臨床的に十分な誤差かどうかの閾値は、この教材からは決められません。</p>
 <p>今回の各患者の回数は同じなので単純な全点平均と数値は一致しますが、将来欠測や回数差が生じたときにも患者を等しく扱う定義を明示します。</p>
@@ -9291,7 +9286,7 @@ Ridge negative predictions: 36
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="6.-%E5%B0%8F%E3%81%95%E3%81%AAPoC%E3%81%A8%E7%A0%94%E7%A9%B6%E3%83%A1%E3%83%A2%E3%82%92%E4%BD%9C%E3%82%8B%EF%BC%8835%E5%88%86%EF%BC%89">6. 小さなPoCと研究メモを作る（35分）<a class="anchor-link" href="#6.-%E5%B0%8F%E3%81%95%E3%81%AAPoC%E3%81%A8%E7%A0%94%E7%A9%B6%E3%83%A1%E3%83%A2%E3%82%92%E4%BD%9C%E3%82%8B%EF%BC%8835%E5%88%86%EF%BC%89">¶</a></h2><h3 id="%E9%96%A2%E6%95%B0%E3%81%AE%E5%85%A5%E5%87%BA%E5%8A%9B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B">関数の入出力を決める<a class="anchor-link" href="#%E9%96%A2%E6%95%B0%E3%81%AE%E5%85%A5%E5%87%BA%E5%8A%9B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B">¶</a></h3><p>PoCは技術の実現可能性を確かめる試作です。今回は「直近3回以上の、同一患者・同一眼の検査」を受け取り、52点の次回予測と入力確認の結果を返します。</p>
+<h2 id="6.-%E5%B0%8F%E3%81%95%E3%81%AAPoC%E3%81%A8%E7%A0%94%E7%A9%B6%E3%83%A1%E3%83%A2%E3%82%92%E4%BD%9C%E3%82%8B">6. 小さなPoCと研究メモを作る<a class="anchor-link" href="#6.-%E5%B0%8F%E3%81%95%E3%81%AAPoC%E3%81%A8%E7%A0%94%E7%A9%B6%E3%83%A1%E3%83%A2%E3%82%92%E4%BD%9C%E3%82%8B">¶</a></h2><h3 id="%E9%96%A2%E6%95%B0%E3%81%AE%E5%85%A5%E5%87%BA%E5%8A%9B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B">関数の入出力を決める<a class="anchor-link" href="#%E9%96%A2%E6%95%B0%E3%81%AE%E5%85%A5%E5%87%BA%E5%8A%9B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B">¶</a></h3><p>PoCは技術の実現可能性を確かめる試作です。今回は「直近3回以上の、同一患者・同一眼の検査」を受け取り、52点の次回予測と入力確認の結果を返します。</p>
 <p>患者が混ざる、日時が重複する、必要な列がない、欠測がある場合は、黙って計算を続けないようにします。入力値や予測値が学習範囲を外れたときは、理由付きの要確認フラグを返します。学習範囲は臨床的な正常範囲ではありません。</p>
 <p>ここでは一連の処理を関数にまとめるところまで体験します。製品実装に必要な機器連携、校正、運用検証は別の工程です。</p>
 </div>
@@ -9504,7 +9499,7 @@ QC：fprが0固定、time/durationが0固定。ID 7に資料の週次説明と�
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%E5%AE%8C%E4%BA%86%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%EF%BC%88%E6%AE%8B%E3%82%8A%E6%99%82%E9%96%93%E3%81%A7%E5%AE%9F%E6%96%BD%EF%BC%89">完了チェック（残り時間で実施）<a class="anchor-link" href="#%E5%AE%8C%E4%BA%86%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%EF%BC%88%E6%AE%8B%E3%82%8A%E6%99%82%E9%96%93%E3%81%A7%E5%AE%9F%E6%96%BD%EF%BC%89">¶</a></h3><ul>
+<h3 id="%E5%AE%8C%E4%BA%86%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF">完了チェック<a class="anchor-link" href="#%E5%AE%8C%E4%BA%86%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF">¶</a></h3><ul>
 <li>1行・1検査点・1患者の違いと、独立患者数を説明できる。</li>
 <li>学習患者と評価患者に重複がないことを確認した。</li>
 <li>0 dB、盲点付近、欠測、0固定の品質指標を区別した。</li>
@@ -9558,14 +9553,14 @@ QC：fprが0固定、time/durationが0固定。ID 7に資料の週次説明と�
 <div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="c1"># 6-C. 結果だけをZIPにまとめる（必要に応じてダウンロード）</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 6-C. 結果だけをZIPにまとめる（必要に応じてダウンロード）</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">zipfile</span>
-<span class="n">archive</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">'findex_results.zip'</span><span class="p">)</span>
+<span class="n">archive</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s1">'retina_results.zip'</span><span class="p">)</span>
 <span class="k">with</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">archive</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">,</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZIP_DEFLATED</span><span class="p">)</span> <span class="k">as</span> <span class="n">z</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OUT</span><span class="o">.</span><span class="n">rglob</span><span class="p">(</span><span class="s1">'*'</span><span class="p">)):</span>
         <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
             <span class="n">z</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">arcname</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Saved:'</span><span class="p">,</span> <span class="n">archive</span><span class="o">.</span><span class="n">resolve</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Saved:'</span><span class="p">,</span> <span class="n">archive</span><span class="p">)</span>
 <span class="c1"># Colabで自動ダウンロードする場合のみ、次の2行を有効にする：</span>
 <span class="c1"># from google.colab import files</span>
 <span class="c1"># files.download(str(archive))</span>
@@ -9581,7 +9576,7 @@ QC：fprが0固定、time/durationが0固定。ID 7に資料の週次説明と�
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Saved: /workspace/scratch/3e88a390a9c2/findex_halfday/findex_results.zip
+<pre>Saved: retina_results.zip
 </pre>
 </div>
 </div>
@@ -9594,7 +9589,7 @@ QC：fprが0固定、time/durationが0固定。ID 7に資料の週次説明と�
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="7.-%E6%AC%A1%E3%81%AB%E5%BA%83%E3%81%92%E3%82%8B%E5%A0%B4%E5%90%88">7. 次に広げる場合<a class="anchor-link" href="#7.-%E6%AC%A1%E3%81%AB%E5%BA%83%E3%81%92%E3%82%8B%E5%A0%B4%E5%90%88">¶</a></h2><h3 id="%E5%90%8C%E3%81%98%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E3%80%81%E3%81%82%E3%81%A81%EF%BD%9E2%E6%99%82%E9%96%93">同じデータで、あと1～2時間<a class="anchor-link" href="#%E5%90%8C%E3%81%98%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E3%80%81%E3%81%82%E3%81%A81%EF%BD%9E2%E6%99%82%E9%96%93">¶</a></h3><ol>
+<h2 id="7.-%E6%AC%A1%E3%81%AB%E5%BA%83%E3%81%92%E3%82%8B%E5%A0%B4%E5%90%88">7. 次に広げる場合<a class="anchor-link" href="#7.-%E6%AC%A1%E3%81%AB%E5%BA%83%E3%81%92%E3%82%8B%E5%A0%B4%E5%90%88">¶</a></h2><h3 id="%E5%90%8C%E3%81%98%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E8%A7%A3%E6%9E%90%E3%82%92%E5%BA%83%E3%81%92%E3%82%8B">同じデータで解析を広げる<a class="anchor-link" href="#%E5%90%8C%E3%81%98%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E8%A7%A3%E6%9E%90%E3%82%92%E5%BA%83%E3%81%92%E3%82%8B">¶</a></h3><ol>
 <li>学習21人の中だけでグループ交差検証を行い、Ridgeの正則化係数を選ぶ。既に見た9人で再調整した性能を「新しい独立評価」とは呼ばない。</li>
 <li>検査間隔の不整合があるID 7の扱いを、資料照会と解析計画の修正として記録する。除外結果だけを報告しない。</li>
 <li>点ごとの変動に応じた重み付き平均や部分プーリングを検討する。ノイズ推定に未来の検査を混ぜない。</li>
@@ -9622,11 +9617,8 @@ QC：fprが0固定、time/durationが0固定。ID 7に資料の週次説明と�
 </table>
 <p>UWHVFの公開リポジトリはBSD-3-Clause、GazeBaseはCC BY 4.0と表示されています。上表のデータは本教材に再配布していません。GazeBaseを使うときは全体取得や複数課題への拡張を初日に詰め込まず、特定課題・少数参加者から始める設計がよいでしょう。</p>
 <h3 id="%E7%9C%BC%E7%90%83%E9%81%8B%E5%8B%95%E3%82%B3%E3%83%BC%E3%82%B9%E3%81%A7%E7%94%9F%E7%90%86%E5%AD%A6%E3%81%8C%E5%BD%B9%E7%AB%8B%E3%81%A4%E8%AB%96%E7%82%B9">眼球運動コースで生理学が役立つ論点<a class="anchor-link" href="#%E7%9C%BC%E7%90%83%E9%81%8B%E5%8B%95%E3%82%B3%E3%83%BC%E3%82%B9%E3%81%A7%E7%94%9F%E7%90%86%E5%AD%A6%E3%81%8C%E5%BD%B9%E7%AB%8B%E3%81%A4%E8%AB%96%E7%82%B9">¶</a></h3><p>視標出現から眼球運動開始までの潜時と、視標に到達するまでの時間は別の量です。低いgain、遅い反応、追跡の欠落には、感覚入力、注意、眼球運動制御、校正・追跡誤差が関係し得ます。どの量をどの定義で計算し、どの交絡を調整するかを明示する工程が重要になります。</p>
-<p>この体験が面白かった場合、次は「眼球運動の生波形からイベントと特徴量を作る」課題が、求人のもう一方の柱に近い題材になります。</p>
+<p>次に別の生体データを扱うなら、「眼球運動の生波形からイベントと特徴量を作る」課題へ広げることもできます。</p>
 <h2 id="%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料<a class="anchor-link" href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">¶</a></h2><ol>
-<li><a href="https://hrmos.co/pages/findex/jobs/0000227">ファインデックス求人：データ解析研究員</a></li>
-<li><a href="https://products.findex.co.jp/product/gap/">GAP/GAP-screener公式製品ページ</a></li>
-<li><a href="https://www.kyoto-u.ac.jp/ja/research-news/2024-05-31">京都大学：GAPとHFAの比較研究</a> ／ <a href="https://doi.org/10.1016/j.ogla.2024.05.003">原著DOI</a></li>
 <li><a href="https://cran.r-universe.dev/visualFields/doc/manual.html">visualFields公式マニュアル</a> ／ <a href="https://imarinfr.r-universe.dev/datasets">作者公開データ一覧</a></li>
 <li><a href="https://github.com/cran/visualFields/tree/d4e4c408655d236dd23ff4f748495cfac74bc77a">固定版CRANソース</a> ／ <a href="https://github.com/imarinfr/vf1">作者ソース</a></li>
 <li><a href="https://openaccess.city.ac.uk/id/eprint/4999/">Artes et al. 2014：原データの研究</a> ／ <a href="https://doi.org/10.1016/j.ophtha.2014.04.015">DOI</a></li>
@@ -9637,10 +9629,10 @@ QC：fprが0固定、time/durationが0固定。ID 7に資料の週次説明と�
 <li><a href="https://doi.org/10.6084/m9.figshare.12912257">GazeBase</a> ／ <a href="https://doi.org/10.1038/s41597-021-00959-y">原著</a></li>
 </ol>
 <h3 id="%E8%A6%81%E7%82%B9">要点<a class="anchor-link" href="#%E8%A6%81%E7%82%B9">¶</a></h3><ul>
-<li>求人との対応が強いのは、生体データの監査、測定変動の理解、仮説、患者単位の評価、失敗例の調査です。</li>
+<li>生体データの監査、測定変動の理解、仮説、患者単位の評価、失敗例の調査を順に確認します。</li>
 <li>小さな公開データでも、基準法と機械学習を公正に比較する研究体験ができます。</li>
 <li>次回の検査値の予測性能と、疾病診断・真の感度・長期進行の評価を区別します。</li>
-<li>半日の成果は、数字の良さだけでなく、再現可能な解析と説明できる研究メモです。</li>
+<li>このチュートリアルの成果は、再現可能な解析と、結果を自分の言葉で説明できる研究メモです。</li>
 </ul>
 </div>
 </div>

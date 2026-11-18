@@ -379,12 +379,12 @@ print(report)
 
 # 6-C. 結果だけをZIPにまとめる（必要に応じてダウンロード）
 import zipfile
-archive = Path('findex_results.zip')
+archive = Path('retina_results.zip')
 with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
     for p in sorted(OUT.rglob('*')):
         if p.is_file():
             z.write(p, arcname=str(p))
-print('Saved:', archive.resolve())
+print('Saved:', archive)
 # Colabで自動ダウンロードする場合のみ、次の2行を有効にする：
 # from google.colab import files
 # files.download(str(archive))

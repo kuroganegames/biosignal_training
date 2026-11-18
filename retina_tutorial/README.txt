@@ -1,16 +1,23 @@
-ファインデックスの研究開発を半日で体験する
+網膜感度データ解析チュートリアル
 視野検査のばらつきを理解し、次回の測定値を予測する
 作成日：2026-11-08（日本時間）
 
+このリポジトリについて
+ChatGPTに網膜データを用いた解析のチュートリアルを作成してもらい、
+できるだけコードを見ずに、説明・図・実行結果を中心に解析を進めた記録です。
+使用するのは、視野検査で測定された網膜感度の数値データです。
+
 開始するには
-1. findex_halfday.ipynb をGoogle ColabまたはJupyterで開いてください。
-2. 上からセルを実行し、各章の「考える」をメモしてください。休憩を含み4時間です。
+1. retina_tutorial.ipynb をGoogle ColabまたはJupyterで開いてください。
+2. 上からセルを実行し、説明・図・結果を確認しながら、各章の「考える」をメモしてください。
 3. 教材用の実データはNotebook内に同梱されています。データ取得・R・GPUは不要です。
-4. コードを実行せず読む場合、findex_halfday_guide.htmlに説明・実行例・図があります。
+4. コードを実行せず読む場合、retina_tutorial_guide.htmlに説明・実行例・図があります。
 
 ファイル
-  findex_halfday.ipynb : 日本語の解説と実行可能なコード、検証済み実行結果
-  findex_halfday_guide.html : ブラウザで読める実行結果付き教材
+  retina_tutorial.ipynb : 日本語の解説と実行可能なコード、実行結果
+  retina_tutorial_guide.html : ブラウザで読める実行結果付き教材
+  retina_beginner_glossary.html : 初学者向け用語集
+  retina_exploration.ipynb : 探索的な解析の記録
   run_analysis.py : Notebookと同じ順のコードをまとめたスクリプト
   requirements.txt : 解析に必要なライブラリ
   data/ : 公開データ、位置地図、固定ソース、ライセンス、出典・変換記録
@@ -20,7 +27,7 @@
   python -m venv .venv
   # 環境を有効化後
   python -m pip install -r requirements.txt
-  jupyter notebook findex_halfday.ipynb
+  jupyter notebook retina_tutorial.ipynb
   # Notebookを使わず実行する場合
   python run_analysis.py
 
@@ -41,4 +48,4 @@
   CSV化で日付をISO文字列に変換。その他の測定値は変更していません。
   位置座標は右眼基準。左眼の臨床的表示には水平反転が必要です。
 
-公開求人と研究をもとに独立に作成した教材で、ファインデックスの監修教材ではありません。
+解析結果はoutputs/に保存され、retina_results.zipにまとめられます。
