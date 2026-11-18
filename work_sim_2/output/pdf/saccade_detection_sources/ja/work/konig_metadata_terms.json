@@ -1,0 +1,47 @@
+[
+  {
+    "document": "04_Konig_Buffalo_2014_ja.pdf",
+    "page": 1,
+    "rect": [
+      84.4,
+      172.8,
+      510,
+      209.4
+    ],
+    "text": "クラスタ分析による固視・サッケードのノンパラメトリック検出法：恣意的な閾値を不要にする",
+    "size": 12.5,
+    "font": "JPB",
+    "actual_font_size": 12.5,
+    "rendered_height": 30.0
+  },
+  {
+    "document": "04_Konig_Buffalo_2014_ja.pdf",
+    "page": 1,
+    "rect": [
+      84.4,
+      212,
+      499,
+      225
+    ],
+    "text": "Seth D. König [a,b,e] · Elizabeth A. Buffalo [b,c,d,*]",
+    "size": 9,
+    "actual_font_size": 9,
+    "rendered_height": 10.799999999999999
+  },
+  {
+    "document": "04_Konig_Buffalo_2014_ja.pdf",
+    "page": 9,
+    "rect": [
+      84.47571868896485,
+      103.34794921875,
+      334.93833618164064,
+      126.17812042236328
+    ],
+    "text": "Cluster Fixは、より小さなサッケードを正しく識別できることに確信している。なぜなら、これらのより小さなサッケードはスキャン",
+    "before": "クラスターフィクスは、より小さなサッケードを正しく識別できることに確信している。なぜなら、これらのより小さなサッケードはスキャン",
+    "size": 7.571595191955566,
+    "lineheight": 1.08,
+    "actual_font_size": 7.572,
+    "rendered_height": 16.354645614624026
+  }
+]

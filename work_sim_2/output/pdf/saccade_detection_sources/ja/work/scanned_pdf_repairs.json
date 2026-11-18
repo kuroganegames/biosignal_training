@@ -1,0 +1,178 @@
+[
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 2,
+    "action": "restore_original_figure",
+    "rect": [
+      47.66421890258789,
+      492.6767272949219,
+      287.0014953613281,
+      738.1862182617188
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 3,
+    "action": "restore_original_figure",
+    "rect": [
+      51.44673538208008,
+      132.9047088623047,
+      280.1251220703125,
+      459.8201599121094
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 4,
+    "action": "restore_original_figure",
+    "rect": [
+      47.13966751098633,
+      409.903076171875,
+      277.2704772949219,
+      730.355224609375
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 4,
+    "action": "restore_original_figure",
+    "rect": [
+      317.6578063964844,
+      128.49044799804688,
+      550.63232421875,
+      299.7126770019531
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 5,
+    "action": "restore_original_figure",
+    "rect": [
+      53.55128479003906,
+      174.41123962402344,
+      278.32427978515625,
+      418.1796875
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 5,
+    "action": "restore_original_figure",
+    "rect": [
+      308.4887390136719,
+      35.10916519165039,
+      555.5850830078125,
+      473.0135192871094
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 7,
+    "action": "restore_original_figure",
+    "rect": [
+      310.4072570800781,
+      261.169921875,
+      375.2524719238281,
+      341.8130187988281
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 7,
+    "action": "restore_original_figure",
+    "rect": [
+      310.35577392578125,
+      139.36915588378906,
+      375.1248779296875,
+      222.2406005859375
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 7,
+    "action": "restore_original_figure",
+    "rect": [
+      38.0042839050293,
+      140.71041870117188,
+      103.23938751220703,
+      225.10289001464844
+    ]
+  },
+  {
+    "document": "08_Sauter_et_al_1991",
+    "page": 7,
+    "action": "restore_original_figure",
+    "rect": [
+      41.0338020324707,
+      260.23583984375,
+      104.22772216796875,
+      343.6022033691406
+    ]
+  },
+  {
+    "document": "09_Bahill_et_al_1981",
+    "page": 2,
+    "action": "restore_original_figure",
+    "rect": [
+      127.6651611328125,
+      141.62295532226562,
+      467.0730895996094,
+      334.1251525878906
+    ]
+  },
+  {
+    "document": "09_Bahill_et_al_1981",
+    "page": 3,
+    "action": "restore_original_figure",
+    "rect": [
+      88.98480224609375,
+      137.1990966796875,
+      286.6324768066406,
+      436.6056213378906
+    ]
+  },
+  {
+    "document": "09_Bahill_et_al_1981",
+    "page": 4,
+    "action": "restore_original_figure",
+    "rect": [
+      307.3934020996094,
+      139.82151794433594,
+      501.0829772949219,
+      433.0666809082031
+    ]
+  },
+  {
+    "document": "09_Bahill_et_al_1981",
+    "page": 5,
+    "action": "restore_original_figure",
+    "rect": [
+      163.30917358398438,
+      138.5267791748047,
+      435.4506530761719,
+      368.1478271484375
+    ]
+  },
+  {
+    "document": "09_Bahill_et_al_1981",
+    "page": 6,
+    "action": "restore_original_figure",
+    "rect": [
+      114.2007827758789,
+      141.08599853515625,
+      478.7472839355469,
+      303.75408935546875
+    ]
+  },
+  {
+    "document": "09_Bahill_et_al_1981",
+    "page": 7,
+    "action": "restore_original_figure",
+    "rect": [
+      124.65935516357422,
+      140.3512420654297,
+      256.8543395996094,
+      553.5626220703125
+    ]
+  }
+]

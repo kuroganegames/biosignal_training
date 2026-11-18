@@ -1,0 +1,47 @@
+[
+  {
+    "document": "03_Friedman_et_al_2018_ja.pdf",
+    "page": 1,
+    "rect": [
+      50.8,
+      100.2,
+      545,
+      141
+    ],
+    "text": "読書中の眼球運動分類に関する、関連する2手法と独立した2手法の新たな評価",
+    "size": 14,
+    "font": "JPB",
+    "actual_font_size": 14,
+    "rendered_height": 16.8
+  },
+  {
+    "document": "03_Friedman_et_al_2018_ja.pdf",
+    "page": 1,
+    "rect": [
+      51.2,
+      150.9,
+      545,
+      165
+    ],
+    "text": "Lee Friedman [1] · Ioannis Rigas [1] · Evgeny Abdulin [1] · Oleg V. Komogortsev [1]",
+    "size": 8.3,
+    "actual_font_size": 8.3,
+    "rendered_height": 9.96
+  },
+  {
+    "document": "03_Friedman_et_al_2018_ja.pdf",
+    "page": 1,
+    "rect": [
+      306.0255554199219,
+      431.6846496582031,
+      538.0940307617187,
+      444.54498901367185
+    ],
+    "text": "手法において、著者らはその適応的^特性に注目し、個々",
+    "before": "手法において、著者らはそのBadaptive^特性に注目し、個々",
+    "size": 8.468210220336914,
+    "lineheight": 1.02,
+    "actual_font_size": 8.468,
+    "rendered_height": 8.637574424743653
+  }
+]

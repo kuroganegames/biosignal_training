@@ -1,0 +1,392 @@
+[
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      36,
+      75,
+      575,
+      130
+    ],
+    "text": "陰的な区分多項式近似を用いた正常サッケードおよび低速サッケードの検出",
+    "font": "JPB",
+    "size": 17,
+    "actual_font_size": 17,
+    "rendered_height": 40.8
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      36,
+      154,
+      222,
+      179
+    ],
+    "text": "Weiwei Dai",
+    "font": "JPB",
+    "size": 14,
+    "actual_font_size": 14,
+    "rendered_height": 16.8
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      36,
+      205,
+      221,
+      226
+    ],
+    "text": "Ivan Selesnick",
+    "font": "JPB",
+    "size": 14,
+    "actual_font_size": 14,
+    "rendered_height": 16.8
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      36,
+      244,
+      221,
+      279
+    ],
+    "text": "John-Ross Rizzo",
+    "font": "JPB",
+    "size": 14,
+    "actual_font_size": 14,
+    "rendered_height": 16.8
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      36,
+      281,
+      221,
+      315.1
+    ],
+    "text": "Janet Rucker",
+    "font": "JPB",
+    "size": 14,
+    "actual_font_size": 14,
+    "rendered_height": 16.8
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      36,
+      316,
+      221,
+      337
+    ],
+    "text": "Todd Hudson",
+    "font": "JPB",
+    "size": 14,
+    "actual_font_size": 14,
+    "rendered_height": 16.8
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      36.8,
+      360.8,
+      294.2,
+      599
+    ],
+    "text": "眼球運動データ中のサッケードを定量的に解析すると、意図、認知、健康状態に関連する情報が明らかになる。異常に低速なサッケードは神経疾患の徴候であり、特定の病理学的障害を示唆することが多い。しかし、従来のサッケード検出アルゴリズムは低速サッケードの検出を目的として設計されておらず、サッケードが異常に低速である場合には信頼性が低い。本論文では、正常サッケードと低速サッケードの双方の検出に有効なアルゴリズムを提案する。提案法は、サッケード波形を区分二次信号としてモデル化することに一部基づいている。まず、所定の目的関数を最小化する最適化によって取得したアイトラッキングデータのノイズを低減し、次に速度閾値処理によってサッケードを検出する。シミュレーションによるサッケード、および健常者と患者において生じた実際のサッケードを用いて、提案法と他の10種類の検出アルゴリズムの性能を評価する。提案法は、正常サッケードと低速サッケードの両方を、他のアルゴリズムよりも正確に検出することを示す。",
+    "font": "JPB",
+    "size": 9.3,
+    "actual_font_size": 9.3,
+    "rendered_height": 189.72
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      37,
+      715.8,
+      574,
+      744
+    ],
+    "text": "Citation: Dai, W., Selesnick, I., Rizzo, J.-R., Rucker, J., & Hudson, T. (2021). Detection of normal and slow saccades using implicit piecewise polynomial approximation. Journal of Vision, 21(6):8, 1–18, https://doi.org/10.1167/jov.21.6.8.",
+    "font": "JP",
+    "size": 8,
+    "actual_font_size": 8,
+    "rendered_height": 19.2
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 1,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 2,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 3,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 4,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 5,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 6,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 7,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 8,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 9,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 10,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 11,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 12,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 13,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 14,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 15,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 16,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 17,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  },
+  {
+    "document": "00_Dai_et_al_2021_target_ja.pdf",
+    "page": 18,
+    "rect": [
+      37,
+      34.8,
+      239,
+      49
+    ],
+    "text": "Journal of Vision (2021) 21(6):8, 1-18",
+    "font": "JP",
+    "size": 7.8,
+    "actual_font_size": 7.8,
+    "rendered_height": 9.36
+  }
+]

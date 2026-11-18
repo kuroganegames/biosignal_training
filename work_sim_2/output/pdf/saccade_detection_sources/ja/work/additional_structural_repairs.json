@@ -1,0 +1,12 @@
+[
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 3,
+    "action": "Fix malformed inline image color space /CS//D to /CS /DeviceGray /D; restore original HMM figure at rectangle [358,388,519,486]. Restores rendering of the following Japanese caption and paragraphs."
+  },
+  {
+    "document": "02_Nystrom_Holmqvist_2010_ja.pdf",
+    "page": 7,
+    "action": "Restore original table 2 threshold formula cells from [282.5,151.6,415,183.2] after detecting translated variable labels."
+  }
+]

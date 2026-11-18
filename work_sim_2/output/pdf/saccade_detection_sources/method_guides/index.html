@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>サッケード検出法：手法別技術解説</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7f8;color:#202d36;font:16px/1.8 system-ui,"Noto Sans CJK JP",sans-serif}
+main{max-width:1120px;margin:auto;padding:40px 28px 72px}h1{font-size:30px;line-height:1.5;margin:8px 0 18px}h2{font-size:22px;margin:30px 0 12px}
+p{margin:12px 0}a{color:#0b627d;text-underline-offset:3px}.meta{font-size:13px;color:#516570}.summary{padding:16px 22px;background:#eaf1f3;border-left:4px solid #347987}
+.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;background:#fff;font-size:14px}th,td{border-bottom:1px solid #d9e1e6;padding:15px 16px;text-align:left;vertical-align:top}thead{background:#e7eef1}tbody th{width:26%;min-width:190px}td.pages{white-space:nowrap}td.files{min-width:90px}td.files a{display:block;padding:3px 0}.download{display:inline-block;padding:8px 16px;margin:8px 0;background:#fff;border:1px solid #a7c3cd;border-radius:5px;text-decoration:none}
+@media(max-width:650px){main{padding:24px 16px}h1{font-size:25px}table{min-width:780px}}@media print{body{background:#fff}main{padding:0}tr{break-inside:avoid}a{color:inherit}}
+</style></head><body><main>
+<p class="meta">サッケード検出法の技術解説 · 作成日 2026年11月18日</p>
+<h1>各手法の原理と実装手順</h1>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8212426/">Daiら（2021）</a>の比較対象10手法と、Daiら自身の提案法を、手法別の日本語ドキュメントにまとめました。各4～5ページ、合計45ページです。</p>
+<div class="summary"><p>各冊の内容：入力と出力、原理と数式、具体的な処理手順、必要なパラメータ、擬似コード、数値例、長所と制約、検証項目、原典と確認箇所。</p>
+<p>原論文の方法を整理した技術解説です。パラメータは原著の設定例、数値例は説明用に作成した例として区別しています。擬似コードは処理を理解するためのもので、性能を検証済みの実装ではありません。</p></div>
+<p><a class="download" href="saccade_method_guides_ja.pdf">全11手法の合本PDFを開く（45ページ・しおり付き）</a></p>
+<h2>手法別ドキュメント</h2>
+<div class="tablewrap"><table><thead><tr><th>手法</th><th>解説の中心</th><th>頁数</th><th>ファイル</th></tr></thead><tbody>
+<tr><th scope="row">VT 速度閾値法</th>
+<td>視線が速く動く区間をサッケードと判定する、最も基本的な方法である。性能を左右するのは速度閾値だけでなく、速度の求め方と、短い区間をどのように扱うかである。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/01_VT_ja.pdf">PDF</a>
+<a href="docx/01_VT_ja.docx">Word</a></td></tr>
+<tr><th scope="row">DT 分散度閾値法</th>
+<td>一定時間にわたって視線点が狭い範囲に留まることを固視の条件とする。サッケードを速度から直接検出する方法ではなく、固視のまとまりを探す方法として理解すると実装しやすい。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/02_DT_ja.pdf">PDF</a>
+<a href="docx/02_DT_ja.docx">Word</a></td></tr>
+<tr><th scope="row">Engbert Kliegl 適応速度閾値法</th>
+<td>速度分布の中心にある固視雑音から外れた点を、水平・垂直それぞれの雑音尺度に応じて検出する。原著は両眼で重なるイベントを採用し、単眼の雑音候補を減らす。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/03_Engbert_Kliegl_ja.pdf">PDF</a>
+<a href="docx/03_Engbert_Kliegl_ja.docx">Word</a></td></tr>
+<tr><th scope="row">Nystrom Holmqvist 適応検出法</th>
+<td>固視雑音からピーク検出閾値を反復推定し、候補の前後を探索してサッケード境界を決める。終了点には直前の局所雑音を使い、続くグリセードを独立に扱う。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/04_Nystrom_Holmqvist_ja.pdf">PDF</a>
+<a href="docx/04_Nystrom_Holmqvist_ja.docx">Word</a></td></tr>
+<tr><th scope="row">Friedman MNH 修正適応検出法</th>
+<td>NHの枠組みを使いながら、速度閾値を固定し、平滑化を弱め、位置波形に合うように開始・終了点を補正する。振動性雑音とPSO（サッケード後振動）の処理も変更している。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/05_Friedman_MNH_ja.pdf">PDF</a>
+<a href="docx/05_Friedman_MNH_ja.docx">Word</a></td></tr>
+<tr><th scope="row">Cluster Fix クラスタリング検出法</th>
+<td>速度だけでは区別しにくい運動を、距離・加速度・軌跡方向の変化も含めた特徴空間で分ける。大きい運動の影に隠れた小さいサッケードを、固視周辺の局所解析で探し直す。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/06_Cluster_Fix_ja.pdf">PDF</a>
+<a href="docx/06_Cluster_Fix_ja.docx">Word</a></td></tr>
+<tr><th scope="row">Zemblys IRF ランダムフォレスト検出法</th>
+<td>各時点の周辺から多種類の特徴を取り出し、ランダムフォレストで固視・サッケード・PSO（サッケード後振動）の確率を求める。確率の時間平滑化とイベント単位の規則を経て最終ラベルにする。</td><td class="pages">5頁</td>
+<td class="files"><a href="pdf/07_Zemblys_IRF_ja.pdf">PDF</a>
+<a href="docx/07_Zemblys_IRF_ja.docx">Word</a></td></tr>
+<tr><th scope="row">HMM 隠れマルコフモデル検出法</th>
+<td>1点の速度だけで決めず、固視とサッケードが時間的に続く傾向を確率として利用する。観測された速度列を最もよく説明する状態列を、Viterbi法で求める。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/08_HMM_ja.pdf">PDF</a>
+<a href="docx/08_HMM_ja.docx">Word</a></td></tr>
+<tr><th scope="row">MST 最小全域木検出法</th>
+<td>視線点の空間的なまとまりを木構造で表し、まとまり同士をつなぐ長い辺を分離する。木の辺は時間的に隣接するサンプルだけを結ぶものではないため、時間ラベルへの戻し方が重要になる。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/09_MST_ja.pdf">PDF</a>
+<a href="docx/09_MST_ja.docx">Word</a></td></tr>
+<tr><th scope="row">KF カルマン予測残差検出法</th>
+<td>滑らかな運動なら予測できるという仮定の下で、予測に合わない急変を検出する。絶対的に速度が速いかどうかではなく、予測誤差が通常の雑音に比べて大きいかを判定する。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/10_KF_Sauter_ja.pdf">PDF</a>
+<a href="docx/10_KF_Sauter_ja.docx">Word</a></td></tr>
+<tr><th scope="row">Dai 区分多項式近似による検出法</th>
+<td>固視はほぼ一定、サッケードはおおむね区分2次多項式という仮定を使い、眼位の1階差分と3階差分を同時に疎にする。雑音除去後の速度に固定閾値を適用し、通常・低速サッケードを検出する。</td><td class="pages">4頁</td>
+<td class="files"><a href="pdf/11_Dai_2021_ja.pdf">PDF</a>
+<a href="docx/11_Dai_2021_ja.docx">Word</a></td></tr>
+</tbody></table></div>
+<h2>読み方と収録範囲</h2>
+<p>PDF版とWord版の本文は同じです。Word版では本文と表を編集できます。数式は表示を安定させるため画像として挿入しています。合本PDFのページ欄には各冊のページ番号が表示され、しおりから手法を選択できます。</p>
+<p>VT・DTの代表的原理、HMM・MST・KFの比較実装と原典の違い、MNHで変更された境界処理、IRFの2019年訂正を明記しています。IRFには14種類の初期特徴量と計算窓の説明を追加しました。論文12本と検出手法の数は一致しません。背景文献・訂正論文は対応する手法の参考資料に含めています。</p>
+<p>引用文献のDOIと、収集した原文PDF内の確認箇所を各冊の末尾に記載しました。<a href="manifest.json">ファイル一覧・文献情報・SHA-256</a></p>
+</main></body></html>

@@ -1,0 +1,82 @@
+[
+  {
+    "document": "01_Engbert_Kliegl_2003_ja.pdf",
+    "page": 1,
+    "rect": [
+      203.8,
+      174.2,
+      384,
+      188
+    ],
+    "text": "Ralf Engbert*, Reinhold Kliegl",
+    "size": 9.5,
+    "align": 1,
+    "font": "JP",
+    "actual_font_size": 9.5,
+    "rendered_height": 11.4
+  },
+  {
+    "document": "01_Engbert_Kliegl_2003_ja.pdf",
+    "page": 1,
+    "rect": [
+      42.4,
+      249,
+      150,
+      262
+    ],
+    "text": "要旨",
+    "size": 9.5,
+    "align": 0,
+    "font": "JPB",
+    "actual_font_size": 9.5,
+    "rendered_height": 11.4
+  },
+  {
+    "document": "01_Engbert_Kliegl_2003_ja.pdf",
+    "page": 1,
+    "rect": [
+      42.4,
+      263.8,
+      545,
+      337.5
+    ],
+    "text": "固視微動は、トレモア、ドリフト、マイクロサッケードに分類される。この3種類の微小眼球運動は、静止した場面を観察するとき、網膜像に小さなランダムな変位を生じさせる。本研究では、古典的な空間的手がかり課題において、潜在的注意の移動がマイクロサッケードをどのように変調するかを調べる。第1に、手がかり提示から約150 ms後に発生頻度が最小となるマイクロサッケードの抑制を再現した。第2に、新しい知見として、提示から約350 ms後に発生頻度が最大となる増強を観察した。第3に、マイクロサッケードの方向が手がかりの方向へ偏ることを見いだした。視覚的注意がもたらすこれらの複数の効果は、マイクロサッケードが視覚情報処理で果たす役割を際立たせる。また、心理物理学実験における視覚的注意の方向を調べるために、マイクロサッケードを利用できることを示唆する。",
+    "size": 9.1,
+    "align": 0,
+    "font": "JP",
+    "actual_font_size": 8.6,
+    "rendered_height": 72.24000000000001
+  },
+  {
+    "document": "01_Engbert_Kliegl_2003_ja.pdf",
+    "page": 1,
+    "rect": [
+      42.4,
+      340.8,
+      545,
+      358.5
+    ],
+    "text": "© 2003 Elsevier Science Ltd. All rights reserved.",
+    "size": 8,
+    "align": 0,
+    "font": "JP",
+    "actual_font_size": 8,
+    "rendered_height": 9.6
+  },
+  {
+    "document": "01_Engbert_Kliegl_2003_ja.pdf",
+    "page": 1,
+    "rect": [
+      42.4,
+      360.2,
+      545,
+      372
+    ],
+    "text": "キーワード：注意、マイクロサッケード、眼球運動、抑制、空間的手がかり",
+    "size": 8,
+    "align": 0,
+    "font": "JP",
+    "actual_font_size": 8,
+    "rendered_height": 9.6
+  }
+]

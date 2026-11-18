@@ -1,0 +1,13 @@
+{
+  "index.html": {
+    "local_links": "passed",
+    "method_rows": 0
+  },
+  "saccade_methods_comparison_ja.html": {
+    "local_links": "passed",
+    "method_rows": 11
+  },
+  "unchanged_pdf_hashes": 36,
+  "zip_integrity_and_local_links": "passed",
+  "browser_visual_check": "not performed: local file URLs blocked by browser policy"
+}

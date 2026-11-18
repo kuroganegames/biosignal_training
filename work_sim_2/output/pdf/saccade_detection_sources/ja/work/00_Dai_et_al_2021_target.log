@@ -1,0 +1,94 @@
+[11/18/26 06:16:34] INFO     INFO:babeldoc.docvision.base_d base_doclayout.py:43
+                             oclayout:Loading ONNX model...                     
+                    INFO     INFO:babeldoc.docvision.doclayout:A doclayout.py:73
+                             vailable Provider:                                 
+                             CPUExecutionProvider                               
+                    INFO     INFO:babeldoc.main:Loaded glossary      main.py:625
+                             'glossary' with 64 entries.                        
+                    INFO     INFO:babeldoc.main:工作目录不存在，创建 main.py:666
+                             ：/tmp/saccade_babeldoc_work/00_Dai_et_            
+                             al_2021_target                                     
+                    WARNING  WARNING:babeldoc.format.p translation_config.py:254
+                             df.translation_config:Wat                          
+                             ermark output mode is                              
+                             deprecated: it no longer                           
+                             adds a watermark; it                               
+                             still controls output                              
+                             file names and count.                              
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:583
+                             el:start to translate:                             
+                             /media/kurogane/backup/bisignal_t                  
+                             raining/work_sim_2/output/pdf/sac                  
+                             cade_detection_sources/00_Dai_et_                  
+                             al_2021_target.pdf                                 
+[11/18/26 06:22:41] INFO     INFO:babeldoc.format.pdf.documen pdf_creater.py:548
+                             t_il.backend.pdf_creater:Font                      
+                             subsetting completed                               
+                             successfully                                       
+[11/18/26 06:22:42] INFO     INFO:babeldoc.format.pdf.documen pdf_creater.py:659
+                             t_il.backend.pdf_creater:PDF                       
+                             save with clean=True completed                     
+                             successfully                                       
+                    INFO     INFO:babeldoc.format.pdf.documen pdf_creater.py:659
+                             t_il.backend.pdf_creater:PDF                       
+                             save with clean=True completed                     
+                             successfully                                       
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:457
+                             el:Peak memory usage: 2673.03 MB                   
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:748
+                             el:finish translate:                               
+                             /media/kurogane/backup/bisignal_t                  
+                             raining/work_sim_2/output/pdf/sac                  
+                             cade_detection_sources/00_Dai_et_                  
+                             al_2021_target.pdf, cost:                          
+                             366.74415135383606 s                               
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:813
+                             el:skipping TOC migration for                      
+                             "use_alternating_pages_dual" mode                  
+translate                                              ━━━━━ 100/… 0:06:… 0:00:…
+Parse PDF and Create Intermediate Representation (1/1) ━━━━━ 18/18 0:00:… 0:00:…
+DetectScannedFile (1/1)                                ━━━━━ 18/18 0:00:… 0:00:…
+Parse Page Layout (1/1)                                ━━━━━ 36/36 0:00:… 0:00:…
+Parse Paragraphs (1/1)                                 ━━━━━ 18/18 0:00:… 0:00:…
+Parse Formulas and Styles (1/1)                        ━━━━━ 18/18 0:00:… 0:00:…
+Translate Paragraphs (1/1)                             ━━━━━ 1342… 0:05:… 0:00:…
+Typesetting (1/1)                                      ━━━━━ 18/18 0:00:… 0:00:…
+Add Fonts (1/1)                                        ━━━━━ 637/… 0:00:… 0:00:…
+Generate drawing instructions (1/1)                    ━━━━━ 18/18 0:00:… 0:00:…
+Subset font (1/1)                                      ━━━━━ 1/1   0:00:… 0:00:…
+Save PDF (1/1)                                         ━━━━━ 2/2   0:00:… 0:00:…
+                    INFO     INFO:babeldoc.main:Translation results: main.py:782
+                                     Original PDF:                              
+                             /media/kurogane/backup/bisignal_trainin            
+                             g/work_sim_2/output/pdf/saccade_detecti            
+                             on_sources/00_Dai_et_al_2021_target.pdf            
+                                     Total time: 366.74 seconds                 
+                                     Monolingual PDF:                           
+                             /media/kurogane/backup/bisignal_trainin            
+                             g/work_sim_2/output/pdf/saccade_detecti            
+                             on_sources/ja/00_Dai_et_al_2021_target.            
+                             no_watermark.ja.mono.pdf                           
+                                     Dual-language PDF:                         
+                             /media/kurogane/backup/bisignal_trainin            
+                             g/work_sim_2/output/pdf/saccade_detecti            
+                             on_sources/ja/00_Dai_et_al_2021_target.            
+                             no_watermark.ja.dual.pdf                           
+                                     Peak memory usage:                         
+                             2673.02734375 MB                                   
+                                     Total valid character count:               
+                             55278                                              
+                                     Total valid text token count               
+                             (gpt-4o): 17368                                    
+                    INFO     INFO:babeldoc.main:Total tokens: 374828 main.py:791
+                    INFO     INFO:babeldoc.main:Prompt tokens:       main.py:792
+                             329459                                             
+                    INFO     INFO:babeldoc.main:Completion tokens:   main.py:793
+                             45369                                              
+                    INFO     INFO:babeldoc.main:Cache hit prompt     main.py:794
+                             tokens: 0                                          
+                    INFO     INFO:babeldoc.main:Term extraction      main.py:797
+                             tokens: total=0 prompt=0 completion=0              
+                             cache_hit_prompt=0                                 
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:421
+                             el:Waiting for translation to                      
+                             finish...                                          

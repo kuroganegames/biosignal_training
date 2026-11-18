@@ -1,0 +1,13 @@
+{
+  "documents": 12,
+  "source_and_translation_pdfs_unchanged": 36,
+  "source_pages_preserved": 156,
+  "rendered_and_visually_checked_pages": 49,
+  "annotations": 260,
+  "html_local_links_checked": 63,
+  "zip_members": 14,
+  "zip_crc_ok": true,
+  "zip_sha256": "398c70996ca53593afe921cd408fdce3a10d231eeabe48180ac46a69b845cf9c",
+  "zip_bytes": 12452975,
+  "pdf_content_preserved": true
+}

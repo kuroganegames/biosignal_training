@@ -1,0 +1,154 @@
+{
+  "started": "2026-11-18",
+  "engine": "BabelDOC 0.7.1",
+  "model": "saccade-ja-v2",
+  "endpoint": "local Ollama, no document text sent externally",
+  "status": "complete",
+  "documents": [
+    {
+      "source": "11_Zemblys_et_al_2019_Correction.pdf",
+      "started_at": 1794949724.2465591,
+      "status": "generated",
+      "finished_at": 1794949772.3719933,
+      "seconds": 48.1,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "11_Zemblys_et_al_2019_Correction_ja.pdf",
+        "dual": "11_Zemblys_et_al_2019_Correction_en_ja.pdf"
+      }
+    },
+    {
+      "source": "08_Sauter_et_al_1991.pdf",
+      "started_at": 1794949772.3723378,
+      "status": "generated",
+      "finished_at": 1794949949.5549483,
+      "seconds": 177.2,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "08_Sauter_et_al_1991_ja.pdf",
+        "dual": "08_Sauter_et_al_1991_en_ja.pdf"
+      }
+    },
+    {
+      "source": "09_Bahill_et_al_1981.pdf",
+      "started_at": 1794949949.5552828,
+      "status": "generated",
+      "finished_at": 1794950193.7510471,
+      "seconds": 244.2,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "09_Bahill_et_al_1981_ja.pdf",
+        "dual": "09_Bahill_et_al_1981_en_ja.pdf"
+      }
+    },
+    {
+      "source": "00_Dai_et_al_2021_target.pdf",
+      "started_at": 1794950193.7513928,
+      "status": "generated",
+      "finished_at": 1794950562.988062,
+      "seconds": 369.2,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "00_Dai_et_al_2021_target_ja.pdf",
+        "dual": "00_Dai_et_al_2021_target_en_ja.pdf"
+      }
+    },
+    {
+      "source": "01_Engbert_Kliegl_2003.pdf",
+      "started_at": 1794950562.9884236,
+      "status": "generated",
+      "finished_at": 1794950798.7080834,
+      "seconds": 235.7,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "01_Engbert_Kliegl_2003_ja.pdf",
+        "dual": "01_Engbert_Kliegl_2003_en_ja.pdf"
+      }
+    },
+    {
+      "source": "02_Nystrom_Holmqvist_2010.pdf",
+      "started_at": 1794950798.7084165,
+      "status": "generated",
+      "finished_at": 1794951158.9750605,
+      "seconds": 360.3,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "02_Nystrom_Holmqvist_2010_ja.pdf",
+        "dual": "02_Nystrom_Holmqvist_2010_en_ja.pdf"
+      }
+    },
+    {
+      "source": "03_Friedman_et_al_2018.pdf",
+      "started_at": 1794951158.975452,
+      "status": "generated",
+      "finished_at": 1794951756.3719935,
+      "seconds": 597.4,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "03_Friedman_et_al_2018_ja.pdf",
+        "dual": "03_Friedman_et_al_2018_en_ja.pdf"
+      }
+    },
+    {
+      "source": "04_Konig_Buffalo_2014.pdf",
+      "started_at": 1794951756.3723772,
+      "status": "generated",
+      "finished_at": 1794952139.1707015,
+      "seconds": 382.8,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "04_Konig_Buffalo_2014_ja.pdf",
+        "dual": "04_Konig_Buffalo_2014_en_ja.pdf"
+      }
+    },
+    {
+      "source": "05_Zemblys_et_al_2018.pdf",
+      "started_at": 1794952575.2298007,
+      "status": "generated",
+      "finished_at": 1794952755.2151368,
+      "seconds": 180.0,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "05_Zemblys_et_al_2018_ja.pdf",
+        "dual": "05_Zemblys_et_al_2018_en_ja.pdf"
+      }
+    },
+    {
+      "source": "06_Salvucci_Goldberg_2000.pdf",
+      "started_at": 1794952755.2155876,
+      "status": "generated",
+      "finished_at": 1794952952.1364875,
+      "seconds": 196.9,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "06_Salvucci_Goldberg_2000_ja.pdf",
+        "dual": "06_Salvucci_Goldberg_2000_en_ja.pdf"
+      }
+    },
+    {
+      "source": "07_Komogortsev_et_al_2010.pdf",
+      "started_at": 1794952952.1368766,
+      "status": "generated",
+      "finished_at": 1794953290.7711778,
+      "seconds": 338.6,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "07_Komogortsev_et_al_2010_ja.pdf",
+        "dual": "07_Komogortsev_et_al_2010_en_ja.pdf"
+      }
+    },
+    {
+      "source": "10_Blignaut_2009.pdf",
+      "started_at": 1794953290.7716353,
+      "status": "generated",
+      "finished_at": 1794953637.208718,
+      "seconds": 346.4,
+      "exit_code": 0,
+      "outputs": {
+        "mono": "10_Blignaut_2009_ja.pdf",
+        "dual": "10_Blignaut_2009_en_ja.pdf"
+      }
+    }
+  ],
+  "validation": "All 12 papers translated, original hashes unchanged, 156 Japanese pages, 312 bilingual pages, 157 combined pages; package links and ZIP integrity passed."
+}

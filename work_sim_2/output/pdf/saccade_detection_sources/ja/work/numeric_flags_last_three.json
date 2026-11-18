@@ -1,0 +1,11 @@
+[
+  {
+    "document": "06_Salvucci_Goldberg_2000.pdf",
+    "missing": [
+      "200",
+      "400"
+    ],
+    "source": "For temporal characteristics, we include two criteria: whether the algorithm uses duration information, and whether the algorithm is locally adaptive. The use of duration information is guided by the fact that fixations are rarely less than 100 ms and often in the range of 200-400 ms. The incorporation of local adaptivity allows the interpretation of a given data point to be influenced by the interpretation of temporally adjacent points; this is useful, for instance, to compensate for differences between ‘steady-eyed’ individuals and those who show large and frequent eye movements.",
+    "translation": "時間的特性に関しては、2つの基準を含める。アルゴリズムが持続時間情報を使用するかどうか、およびアルゴリズムが局所的に適応可能であるかどうかである。固視は100 ms未満となることはめったにないため、持続時間情報の使用はその事実に基づいている。局所的適応性の組み込みにより、あるデータポイントの解釈が時系列的に隣接するポイントの解釈に影響を受けることができる。これは、たとえば「安定した眼動」を行う個人と、大きな頻度で眼動を行う個人との違いを補正するために有用である。"
+  }
+]

@@ -111,7 +111,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 18,
       "sha256": "13b85ba33c4ac5366910dfb3641ee815a5aeb481bca4fccd5d9c170572a38f1f",
-      "bytes": 1006536
+      "bytes": 1006536,
+      "title_ja": "陰的な区分多項式近似を用いた正常サッケードおよび低速サッケードの検出",
+      "japanese_pdf": "ja/00_Dai_et_al_2021_target_ja.pdf",
+      "bilingual_pdf": "ja/00_Dai_et_al_2021_target_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "01_Engbert_Kliegl_2003",
@@ -134,7 +138,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 11,
       "sha256": "d36153f2b8075f66adabdd25152e3e7b436a3cedb78607dda31a4e2fbf350c51",
-      "bytes": 798574
+      "bytes": 798574,
+      "title_ja": "マイクロサッケードが明らかにする潜在的注意の方向",
+      "japanese_pdf": "ja/01_Engbert_Kliegl_2003_ja.pdf",
+      "bilingual_pdf": "ja/01_Engbert_Kliegl_2003_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "02_Nystrom_Holmqvist_2010",
@@ -157,7 +165,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 17,
       "sha256": "e9cc151203efab4addc0575be96f19dbe65d8e5f26407c834b57eb0e54050949",
-      "bytes": 1420752
+      "bytes": 1420752,
+      "title_ja": "アイトラッキングデータから固視・サッケード・グリセードを検出する適応的アルゴリズム",
+      "japanese_pdf": "ja/02_Nystrom_Holmqvist_2010_ja.pdf",
+      "bilingual_pdf": "ja/02_Nystrom_Holmqvist_2010_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "03_Friedman_et_al_2018",
@@ -180,7 +192,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 24,
       "sha256": "512255de263ff0c8bdb7d1ddc714fa58c98f9c7fa4d127c81070a201165ddc54",
-      "bytes": 2434383
+      "bytes": 2434383,
+      "title_ja": "読書中の眼球運動分類に関する、関連する2手法と独立した2手法の新たな評価",
+      "japanese_pdf": "ja/03_Friedman_et_al_2018_ja.pdf",
+      "bilingual_pdf": "ja/03_Friedman_et_al_2018_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "04_Konig_Buffalo_2014",
@@ -203,7 +219,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 11,
       "sha256": "028145b64fff480fc163a2cd47017dbf6bc8568e4b107f3be12c443fbe29d3b0",
-      "bytes": 2184221
+      "bytes": 2184221,
+      "title_ja": "クラスタ分析による固視とサッケードのノンパラメトリック検出法：恣意的な閾値を不要にする",
+      "japanese_pdf": "ja/04_Konig_Buffalo_2014_ja.pdf",
+      "bilingual_pdf": "ja/04_Konig_Buffalo_2014_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "05_Zemblys_et_al_2018",
@@ -226,7 +246,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 22,
       "sha256": "bd671b221fd8af32498c94fed69cf3351e5366474c43e501fa639a1e5e6c7740",
-      "bytes": 2514025
+      "bytes": 2514025,
+      "title_ja": "機械学習によるアイトラッキングデータのイベント検出",
+      "japanese_pdf": "ja/05_Zemblys_et_al_2018_ja.pdf",
+      "bilingual_pdf": "ja/05_Zemblys_et_al_2018_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "06_Salvucci_Goldberg_2000",
@@ -248,7 +272,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 8,
       "sha256": "33bc3befec8426d48755b32dfac13d7570f8338c7e5df406cda34439afaa7962",
-      "bytes": 432736
+      "bytes": 432736,
+      "title_ja": "アイトラッキング記録における固視とサッケードの識別",
+      "japanese_pdf": "ja/06_Salvucci_Goldberg_2000_ja.pdf",
+      "bilingual_pdf": "ja/06_Salvucci_Goldberg_2000_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "07_Komogortsev_et_al_2010",
@@ -271,7 +299,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 11,
       "sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471",
-      "bytes": 861533
+      "bytes": 861533,
+      "title_ja": "固視およびサッケード行動の自動解析の標準化",
+      "japanese_pdf": "ja/07_Komogortsev_et_al_2010_ja.pdf",
+      "bilingual_pdf": "ja/07_Komogortsev_et_al_2010_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "08_Sauter_et_al_1991",
@@ -287,11 +319,20 @@
       "doi": "10.1007/BF02446297",
       "pmid": "2016922",
       "ref": "bib56",
-      "note": "KFの原典として比較元が引用。Kalman filterのinnovationを用いてサッケードを検出する。出版社では購読対象と表示。公開全文PDFを確認できず、書誌情報と入手先のみ収録。",
+      "note": "KFの原典として比較元が引用。Kalman filterのinnovationを用いてサッケードを検出する。2026年11月18日に利用者が収集したPDFを追加。",
       "source": "https://link.springer.com/article/10.1007/BF02446297",
-      "local_pdf": null,
+      "local_pdf": "08_Sauter_et_al_1991.pdf",
       "download_url": null,
-      "accessed": "2026-11-17"
+      "accessed": "2026-11-17",
+      "pdf_pages": 7,
+      "sha256": "ba634327ba9a6385e8d2742acb83d34b8d77e6f93200e747e42723052480a721",
+      "bytes": 1298479,
+      "acquisition": "user-provided local PDF",
+      "added_on": "2026-11-18",
+      "title_ja": "カルマンフィルタが生成するイノベーションを用いた追跡眼球運動の解析",
+      "japanese_pdf": "ja/08_Sauter_et_al_1991_ja.pdf",
+      "bilingual_pdf": "ja/08_Sauter_et_al_1991_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "09_Bahill_et_al_1981",
@@ -307,11 +348,20 @@
       "doi": "",
       "pmid": "7251295",
       "ref": "bib2",
-      "note": "比較元が基本的な速度閾値法の背景として引用。ただしDaiらのVTは自作実装で、この論文の処理をそのまま再実装したと断定しない。DOIは確認できず。検索で見つかったPDFリンクは取得できず、書誌情報のみ収録。",
+      "note": "比較元が基本的な速度閾値法の背景として引用。ただしDaiらのVTは自作実装で、この論文の処理をそのまま再実装したと断定しない。DOIは確認できず。2026年11月18日に利用者が収集したPDFを追加。",
       "source": "https://pubmed.ncbi.nlm.nih.gov/7251295/",
-      "local_pdf": null,
+      "local_pdf": "09_Bahill_et_al_1981.pdf",
       "download_url": null,
-      "accessed": "2026-11-17"
+      "accessed": "2026-11-17",
+      "pdf_pages": 10,
+      "sha256": "8beb1e89a574a2cd06cb00f2831b566dba26d525eccf26ab00e75654657eeeec",
+      "bytes": 937992,
+      "acquisition": "user-provided local PDF",
+      "added_on": "2026-11-18",
+      "title_ja": "サッケード眼球運動の正常基準データベース：ばらつきとその構築",
+      "japanese_pdf": "ja/09_Bahill_et_al_1981_ja.pdf",
+      "bilingual_pdf": "ja/09_Bahill_et_al_1981_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "10_Blignaut_2009",
@@ -334,7 +384,11 @@
       "accessed": "2026-11-17",
       "pdf_pages": 15,
       "sha256": "f5eee7216750c19fd1f2130d28b33a479bfbc217c0087e6aaafd0efa2b9b39e5",
-      "bytes": 1481932
+      "bytes": 1481932,
+      "title_ja": "固視の識別：分散度アルゴリズムにおける最適な閾値",
+      "japanese_pdf": "ja/10_Blignaut_2009_ja.pdf",
+      "bilingual_pdf": "ja/10_Blignaut_2009_en_ja.pdf",
+      "translated": "2026-11-18"
     },
     {
       "id": "11_Zemblys_et_al_2019_Correction",
@@ -357,7 +411,13 @@
       "accessed": "2026-11-17",
       "pdf_pages": 2,
       "sha256": "5e0b86daf360b01db5bba619c1ac5911a613964b727bfcef8cacb8c1c070d3ab",
-      "bytes": 302366
+      "bytes": 302366,
+      "title_ja": "訂正：「機械学習によるアイトラッキングデータのイベント検出」",
+      "japanese_pdf": "ja/11_Zemblys_et_al_2019_Correction_ja.pdf",
+      "bilingual_pdf": "ja/11_Zemblys_et_al_2019_Correction_en_ja.pdf",
+      "translated": "2026-11-18"
     }
-  ]
+  ],
+  "updated": "2026-11-18",
+  "translated": "2026-11-18"
 }

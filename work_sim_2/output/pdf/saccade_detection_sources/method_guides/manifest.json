@@ -1,0 +1,409 @@
+{
+  "created": "2026-11-18",
+  "language": "ja",
+  "scope": "Dai 2021の比較対象10手法とDai提案法。原文論文に基づく手法別の技術解説。",
+  "document_count": 11,
+  "total_pages": 45,
+  "formats": [
+    "PDF",
+    "DOCX"
+  ],
+  "docx_equations": "PNG images; body text and tables are editable.",
+  "pseudocode_status": "Explanatory pseudocode; not a benchmarked detector implementation.",
+  "visual_review": "All 45 pages rendered and visually inspected; revised pages rechecked.",
+  "combined_pdf": {
+    "file": "saccade_method_guides_ja.pdf",
+    "pages": 45,
+    "bookmarks": 11,
+    "sha256": "08c13b409d1a23a8e038b67ce8725cfed7a4e0c49cd6ef4c726a7870e3bd2c45"
+  },
+  "documents": [
+    {
+      "id": "01_VT",
+      "title_ja": "VT 速度閾値法",
+      "pages": 4,
+      "combined_start_page": 1,
+      "pdf": {
+        "file": "pdf/01_VT_ja.pdf",
+        "sha256": "ef506525840065bccc60f0fe7ca62b36f7b6091ed01443fdb403c2b67bc8e79f"
+      },
+      "docx": {
+        "file": "docx/01_VT_ja.docx",
+        "sha256": "80183b6bac4ddaec8947265fb4878aa080bb73a911036a45011b32549ae63878"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Salvucci2000",
+          "title": "Identifying fixations and saccades in eye-tracking protocols",
+          "authors": "Salvucci, Dario D. and Goldberg, Joseph H.",
+          "year": 2000,
+          "doi": "10.1145/355017.355028",
+          "source": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+          "sha256": "33bc3befec8426d48755b32dfac13d7570f8338c7e5df406cda34439afaa7962"
+        },
+        {
+          "key": "Komogortsev2010",
+          "title": "Standardization of automated analyses of oculomotor fixation and saccadic behaviors",
+          "authors": "Komogortsev, Oleg V. and Gobert, Denise V. and Jayarathna, Sampath and Koh, Do Hyong and Gowda, Sandeep M.",
+          "year": 2010,
+          "doi": "10.1109/TBME.2010.2057429",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/20667803/",
+          "sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471"
+        },
+        {
+          "key": "Bahill1981",
+          "title": "Variability and development of a normative data base for saccadic eye movements",
+          "authors": "Bahill, A. Terry and Brockenbrough, Allan and Troost, B. Todd",
+          "year": 1981,
+          "doi": "",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/7251295/",
+          "sha256": "8beb1e89a574a2cd06cb00f2831b566dba26d525eccf26ab00e75654657eeeec"
+        }
+      ],
+      "source_locations": "Salvucci 2000 第3.1.1節と表2（PDF 3頁）。Komogortsev 2010 第II節 I-VT（PDF 3頁）。Bahill 1981はDai論文が引用する背景文献。"
+    },
+    {
+      "id": "02_DT",
+      "title_ja": "DT 分散度閾値法",
+      "pages": 4,
+      "combined_start_page": 5,
+      "pdf": {
+        "file": "pdf/02_DT_ja.pdf",
+        "sha256": "7d7c7c6b7977c0c914a76d512e47eddeafefbd3063ca3e9b502a47cc1c1de970"
+      },
+      "docx": {
+        "file": "docx/02_DT_ja.docx",
+        "sha256": "fba5b0027de52ef03c3b070aaf2dedf580956975767764ffd21a21023b82828e"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Salvucci2000",
+          "title": "Identifying fixations and saccades in eye-tracking protocols",
+          "authors": "Salvucci, Dario D. and Goldberg, Joseph H.",
+          "year": 2000,
+          "doi": "10.1145/355017.355028",
+          "source": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+          "sha256": "33bc3befec8426d48755b32dfac13d7570f8338c7e5df406cda34439afaa7962"
+        },
+        {
+          "key": "Blignaut2009",
+          "title": "Fixation identification: The optimum threshold for a dispersion algorithm",
+          "authors": "Blignaut, Pieter",
+          "year": 2009,
+          "doi": "10.3758/APP.71.4.881",
+          "source": "https://doi.org/10.3758/APP.71.4.881",
+          "sha256": "f5eee7216750c19fd1f2130d28b33a479bfbc217c0087e6aaafd0efa2b9b39e5"
+        },
+        {
+          "key": "Komogortsev2010",
+          "title": "Standardization of automated analyses of oculomotor fixation and saccadic behaviors",
+          "authors": "Komogortsev, Oleg V. and Gobert, Denise V. and Jayarathna, Sampath and Koh, Do Hyong and Gowda, Sandeep M.",
+          "year": 2010,
+          "doi": "10.1109/TBME.2010.2057429",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/20667803/",
+          "sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471"
+        }
+      ],
+      "source_locations": "Salvucci 2000 第3.2.1節と表4（PDF 4頁）。Komogortsev 2010 I-DT（PDF 4頁）。Blignaut 2009は分散指標と閾値の検討。"
+    },
+    {
+      "id": "03_Engbert_Kliegl",
+      "title_ja": "Engbert Kliegl 適応速度閾値法",
+      "pages": 4,
+      "combined_start_page": 9,
+      "pdf": {
+        "file": "pdf/03_Engbert_Kliegl_ja.pdf",
+        "sha256": "52ec8b6a5ffdc58b830653bc80da40161acf72e41a6d8b6d1cbf5d331ac1ee19"
+      },
+      "docx": {
+        "file": "docx/03_Engbert_Kliegl_ja.docx",
+        "sha256": "0f2c33ee597e8bcacfed81f7bd7b949f7a97e2147d1f6a371e49182b7a97b59d"
+      },
+      "equation_images": 3,
+      "references": [
+        {
+          "key": "Engbert2003",
+          "title": "Microsaccades uncover the orientation of covert attention",
+          "authors": "Engbert, Ralf and Kliegl, Reinhold",
+          "year": 2003,
+          "doi": "10.1016/S0042-6989(03)00084-1",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/12676246/",
+          "sha256": "d36153f2b8075f66adabdd25152e3e7b436a3cedb78607dda31a4e2fbf350c51"
+        }
+      ],
+      "source_locations": "Engbert and Kliegl 2003 第2節、式1～4（PDF 2頁）。生理的妥当性の確認は図2とその説明（PDF 3頁）。"
+    },
+    {
+      "id": "04_Nystrom_Holmqvist",
+      "title_ja": "Nystrom Holmqvist 適応検出法",
+      "pages": 4,
+      "combined_start_page": 13,
+      "pdf": {
+        "file": "pdf/04_Nystrom_Holmqvist_ja.pdf",
+        "sha256": "c91565e1e649f73a20258c92c30930ca528fac210fece73a37e084e709738bcb"
+      },
+      "docx": {
+        "file": "docx/04_Nystrom_Holmqvist_ja.docx",
+        "sha256": "c7fe4977a1b7e92d7f10215accf71cb618d9fd0683f622a16a997ac737bae949"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Nystrom2010",
+          "title": "An adaptive algorithm for fixation, saccade, and glissade detection in eyetracking data",
+          "authors": "Nyström, Marcus and Holmqvist, Kenneth",
+          "year": 2010,
+          "doi": "10.3758/BRM.42.1.188",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/20160299/",
+          "sha256": "e9cc151203efab4addc0575be96f19dbe65d8e5f26407c834b57eb0e54050949"
+        },
+        {
+          "key": "Friedman2018",
+          "title": "A novel evaluation of two related and two independent algorithms for eye movement classification during reading",
+          "authors": "Friedman, Lee and Rigas, Ioannis and Abdulin, Evgeny and Komogortsev, Oleg V.",
+          "year": 2018,
+          "doi": "10.3758/s13428-018-1050-7",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/29766396/",
+          "sha256": "512255de263ff0c8bdb7d1ddc714fa58c98f9c7fa4d127c81070a201165ddc54"
+        }
+      ],
+      "source_locations": "Nyström and Holmqvist 2010 表1～2、前処理・閾値推定・境界・グリセード検出（PDF 4～8頁）。Friedman 2018のONHとの差はAlgorithm narrative（PDF 4～8頁）。"
+    },
+    {
+      "id": "05_Friedman_MNH",
+      "title_ja": "Friedman MNH 修正適応検出法",
+      "pages": 4,
+      "combined_start_page": 17,
+      "pdf": {
+        "file": "pdf/05_Friedman_MNH_ja.pdf",
+        "sha256": "eb9351785a921669a7a45857c3e25956fc8ed30784cae7aa180a9e34a4003028"
+      },
+      "docx": {
+        "file": "docx/05_Friedman_MNH_ja.docx",
+        "sha256": "2183d073b6db52ae9abbce9ad0c23809708425448036d2aaa1074c2543464410"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Friedman2018",
+          "title": "A novel evaluation of two related and two independent algorithms for eye movement classification during reading",
+          "authors": "Friedman, Lee and Rigas, Ioannis and Abdulin, Evgeny and Komogortsev, Oleg V.",
+          "year": 2018,
+          "doi": "10.3758/s13428-018-1050-7",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/29766396/",
+          "sha256": "512255de263ff0c8bdb7d1ddc714fa58c98f9c7fa4d127c81070a201165ddc54"
+        },
+        {
+          "key": "Nystrom2010",
+          "title": "An adaptive algorithm for fixation, saccade, and glissade detection in eyetracking data",
+          "authors": "Nyström, Marcus and Holmqvist, Kenneth",
+          "year": 2010,
+          "doi": "10.3758/BRM.42.1.188",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/20160299/",
+          "sha256": "e9cc151203efab4addc0575be96f19dbe65d8e5f26407c834b57eb0e54050949"
+        }
+      ],
+      "source_locations": "Friedman 2018 Algorithm narrative、図2と図5、表3（PDF 4～11頁）。境界補正はPDF 7頁、PSOはPDF 8～9頁。配布資料の原著記載URL https://digital.library.txstate.edu/handle/10877/6874 。"
+    },
+    {
+      "id": "06_Cluster_Fix",
+      "title_ja": "Cluster Fix クラスタリング検出法",
+      "pages": 4,
+      "combined_start_page": 21,
+      "pdf": {
+        "file": "pdf/06_Cluster_Fix_ja.pdf",
+        "sha256": "19650fe95acf387bb01866e9e84f2fd4b07c5c0a6a321da52a498ee05fdcbd15"
+      },
+      "docx": {
+        "file": "docx/06_Cluster_Fix_ja.docx",
+        "sha256": "48cbd0fb62ec5c6f6897882a5d19ca4b74c4f1017e1b82719c42458cbe573d41"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Konig2014",
+          "title": "A nonparametric method for detecting fixations and saccades using cluster analysis: Removing the need for arbitrary thresholds",
+          "authors": "König, Seth D. and Buffalo, Elizabeth A.",
+          "year": 2014,
+          "doi": "10.1016/j.jneumeth.2014.01.032",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4091910/",
+          "sha256": "028145b64fff480fc163a2cd47017dbf6bc8568e4b107f3be12c443fbe29d3b0"
+        }
+      ],
+      "source_locations": "König and Buffalo 2014 第2.2節と表1（PDF 2～3頁）。小振幅サッケードの一貫性と計算負荷についてはResultsとDiscussion。"
+    },
+    {
+      "id": "07_Zemblys_IRF",
+      "title_ja": "Zemblys IRF ランダムフォレスト検出法",
+      "pages": 5,
+      "combined_start_page": 25,
+      "pdf": {
+        "file": "pdf/07_Zemblys_IRF_ja.pdf",
+        "sha256": "8bc480dd47b83c64c9ab3b44267d7a3b5849bca7a0e3fba38a2e2d5a90ba1c85"
+      },
+      "docx": {
+        "file": "docx/07_Zemblys_IRF_ja.docx",
+        "sha256": "b05fb1a8a1479167b5ba8002c6cae3034b5c79f7fea6b1135e14bce098e20752"
+      },
+      "equation_images": 1,
+      "references": [
+        {
+          "key": "Zemblys2018",
+          "title": "Using machine learning to detect events in eye-tracking data",
+          "authors": "Zemblys, Raimondas and Niehorster, Diederick C. and Komogortsev, Oleg and Holmqvist, Kenneth",
+          "year": 2018,
+          "doi": "10.3758/s13428-017-0860-3",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/28233250/",
+          "sha256": "bd671b221fd8af32498c94fed69cf3351e5366474c43e501fa639a1e5e6c7740"
+        },
+        {
+          "key": "Zemblys2019Correction",
+          "title": "Correction to: “Using machine learning to detect events in eye-tracking data”",
+          "authors": "Zemblys, Raimondas and Niehorster, Diederick C. and Holmqvist, Kenneth",
+          "year": 2019,
+          "doi": "10.3758/s13428-018-1127-3",
+          "source": "https://link.springer.com/article/10.3758/s13428-018-1127-3",
+          "sha256": "5e0b86daf360b01db5bba619c1ac5911a613964b727bfcef8cacb8c1c070d3ab"
+        }
+      ],
+      "source_locations": "Zemblys 2018 Feature extraction、表1、Training parameters、Post-processing（PDF 5～8頁）。2019訂正全文（PDF 1～2頁）。公式コード https://github.com/r-zemblys/irf 。"
+    },
+    {
+      "id": "08_HMM",
+      "title_ja": "HMM 隠れマルコフモデル検出法",
+      "pages": 4,
+      "combined_start_page": 30,
+      "pdf": {
+        "file": "pdf/08_HMM_ja.pdf",
+        "sha256": "df53a136a8756d52ea4bf24bfe82a3d80be01d4392545834cafe270e89a52f67"
+      },
+      "docx": {
+        "file": "docx/08_HMM_ja.docx",
+        "sha256": "5ed03f2b98302dbdf89c6a6f8c9f72cf5b218fc66a5aae6707b85a065fcb8645"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Salvucci2000",
+          "title": "Identifying fixations and saccades in eye-tracking protocols",
+          "authors": "Salvucci, Dario D. and Goldberg, Joseph H.",
+          "year": 2000,
+          "doi": "10.1145/355017.355028",
+          "source": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+          "sha256": "33bc3befec8426d48755b32dfac13d7570f8338c7e5df406cda34439afaa7962"
+        },
+        {
+          "key": "Komogortsev2010",
+          "title": "Standardization of automated analyses of oculomotor fixation and saccadic behaviors",
+          "authors": "Komogortsev, Oleg V. and Gobert, Denise V. and Jayarathna, Sampath and Koh, Do Hyong and Gowda, Sandeep M.",
+          "year": 2010,
+          "doi": "10.1109/TBME.2010.2057429",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/20667803/",
+          "sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471"
+        }
+      ],
+      "source_locations": "Salvucci 2000 第3.1.2節、図1と表3（PDF 3～4頁）。Komogortsev 2010 I-HMM（PDF 3頁）。Viterbi式はこの2状態モデルを標準的な対数表記で書き直したもの。"
+    },
+    {
+      "id": "09_MST",
+      "title_ja": "MST 最小全域木検出法",
+      "pages": 4,
+      "combined_start_page": 34,
+      "pdf": {
+        "file": "pdf/09_MST_ja.pdf",
+        "sha256": "c99d2d29b50056f3cf11ca484a2cbd3644b97de132cc8d08a58228cb20375c4b"
+      },
+      "docx": {
+        "file": "docx/09_MST_ja.docx",
+        "sha256": "3a337f4efa8432e07a1e6d88c2f54b10135fefe829382da86f8b2da44d63b7ff"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Salvucci2000",
+          "title": "Identifying fixations and saccades in eye-tracking protocols",
+          "authors": "Salvucci, Dario D. and Goldberg, Joseph H.",
+          "year": 2000,
+          "doi": "10.1145/355017.355028",
+          "source": "https://www.cs.drexel.edu/~dds26/publications/Salvucci-ETRA00.pdf",
+          "sha256": "33bc3befec8426d48755b32dfac13d7570f8338c7e5df406cda34439afaa7962"
+        },
+        {
+          "key": "Komogortsev2010",
+          "title": "Standardization of automated analyses of oculomotor fixation and saccadic behaviors",
+          "authors": "Komogortsev, Oleg V. and Gobert, Denise V. and Jayarathna, Sampath and Koh, Do Hyong and Gowda, Sandeep M.",
+          "year": 2010,
+          "doi": "10.1109/TBME.2010.2057429",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/20667803/",
+          "sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471"
+        }
+      ],
+      "source_locations": "Salvucci 2000 第3.2.2節と表5（PDF 4～5頁）。Komogortsev 2010 I-MST（PDF 3～4頁）。時間への対応と同値辺に関する注意はグラフ原理からの実装上の整理。"
+    },
+    {
+      "id": "10_KF_Sauter",
+      "title_ja": "KF カルマン予測残差検出法",
+      "pages": 4,
+      "combined_start_page": 38,
+      "pdf": {
+        "file": "pdf/10_KF_Sauter_ja.pdf",
+        "sha256": "e17f58877fc5845876c61d203ec8c1c0e22ebb2d60eb0c8377049251e03452f7"
+      },
+      "docx": {
+        "file": "docx/10_KF_Sauter_ja.docx",
+        "sha256": "ab1391702bce0febc3baaeaba6d777b5f8ecf3043bca7613f451155fc7156aac"
+      },
+      "equation_images": 2,
+      "references": [
+        {
+          "key": "Sauter1991",
+          "title": "Analysis of eye tracking movements using innovations generated by a Kalman filter",
+          "authors": "Sauter, D. and Martin, B. J. and Di Renzo, N. and Vomscheid, C.",
+          "year": 1991,
+          "doi": "10.1007/BF02446297",
+          "source": "https://link.springer.com/article/10.1007/BF02446297",
+          "sha256": "ba634327ba9a6385e8d2742acb83d34b8d77e6f93200e747e42723052480a721"
+        },
+        {
+          "key": "Komogortsev2010",
+          "title": "Standardization of automated analyses of oculomotor fixation and saccadic behaviors",
+          "authors": "Komogortsev, Oleg V. and Gobert, Denise V. and Jayarathna, Sampath and Koh, Do Hyong and Gowda, Sandeep M.",
+          "year": 2010,
+          "doi": "10.1109/TBME.2010.2057429",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/20667803/",
+          "sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471"
+        }
+      ],
+      "source_locations": "Sauter 1991 第3節、第4.1～4.3節、結論のパラメータ記述（PDF 2～6頁）。Komogortsev 2010 I-KFと式1（PDF 3頁）。検定の解釈と重複窓の注意は統計的仮定からの整理。"
+    },
+    {
+      "id": "11_Dai_2021",
+      "title_ja": "Dai 区分多項式近似による検出法",
+      "pages": 4,
+      "combined_start_page": 42,
+      "pdf": {
+        "file": "pdf/11_Dai_2021_ja.pdf",
+        "sha256": "a807f31af42bd47516ac12ffa21b4e5b4fc70190e148e5ee673b983a29a26495"
+      },
+      "docx": {
+        "file": "docx/11_Dai_2021_ja.docx",
+        "sha256": "6ad019527c470c975fa6456a198a48fd36aaad3fab2f429f71ee7a66f747faad"
+      },
+      "equation_images": 3,
+      "references": [
+        {
+          "key": "Dai2021",
+          "title": "Detection of normal and slow saccades using implicit piecewise polynomial approximation",
+          "authors": "Dai, Weiwei and Selesnick, Ivan and Rizzo, John-Ross and Rucker, Janet and Hudson, Todd",
+          "year": 2021,
+          "doi": "10.1167/jov.21.6.8",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8212426/",
+          "sha256": "13b85ba33c4ac5366910dfb3641ee815a5aeb481bca4fccd5d9c170572a38f1f"
+        }
+      ],
+      "source_locations": "Dai 2021 Proposed algorithm、式5～19とParameter setting（PDF 4～9頁）。比較と共通後処理はPDF 9頁、適用範囲の制約はPDF 15頁。"
+    }
+  ]
+}

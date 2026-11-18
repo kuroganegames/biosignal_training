@@ -1,0 +1,1358 @@
+[
+  {
+    "source": "00_Dai_et_al_2021_target.pdf",
+    "translation": "00_Dai_et_al_2021_target_ja.pdf",
+    "source_pages": 18,
+    "translation_pages": 18,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1347,
+        "english_words": 82,
+        "replacement_chars": 0,
+        "source_chars": 4041,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 1309,
+        "english_words": 80,
+        "replacement_chars": 0,
+        "source_chars": 4152,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 2055,
+        "english_words": 81,
+        "replacement_chars": 0,
+        "source_chars": 5774,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1756,
+        "english_words": 99,
+        "replacement_chars": 0,
+        "source_chars": 4955,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 358,
+        "english_words": 64,
+        "replacement_chars": 0,
+        "source_chars": 1779,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 886,
+        "english_words": 70,
+        "replacement_chars": 0,
+        "source_chars": 2965,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 1336,
+        "english_words": 126,
+        "replacement_chars": 0,
+        "source_chars": 4135,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 890,
+        "english_words": 56,
+        "replacement_chars": 0,
+        "source_chars": 2802,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 1691,
+        "english_words": 110,
+        "replacement_chars": 0,
+        "source_chars": 4965,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 833,
+        "english_words": 39,
+        "replacement_chars": 0,
+        "source_chars": 2879,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 609,
+        "english_words": 32,
+        "replacement_chars": 0,
+        "source_chars": 3723,
+        "render_warnings": ""
+      },
+      {
+        "page": 12,
+        "japanese_chars": 1153,
+        "english_words": 34,
+        "replacement_chars": 0,
+        "source_chars": 3069,
+        "render_warnings": ""
+      },
+      {
+        "page": 13,
+        "japanese_chars": 1173,
+        "english_words": 26,
+        "replacement_chars": 0,
+        "source_chars": 3068,
+        "render_warnings": ""
+      },
+      {
+        "page": 14,
+        "japanese_chars": 258,
+        "english_words": 26,
+        "replacement_chars": 0,
+        "source_chars": 1030,
+        "render_warnings": ""
+      },
+      {
+        "page": 15,
+        "japanese_chars": 953,
+        "english_words": 19,
+        "replacement_chars": 0,
+        "source_chars": 2742,
+        "render_warnings": ""
+      },
+      {
+        "page": 16,
+        "japanese_chars": 469,
+        "english_words": 380,
+        "replacement_chars": 0,
+        "source_chars": 4325,
+        "render_warnings": ""
+      },
+      {
+        "page": 17,
+        "japanese_chars": 830,
+        "english_words": 332,
+        "replacement_chars": 0,
+        "source_chars": 4749,
+        "render_warnings": ""
+      },
+      {
+        "page": 18,
+        "japanese_chars": 600,
+        "english_words": 342,
+        "replacement_chars": 0,
+        "source_chars": 4333,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "01_Engbert_Kliegl_2003.pdf",
+    "translation": "01_Engbert_Kliegl_2003_ja.pdf",
+    "source_pages": 11,
+    "translation_pages": 11,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1141,
+        "english_words": 105,
+        "replacement_chars": 0,
+        "source_chars": 4053,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 1450,
+        "english_words": 82,
+        "replacement_chars": 0,
+        "source_chars": 4911,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 1381,
+        "english_words": 30,
+        "replacement_chars": 0,
+        "source_chars": 4216,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1635,
+        "english_words": 49,
+        "replacement_chars": 0,
+        "source_chars": 5074,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 1187,
+        "english_words": 59,
+        "replacement_chars": 0,
+        "source_chars": 3816,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 679,
+        "english_words": 54,
+        "replacement_chars": 0,
+        "source_chars": 2760,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 1255,
+        "english_words": 58,
+        "replacement_chars": 0,
+        "source_chars": 4132,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 539,
+        "english_words": 29,
+        "replacement_chars": 0,
+        "source_chars": 1857,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 1405,
+        "english_words": 29,
+        "replacement_chars": 0,
+        "source_chars": 4154,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 1816,
+        "english_words": 118,
+        "replacement_chars": 0,
+        "source_chars": 5634,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 522,
+        "english_words": 252,
+        "replacement_chars": 0,
+        "source_chars": 3566,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "02_Nystrom_Holmqvist_2010.pdf",
+    "translation": "02_Nystrom_Holmqvist_2010_ja.pdf",
+    "source_pages": 17,
+    "translation_pages": 17,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1752,
+        "english_words": 33,
+        "replacement_chars": 0,
+        "source_chars": 4938,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 1435,
+        "english_words": 44,
+        "replacement_chars": 0,
+        "source_chars": 3868,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 1616,
+        "english_words": 64,
+        "replacement_chars": 0,
+        "source_chars": 4751,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1903,
+        "english_words": 73,
+        "replacement_chars": 0,
+        "source_chars": 5313,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 675,
+        "english_words": 60,
+        "replacement_chars": 0,
+        "source_chars": 2278,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 1072,
+        "english_words": 47,
+        "replacement_chars": 0,
+        "source_chars": 3210,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 995,
+        "english_words": 55,
+        "replacement_chars": 0,
+        "source_chars": 3236,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 1104,
+        "english_words": 133,
+        "replacement_chars": 0,
+        "source_chars": 4289,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 425,
+        "english_words": 39,
+        "replacement_chars": 0,
+        "source_chars": 1475,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 1187,
+        "english_words": 31,
+        "replacement_chars": 0,
+        "source_chars": 3645,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 891,
+        "english_words": 59,
+        "replacement_chars": 0,
+        "source_chars": 3015,
+        "render_warnings": ""
+      },
+      {
+        "page": 12,
+        "japanese_chars": 1149,
+        "english_words": 34,
+        "replacement_chars": 0,
+        "source_chars": 3574,
+        "render_warnings": ""
+      },
+      {
+        "page": 13,
+        "japanese_chars": 1048,
+        "english_words": 33,
+        "replacement_chars": 0,
+        "source_chars": 3081,
+        "render_warnings": ""
+      },
+      {
+        "page": 14,
+        "japanese_chars": 846,
+        "english_words": 37,
+        "replacement_chars": 0,
+        "source_chars": 2679,
+        "render_warnings": ""
+      },
+      {
+        "page": 15,
+        "japanese_chars": 913,
+        "english_words": 42,
+        "replacement_chars": 0,
+        "source_chars": 2750,
+        "render_warnings": ""
+      },
+      {
+        "page": 16,
+        "japanese_chars": 2157,
+        "english_words": 154,
+        "replacement_chars": 0,
+        "source_chars": 7078,
+        "render_warnings": ""
+      },
+      {
+        "page": 17,
+        "japanese_chars": 304,
+        "english_words": 36,
+        "replacement_chars": 0,
+        "source_chars": 1171,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "03_Friedman_et_al_2018.pdf",
+    "translation": "03_Friedman_et_al_2018_ja.pdf",
+    "source_pages": 24,
+    "translation_pages": 24,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1405,
+        "english_words": 72,
+        "replacement_chars": 0,
+        "source_chars": 4223,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 2114,
+        "english_words": 72,
+        "replacement_chars": 0,
+        "source_chars": 6005,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 1479,
+        "english_words": 41,
+        "replacement_chars": 0,
+        "source_chars": 3925,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1652,
+        "english_words": 112,
+        "replacement_chars": 0,
+        "source_chars": 5127,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 1948,
+        "english_words": 53,
+        "replacement_chars": 0,
+        "source_chars": 5672,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 574,
+        "english_words": 46,
+        "replacement_chars": 0,
+        "source_chars": 1987,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 2351,
+        "english_words": 72,
+        "replacement_chars": 0,
+        "source_chars": 6335,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 372,
+        "english_words": 16,
+        "replacement_chars": 0,
+        "source_chars": 1602,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 896,
+        "english_words": 76,
+        "replacement_chars": 0,
+        "source_chars": 2623,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 1678,
+        "english_words": 57,
+        "replacement_chars": 0,
+        "source_chars": 4565,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 1962,
+        "english_words": 50,
+        "replacement_chars": 0,
+        "source_chars": 5369,
+        "render_warnings": ""
+      },
+      {
+        "page": 12,
+        "japanese_chars": 481,
+        "english_words": 17,
+        "replacement_chars": 0,
+        "source_chars": 1264,
+        "render_warnings": ""
+      },
+      {
+        "page": 13,
+        "japanese_chars": 272,
+        "english_words": 8,
+        "replacement_chars": 0,
+        "source_chars": 646,
+        "render_warnings": ""
+      },
+      {
+        "page": 14,
+        "japanese_chars": 248,
+        "english_words": 12,
+        "replacement_chars": 0,
+        "source_chars": 663,
+        "render_warnings": ""
+      },
+      {
+        "page": 15,
+        "japanese_chars": 2362,
+        "english_words": 73,
+        "replacement_chars": 0,
+        "source_chars": 5934,
+        "render_warnings": ""
+      },
+      {
+        "page": 16,
+        "japanese_chars": 1756,
+        "english_words": 77,
+        "replacement_chars": 0,
+        "source_chars": 4772,
+        "render_warnings": ""
+      },
+      {
+        "page": 17,
+        "japanese_chars": 487,
+        "english_words": 32,
+        "replacement_chars": 0,
+        "source_chars": 1532,
+        "render_warnings": ""
+      },
+      {
+        "page": 18,
+        "japanese_chars": 998,
+        "english_words": 46,
+        "replacement_chars": 0,
+        "source_chars": 2828,
+        "render_warnings": ""
+      },
+      {
+        "page": 19,
+        "japanese_chars": 1274,
+        "english_words": 97,
+        "replacement_chars": 0,
+        "source_chars": 3881,
+        "render_warnings": ""
+      },
+      {
+        "page": 20,
+        "japanese_chars": 1883,
+        "english_words": 139,
+        "replacement_chars": 0,
+        "source_chars": 5585,
+        "render_warnings": ""
+      },
+      {
+        "page": 21,
+        "japanese_chars": 2364,
+        "english_words": 70,
+        "replacement_chars": 0,
+        "source_chars": 6193,
+        "render_warnings": ""
+      },
+      {
+        "page": 22,
+        "japanese_chars": 1806,
+        "english_words": 151,
+        "replacement_chars": 0,
+        "source_chars": 6195,
+        "render_warnings": ""
+      },
+      {
+        "page": 23,
+        "japanese_chars": 1451,
+        "english_words": 331,
+        "replacement_chars": 0,
+        "source_chars": 6316,
+        "render_warnings": ""
+      },
+      {
+        "page": 24,
+        "japanese_chars": 1117,
+        "english_words": 480,
+        "replacement_chars": 0,
+        "source_chars": 6666,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "04_Konig_Buffalo_2014.pdf",
+    "translation": "04_Konig_Buffalo_2014_ja.pdf",
+    "source_pages": 11,
+    "translation_pages": 11,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1215,
+        "english_words": 127,
+        "replacement_chars": 0,
+        "source_chars": 4573,
+        "render_warnings": "bogus font (AGDNDO+GulliverSCOsF) ascent/descent values (0 / -6)"
+      },
+      {
+        "page": 2,
+        "japanese_chars": 2594,
+        "english_words": 117,
+        "replacement_chars": 0,
+        "source_chars": 8452,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 3080,
+        "english_words": 39,
+        "replacement_chars": 0,
+        "source_chars": 9420,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 586,
+        "english_words": 12,
+        "replacement_chars": 0,
+        "source_chars": 1870,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 802,
+        "english_words": 56,
+        "replacement_chars": 0,
+        "source_chars": 4129,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 1309,
+        "english_words": 13,
+        "replacement_chars": 0,
+        "source_chars": 3690,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 1133,
+        "english_words": 45,
+        "replacement_chars": 0,
+        "source_chars": 3912,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 1350,
+        "english_words": 34,
+        "replacement_chars": 0,
+        "source_chars": 4225,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 3179,
+        "english_words": 68,
+        "replacement_chars": 0,
+        "source_chars": 9568,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 1990,
+        "english_words": 424,
+        "replacement_chars": 0,
+        "source_chars": 9612,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 335,
+        "english_words": 118,
+        "replacement_chars": 0,
+        "source_chars": 2079,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "05_Zemblys_et_al_2018.pdf",
+    "translation": "05_Zemblys_et_al_2018_ja.pdf",
+    "source_pages": 22,
+    "translation_pages": 22,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1162,
+        "english_words": 35,
+        "replacement_chars": 0,
+        "source_chars": 3353,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 2288,
+        "english_words": 37,
+        "replacement_chars": 0,
+        "source_chars": 5861,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 2195,
+        "english_words": 48,
+        "replacement_chars": 0,
+        "source_chars": 5791,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1480,
+        "english_words": 52,
+        "replacement_chars": 0,
+        "source_chars": 4044,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 1692,
+        "english_words": 23,
+        "replacement_chars": 0,
+        "source_chars": 4711,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 1702,
+        "english_words": 66,
+        "replacement_chars": 0,
+        "source_chars": 4668,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 1820,
+        "english_words": 33,
+        "replacement_chars": 0,
+        "source_chars": 5400,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 1249,
+        "english_words": 36,
+        "replacement_chars": 0,
+        "source_chars": 3380,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 2003,
+        "english_words": 64,
+        "replacement_chars": 0,
+        "source_chars": 5559,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 1946,
+        "english_words": 43,
+        "replacement_chars": 0,
+        "source_chars": 5430,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 1579,
+        "english_words": 54,
+        "replacement_chars": 0,
+        "source_chars": 4317,
+        "render_warnings": ""
+      },
+      {
+        "page": 12,
+        "japanese_chars": 1175,
+        "english_words": 31,
+        "replacement_chars": 0,
+        "source_chars": 3260,
+        "render_warnings": ""
+      },
+      {
+        "page": 13,
+        "japanese_chars": 765,
+        "english_words": 105,
+        "replacement_chars": 0,
+        "source_chars": 3266,
+        "render_warnings": ""
+      },
+      {
+        "page": 14,
+        "japanese_chars": 1832,
+        "english_words": 53,
+        "replacement_chars": 0,
+        "source_chars": 4678,
+        "render_warnings": ""
+      },
+      {
+        "page": 15,
+        "japanese_chars": 1322,
+        "english_words": 52,
+        "replacement_chars": 0,
+        "source_chars": 3870,
+        "render_warnings": ""
+      },
+      {
+        "page": 16,
+        "japanese_chars": 1325,
+        "english_words": 47,
+        "replacement_chars": 0,
+        "source_chars": 3652,
+        "render_warnings": ""
+      },
+      {
+        "page": 17,
+        "japanese_chars": 1870,
+        "english_words": 78,
+        "replacement_chars": 0,
+        "source_chars": 5156,
+        "render_warnings": ""
+      },
+      {
+        "page": 18,
+        "japanese_chars": 2430,
+        "english_words": 27,
+        "replacement_chars": 0,
+        "source_chars": 5978,
+        "render_warnings": ""
+      },
+      {
+        "page": 19,
+        "japanese_chars": 1796,
+        "english_words": 49,
+        "replacement_chars": 0,
+        "source_chars": 5171,
+        "render_warnings": ""
+      },
+      {
+        "page": 20,
+        "japanese_chars": 714,
+        "english_words": 47,
+        "replacement_chars": 0,
+        "source_chars": 1956,
+        "render_warnings": ""
+      },
+      {
+        "page": 21,
+        "japanese_chars": 1131,
+        "english_words": 395,
+        "replacement_chars": 0,
+        "source_chars": 5953,
+        "render_warnings": ""
+      },
+      {
+        "page": 22,
+        "japanese_chars": 416,
+        "english_words": 365,
+        "replacement_chars": 0,
+        "source_chars": 3641,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "06_Salvucci_Goldberg_2000.pdf",
+    "translation": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "source_pages": 8,
+    "translation_pages": 8,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1613,
+        "english_words": 52,
+        "replacement_chars": 0,
+        "source_chars": 4907,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 2003,
+        "english_words": 38,
+        "replacement_chars": 0,
+        "source_chars": 5542,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 1618,
+        "english_words": 68,
+        "replacement_chars": 0,
+        "source_chars": 5316,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1655,
+        "english_words": 64,
+        "replacement_chars": 0,
+        "source_chars": 5153,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 1810,
+        "english_words": 33,
+        "replacement_chars": 0,
+        "source_chars": 5210,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 1898,
+        "english_words": 80,
+        "replacement_chars": 0,
+        "source_chars": 5282,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 783,
+        "english_words": 32,
+        "replacement_chars": 0,
+        "source_chars": 2063,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 1096,
+        "english_words": 259,
+        "replacement_chars": 0,
+        "source_chars": 5152,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "07_Komogortsev_et_al_2010.pdf",
+    "translation": "07_Komogortsev_et_al_2010_ja.pdf",
+    "source_pages": 11,
+    "translation_pages": 11,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1934,
+        "english_words": 79,
+        "replacement_chars": 0,
+        "source_chars": 6162,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 1008,
+        "english_words": 33,
+        "replacement_chars": 0,
+        "source_chars": 2993,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 2223,
+        "english_words": 66,
+        "replacement_chars": 0,
+        "source_chars": 6497,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1772,
+        "english_words": 101,
+        "replacement_chars": 0,
+        "source_chars": 5753,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 1962,
+        "english_words": 55,
+        "replacement_chars": 0,
+        "source_chars": 6008,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 1713,
+        "english_words": 142,
+        "replacement_chars": 0,
+        "source_chars": 5592,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 74,
+        "english_words": 17,
+        "replacement_chars": 0,
+        "source_chars": 324,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 2109,
+        "english_words": 113,
+        "replacement_chars": 0,
+        "source_chars": 6369,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 1674,
+        "english_words": 50,
+        "replacement_chars": 0,
+        "source_chars": 5050,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 1723,
+        "english_words": 486,
+        "replacement_chars": 0,
+        "source_chars": 7790,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 1071,
+        "english_words": 431,
+        "replacement_chars": 0,
+        "source_chars": 5734,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "08_Sauter_et_al_1991.pdf",
+    "translation": "08_Sauter_et_al_1991_ja.pdf",
+    "source_pages": 7,
+    "translation_pages": 7,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1272,
+        "english_words": 86,
+        "replacement_chars": 0,
+        "source_chars": 3306,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 1283,
+        "english_words": 97,
+        "replacement_chars": 0,
+        "source_chars": 4849,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 1069,
+        "english_words": 61,
+        "replacement_chars": 0,
+        "source_chars": 4112,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1125,
+        "english_words": 70,
+        "replacement_chars": 0,
+        "source_chars": 4022,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 1260,
+        "english_words": 31,
+        "replacement_chars": 0,
+        "source_chars": 4238,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 2048,
+        "english_words": 157,
+        "replacement_chars": 0,
+        "source_chars": 7084,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 968,
+        "english_words": 52,
+        "replacement_chars": 0,
+        "source_chars": 3015,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "09_Bahill_et_al_1981.pdf",
+    "translation": "09_Bahill_et_al_1981_ja.pdf",
+    "source_pages": 10,
+    "translation_pages": 10,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1135,
+        "english_words": 44,
+        "replacement_chars": 0,
+        "source_chars": 3397,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 1113,
+        "english_words": 17,
+        "replacement_chars": 0,
+        "source_chars": 3142,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 1505,
+        "english_words": 16,
+        "replacement_chars": 0,
+        "source_chars": 4030,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1245,
+        "english_words": 42,
+        "replacement_chars": 0,
+        "source_chars": 3562,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 928,
+        "english_words": 37,
+        "replacement_chars": 0,
+        "source_chars": 2618,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 1195,
+        "english_words": 18,
+        "replacement_chars": 0,
+        "source_chars": 3451,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 1133,
+        "english_words": 13,
+        "replacement_chars": 0,
+        "source_chars": 3063,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 1628,
+        "english_words": 41,
+        "replacement_chars": 0,
+        "source_chars": 4495,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 1521,
+        "english_words": 178,
+        "replacement_chars": 0,
+        "source_chars": 4532,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 521,
+        "english_words": 100,
+        "replacement_chars": 0,
+        "source_chars": 2036,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "10_Blignaut_2009.pdf",
+    "translation": "10_Blignaut_2009_ja.pdf",
+    "source_pages": 15,
+    "translation_pages": 15,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 1490,
+        "english_words": 45,
+        "replacement_chars": 0,
+        "source_chars": 4958,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 1230,
+        "english_words": 73,
+        "replacement_chars": 0,
+        "source_chars": 3933,
+        "render_warnings": ""
+      },
+      {
+        "page": 3,
+        "japanese_chars": 1081,
+        "english_words": 104,
+        "replacement_chars": 0,
+        "source_chars": 4096,
+        "render_warnings": ""
+      },
+      {
+        "page": 4,
+        "japanese_chars": 1197,
+        "english_words": 125,
+        "replacement_chars": 0,
+        "source_chars": 4160,
+        "render_warnings": ""
+      },
+      {
+        "page": 5,
+        "japanese_chars": 1243,
+        "english_words": 52,
+        "replacement_chars": 0,
+        "source_chars": 3953,
+        "render_warnings": ""
+      },
+      {
+        "page": 6,
+        "japanese_chars": 1561,
+        "english_words": 75,
+        "replacement_chars": 0,
+        "source_chars": 5249,
+        "render_warnings": ""
+      },
+      {
+        "page": 7,
+        "japanese_chars": 1506,
+        "english_words": 77,
+        "replacement_chars": 0,
+        "source_chars": 5370,
+        "render_warnings": ""
+      },
+      {
+        "page": 8,
+        "japanese_chars": 1223,
+        "english_words": 53,
+        "replacement_chars": 0,
+        "source_chars": 4226,
+        "render_warnings": ""
+      },
+      {
+        "page": 9,
+        "japanese_chars": 1168,
+        "english_words": 80,
+        "replacement_chars": 0,
+        "source_chars": 4390,
+        "render_warnings": ""
+      },
+      {
+        "page": 10,
+        "japanese_chars": 810,
+        "english_words": 116,
+        "replacement_chars": 0,
+        "source_chars": 3357,
+        "render_warnings": ""
+      },
+      {
+        "page": 11,
+        "japanese_chars": 923,
+        "english_words": 100,
+        "replacement_chars": 0,
+        "source_chars": 3535,
+        "render_warnings": ""
+      },
+      {
+        "page": 12,
+        "japanese_chars": 1284,
+        "english_words": 68,
+        "replacement_chars": 0,
+        "source_chars": 4277,
+        "render_warnings": ""
+      },
+      {
+        "page": 13,
+        "japanese_chars": 1174,
+        "english_words": 45,
+        "replacement_chars": 0,
+        "source_chars": 3892,
+        "render_warnings": ""
+      },
+      {
+        "page": 14,
+        "japanese_chars": 2302,
+        "english_words": 42,
+        "replacement_chars": 0,
+        "source_chars": 6757,
+        "render_warnings": ""
+      },
+      {
+        "page": 15,
+        "japanese_chars": 1055,
+        "english_words": 515,
+        "replacement_chars": 0,
+        "source_chars": 7093,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  },
+  {
+    "source": "11_Zemblys_et_al_2019_Correction.pdf",
+    "translation": "11_Zemblys_et_al_2019_Correction_ja.pdf",
+    "source_pages": 2,
+    "translation_pages": 2,
+    "pages": [
+      {
+        "page": 1,
+        "japanese_chars": 946,
+        "english_words": 55,
+        "replacement_chars": 0,
+        "source_chars": 3905,
+        "render_warnings": ""
+      },
+      {
+        "page": 2,
+        "japanese_chars": 710,
+        "english_words": 150,
+        "replacement_chars": 0,
+        "source_chars": 1865,
+        "render_warnings": ""
+      }
+    ],
+    "low_japanese_pages": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "document": "07_Komogortsev_et_al_2010_ja.pdf",
+    "page": 1,
+    "rect": [
+      38,
+      53,
+      558,
+      113
+    ],
+    "text": "固視およびサッケード行動の\n自動解析の標準化",
+    "size": 19,
+    "align": 1,
+    "font": "JPB",
+    "actual_font_size": 19,
+    "rendered_height": 45.6
+  },
+  {
+    "document": "07_Komogortsev_et_al_2010_ja.pdf",
+    "page": 1,
+    "rect": [
+      38,
+      118.5,
+      558,
+      156
+    ],
+    "text": "Oleg V. Komogortsev* (IEEE Member), Denise V. Gobert,\nSampath Jayarathna (IEEE Student Member), Do Hyong Koh, Sandeep M. Gowda",
+    "size": 9.5,
+    "align": 1,
+    "font": "JP",
+    "actual_font_size": 9.5,
+    "rendered_height": 22.8
+  },
+  {
+    "document": "07_Komogortsev_et_al_2010_ja.pdf",
+    "page": 1,
+    "rect": [
+      37.7,
+      176,
+      289,
+      347
+    ],
+    "text": "要旨　標準化に向けた取り組みとして、本論文では固視およびサッケード行動の評価という観点から、5つの眼球運動分類アルゴリズムの性能を検討する。結果は、単純な刺激誘発課題で共通の単一閾値を用いた場合でさえ、広く使用されているこれら5つのアルゴリズムの性能が大きく異なることを示す。本論文の主な貢献は、特定の眼球運動行動を分類する5つのアルゴリズムの性能の評価・比較、分類性能の信頼性を高める新しい標準化スコアの導入・比較、標準化スコアに基づいて任意の眼球運動分類アルゴリズムの適切な閾値を選択するための考え方、そして任意の眼球運動分類アルゴリズム間で性能を比較するための、明確な判定基準に基づくベースラインの設定方法である。提案する技法は、有意義な自動眼球運動分類を確保する手段を提供し、効率的かつ客観的な臨床応用を可能にする。",
+    "size": 9.2,
+    "align": 0,
+    "font": "JP",
+    "actual_font_size": 9.2,
+    "rendered_height": 154.56
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "documents": 11,
+  "pdf_pages": 45,
+  "equation_images": 23,
+  "visually_reviewed_pages": 45,
+  "combined_bookmarks": 11,
+  "archive_files": 25,
+  "archive_crc": "pass",
+  "local_links": "pass",
+  "existing_pdf_hashes_unchanged": 36,
+  "worked_example_arithmetic": "pass",
+  "archive_bytes": 7366050,
+  "archive_sha256": "7642e08951926cfd3cf0d3f0f1f5567c04a864699e95699d9688366e26ee6659"
+}

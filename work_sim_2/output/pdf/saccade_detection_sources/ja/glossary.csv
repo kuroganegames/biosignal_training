@@ -1,0 +1,69 @@
+source,target,tgt_lng
+saccade,サッケード,ja
+saccades,サッケード,ja
+microsaccade,マイクロサッケード,ja
+microsaccades,マイクロサッケード,ja
+fixation,固視,ja
+fixations,固視,ja
+smooth pursuit,滑動性追従眼球運動,ja
+eye tracking movements,視標追跡眼球運動,ja
+eye movements,眼球運動,ja
+glissade,グリセード,ja
+post-saccadic oscillation,サッケード後振動,ja
+postsaccadic oscillation,サッケード後振動,ja
+velocity threshold,速度閾値,ja
+dispersion threshold,分散閾値,ja
+dispersion,分散度,ja
+variance,分散,ja
+main sequence,メインシーケンス,ja
+sampling rate,サンプリング周波数,ja
+saccade onset,サッケード開始点,ja
+saccade offset,サッケード終了点,ja
+saccadic amplitude,サッケード振幅,ja
+inter-saccadic interval,サッケード間隔,ja
+blink,瞬目,ja
+event detection,イベント検出,ja
+random forest,ランダムフォレスト,ja
+minimum spanning tree,最小全域木,ja
+hidden Markov model,隠れマルコフモデル,ja
+Kalman filter,カルマンフィルタ,ja
+innovation,イノベーション（予測残差）,ja
+innovations,イノベーション（予測残差）,ja
+Hinkley algorithm,Hinkleyアルゴリズム,ja
+piecewise polynomial,区分多項式,ja
+piecewise quadratic,区分二次,ja
+total variation,全変動,ja
+denoising,雑音除去,ja
+peak velocity,ピーク速度,ja
+false positive,偽陽性,ja
+false negative,偽陰性,ja
+true positive,真陽性,ja
+recall,再現率,ja
+PSO,PSO（サッケード後振動）,ja
+PSOs,PSO（サッケード後振動）,ja
+eye-tracking,アイトラッキング,ja
+eye tracking,アイトラッキング,ja
+eye-tracking data,アイトラッキングデータ,ja
+unclassified,未分類,ja
+covert attention,潜在的注意,ja
+eye movement,眼球運動,ja
+eye position,眼位,ja
+eye velocity,眼球速度,ja
+a priori known,事前に既知の,ja
+successive derivatives,高階微分,ja
+state vector,状態ベクトル,ja
+measurement noise,観測雑音,ja
+white Gaussian noise,白色ガウス雑音,ja
+noise,雑音,ja
+nystagmus,眼振,ja
+oculomotor system,眼球運動制御系,ja
+extraocular muscles,外眼筋,ja
+oculo-manual coordination,眼と手の協調,ja
+oculo-manual co-ordination,眼と手の協調,ja
+signal modelling,信号のモデル化,ja
+problem statement,問題設定,ja
+normative data,正常基準データ,ja
+implicit,陰的,ja
+fixational eye movements,固視微動,ja
+ballistic movement,弾道性の運動,ja
+glissade prevalence,グリセードの出現率,ja

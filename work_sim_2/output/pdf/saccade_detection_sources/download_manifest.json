@@ -150,8 +150,18 @@
         "status": 200,
         "final_url": "https://link.springer.com/article/10.1007/BF02446297",
         "bytes": 275532
+      },
+      {
+        "date": "2026-11-18",
+        "result": "User supplied local PDF; title and page count verified."
       }
-    ]
+    ],
+    "file": "08_Sauter_et_al_1991.pdf",
+    "bytes": 1298479,
+    "sha256": "ba634327ba9a6385e8d2742acb83d34b8d77e6f93200e747e42723052480a721",
+    "acquisition": "user-provided local PDF",
+    "added_on": "2026-11-18",
+    "original_uploaded_filename": "bf02446297.pdf"
   },
   {
     "id": "09_Bahill_et_al_1981",
@@ -162,8 +172,18 @@
         "status": 404,
         "final_url": "https://web.archive.org/web/20251230112235/https://citeseerx.ist.psu.edu//document?doi=22a5d5f1a64bef852eed97f202f167b53becbc3f&repid=rep1&type=pdf",
         "bytes": 4689
+      },
+      {
+        "date": "2026-11-18",
+        "result": "User supplied local PDF; title and page count verified."
       }
-    ]
+    ],
+    "file": "09_Bahill_et_al_1981.pdf",
+    "bytes": 937992,
+    "sha256": "8beb1e89a574a2cd06cb00f2831b566dba26d525eccf26ab00e75654657eeeec",
+    "acquisition": "user-provided local PDF",
+    "added_on": "2026-11-18",
+    "original_uploaded_filename": "116.pdf"
   },
   {
     "id": "10_Blignaut_2009",

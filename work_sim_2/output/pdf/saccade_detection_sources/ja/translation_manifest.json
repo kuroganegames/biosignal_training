@@ -1,0 +1,263 @@
+{
+  "created": "2026-11-18",
+  "language": "ja",
+  "engine": "BabelDOC 0.7.1 + local Ollama",
+  "model": "Qwen3-30B-A3B-Instruct-2507 Q5_K_XL",
+  "processing": "Local translation; document text was not sent to an external translation service.",
+  "scope": "本文・要旨・図表キャプションを日本語化した読解用の訳である。図中文字、数式、文献情報の一部は原文を保持した。機械翻訳に用語調整と抜き取り照合を行っており、全文の手動校正は行っていない。",
+  "manual_review": "All 12 abstracts checked against source. Selected titles, author lines, numerical values and cross-references checked. Engbert 2003: core detector description on page 2 and rate-modulation paragraph on page 4 checked. Nystrom 2010: threshold definitions and values on page 7 checked; table equations restored from source. Salvucci 2000: all five pseudocode tables and I-DT description checked; malformed inline image repaired and original HMM figure restored. Zemblys 2019 Correction: full text checked and retypeset. Sauter 1991 and Bahill 1981: first pages checked and retypeset; figures restored from originals and selected OCR/terminology errors corrected. This is not a full manual proofreading of every page.",
+  "documents": [
+    {
+      "id": "00_Dai_et_al_2021_target",
+      "title_ja": "陰的な区分多項式近似を用いた正常サッケードおよび低速サッケードの検出",
+      "title_en": "Detection of normal and slow saccades using implicit piecewise polynomial approximation",
+      "author_label": "Dai et al.",
+      "year": 2021,
+      "source": "00_Dai_et_al_2021_target.pdf",
+      "source_sha256": "13b85ba33c4ac5366910dfb3641ee815a5aeb481bca4fccd5d9c170572a38f1f",
+      "source_pages": 18,
+      "japanese": {
+        "file": "00_Dai_et_al_2021_target_ja.pdf",
+        "pages": 18,
+        "sha256": "d94c471ec03981aea6aa7e5a83a98f8978e15f5472e19cecec62234e22e19be8"
+      },
+      "bilingual": {
+        "file": "00_Dai_et_al_2021_target_en_ja.pdf",
+        "pages": 36,
+        "sha256": "2881a4d341fa6330c8249ff5a357491dd0f12c151fc589ce85d87f27179735c7"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "01_Engbert_Kliegl_2003",
+      "title_ja": "マイクロサッケードが明らかにする潜在的注意の方向",
+      "title_en": "Microsaccades uncover the orientation of covert attention",
+      "author_label": "Engbert & Kliegl",
+      "year": 2003,
+      "source": "01_Engbert_Kliegl_2003.pdf",
+      "source_sha256": "d36153f2b8075f66adabdd25152e3e7b436a3cedb78607dda31a4e2fbf350c51",
+      "source_pages": 11,
+      "japanese": {
+        "file": "01_Engbert_Kliegl_2003_ja.pdf",
+        "pages": 11,
+        "sha256": "dc389bb4bd6ee5599d868a22d2f3173d6a642cbc4a6735613fc8eb2410c0977a"
+      },
+      "bilingual": {
+        "file": "01_Engbert_Kliegl_2003_en_ja.pdf",
+        "pages": 22,
+        "sha256": "1ec1f3977d150706f883024d689389027a033166948b000d12826cd39696ef3f"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "02_Nystrom_Holmqvist_2010",
+      "title_ja": "アイトラッキングデータから固視・サッケード・グリセードを検出する適応的アルゴリズム",
+      "title_en": "An adaptive algorithm for fixation, saccade, and glissade detection in eyetracking data",
+      "author_label": "Nyström & Holmqvist",
+      "year": 2010,
+      "source": "02_Nystrom_Holmqvist_2010.pdf",
+      "source_sha256": "e9cc151203efab4addc0575be96f19dbe65d8e5f26407c834b57eb0e54050949",
+      "source_pages": 17,
+      "japanese": {
+        "file": "02_Nystrom_Holmqvist_2010_ja.pdf",
+        "pages": 17,
+        "sha256": "8048a4ed4a8a378a0aecdb5baa2cb60e154ee29e86edebc9a6a403417d770315"
+      },
+      "bilingual": {
+        "file": "02_Nystrom_Holmqvist_2010_en_ja.pdf",
+        "pages": 34,
+        "sha256": "e9390de014c0417814361d76773971c6d5df1799a476c5a3a9078948d61d2a98"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "03_Friedman_et_al_2018",
+      "title_ja": "読書中の眼球運動分類に関する、関連する2手法と独立した2手法の新たな評価",
+      "title_en": "A novel evaluation of two related and two independent algorithms for eye movement classification during reading",
+      "author_label": "Friedman et al.",
+      "year": 2018,
+      "source": "03_Friedman_et_al_2018.pdf",
+      "source_sha256": "512255de263ff0c8bdb7d1ddc714fa58c98f9c7fa4d127c81070a201165ddc54",
+      "source_pages": 24,
+      "japanese": {
+        "file": "03_Friedman_et_al_2018_ja.pdf",
+        "pages": 24,
+        "sha256": "0573d26f4e1dda3ab68172976a130930402dcb2bcc1d0365033ce302d3e45c09"
+      },
+      "bilingual": {
+        "file": "03_Friedman_et_al_2018_en_ja.pdf",
+        "pages": 48,
+        "sha256": "4639507b9a2de80bab0eac03686a9f6a8edb6f2fbba3c88cbbe1f33de845b65b"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "04_Konig_Buffalo_2014",
+      "title_ja": "クラスタ分析による固視とサッケードのノンパラメトリック検出法：恣意的な閾値を不要にする",
+      "title_en": "A nonparametric method for detecting fixations and saccades using cluster analysis: Removing the need for arbitrary thresholds",
+      "author_label": "König & Buffalo",
+      "year": 2014,
+      "source": "04_Konig_Buffalo_2014.pdf",
+      "source_sha256": "028145b64fff480fc163a2cd47017dbf6bc8568e4b107f3be12c443fbe29d3b0",
+      "source_pages": 11,
+      "japanese": {
+        "file": "04_Konig_Buffalo_2014_ja.pdf",
+        "pages": 11,
+        "sha256": "1ff6d3aa3624b6e3a839916ce8f2b32d31a2074340c3f1210ad4dc4f2626dae3"
+      },
+      "bilingual": {
+        "file": "04_Konig_Buffalo_2014_en_ja.pdf",
+        "pages": 22,
+        "sha256": "75049cd9c4b54357c67d7cd87c80698ebe97acd3041d30831cfc32b944a66aac"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "05_Zemblys_et_al_2018",
+      "title_ja": "機械学習によるアイトラッキングデータのイベント検出",
+      "title_en": "Using machine learning to detect events in eye-tracking data",
+      "author_label": "Zemblys et al.",
+      "year": 2018,
+      "source": "05_Zemblys_et_al_2018.pdf",
+      "source_sha256": "bd671b221fd8af32498c94fed69cf3351e5366474c43e501fa639a1e5e6c7740",
+      "source_pages": 22,
+      "japanese": {
+        "file": "05_Zemblys_et_al_2018_ja.pdf",
+        "pages": 22,
+        "sha256": "2181ab53e613e287f63cbe15a664f5a63e05716274cb1accfac9fc274474c4c7"
+      },
+      "bilingual": {
+        "file": "05_Zemblys_et_al_2018_en_ja.pdf",
+        "pages": 44,
+        "sha256": "b9cc5284fa685b9fb21793e669b37aa115674f13ff5672fe8d2ad31ceac8d9d6"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "06_Salvucci_Goldberg_2000",
+      "title_ja": "アイトラッキング記録における固視とサッケードの識別",
+      "title_en": "Identifying fixations and saccades in eye-tracking protocols",
+      "author_label": "Salvucci & Goldberg",
+      "year": 2000,
+      "source": "06_Salvucci_Goldberg_2000.pdf",
+      "source_sha256": "33bc3befec8426d48755b32dfac13d7570f8338c7e5df406cda34439afaa7962",
+      "source_pages": 8,
+      "japanese": {
+        "file": "06_Salvucci_Goldberg_2000_ja.pdf",
+        "pages": 8,
+        "sha256": "f036c2d8694e03b78676175ddbb2d0949708fd318f8db313ca6f2ba07e747842"
+      },
+      "bilingual": {
+        "file": "06_Salvucci_Goldberg_2000_en_ja.pdf",
+        "pages": 16,
+        "sha256": "1d291a60313cf2f286ebc519a82c8d415e37d9c7e7d08153423f1c8fd6dd099b"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "07_Komogortsev_et_al_2010",
+      "title_ja": "固視およびサッケード行動の自動解析の標準化",
+      "title_en": "Standardization of automated analyses of oculomotor fixation and saccadic behaviors",
+      "author_label": "Komogortsev et al.",
+      "year": 2010,
+      "source": "07_Komogortsev_et_al_2010.pdf",
+      "source_sha256": "a7632ba040f8ccfa6a4139bb230dc32c49e4373900c16250bcef4ab1f280e471",
+      "source_pages": 11,
+      "japanese": {
+        "file": "07_Komogortsev_et_al_2010_ja.pdf",
+        "pages": 11,
+        "sha256": "7b0dd55af6218d1f8cacc8ee990ebfacde09e8d90c9da9ebbfab91986d39c981"
+      },
+      "bilingual": {
+        "file": "07_Komogortsev_et_al_2010_en_ja.pdf",
+        "pages": 22,
+        "sha256": "1b44aa68bfa532111433b519dea3eb29de84fd2888ee4c47d554eaea49c65f80"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "08_Sauter_et_al_1991",
+      "title_ja": "カルマンフィルタが生成するイノベーションを用いた追跡眼球運動の解析",
+      "title_en": "Analysis of eye tracking movements using innovations generated by a Kalman filter",
+      "author_label": "Sauter et al.",
+      "year": 1991,
+      "source": "08_Sauter_et_al_1991.pdf",
+      "source_sha256": "ba634327ba9a6385e8d2742acb83d34b8d77e6f93200e747e42723052480a721",
+      "source_pages": 7,
+      "japanese": {
+        "file": "08_Sauter_et_al_1991_ja.pdf",
+        "pages": 7,
+        "sha256": "7c387b2a379a6f7219053f8a77791e7e1f4729f24aa8e6a570579b41db38ac34"
+      },
+      "bilingual": {
+        "file": "08_Sauter_et_al_1991_en_ja.pdf",
+        "pages": 14,
+        "sha256": "4749775b971fd837f8f88fabab5e1114bfecae1c7f4f277afd3b538c6c4f01c8"
+      },
+      "review": "first_page_checked_and_figure_restoration"
+    },
+    {
+      "id": "09_Bahill_et_al_1981",
+      "title_ja": "サッケード眼球運動の正常基準データベース：ばらつきとその構築",
+      "title_en": "Variability and development of a normative data base for saccadic eye movements",
+      "author_label": "Bahill et al.",
+      "year": 1981,
+      "source": "09_Bahill_et_al_1981.pdf",
+      "source_sha256": "8beb1e89a574a2cd06cb00f2831b566dba26d525eccf26ab00e75654657eeeec",
+      "source_pages": 10,
+      "japanese": {
+        "file": "09_Bahill_et_al_1981_ja.pdf",
+        "pages": 10,
+        "sha256": "4add2650f6ae30757089f74c486ace4eade9c0cfe602434f20281ee7702f7d30"
+      },
+      "bilingual": {
+        "file": "09_Bahill_et_al_1981_en_ja.pdf",
+        "pages": 20,
+        "sha256": "ec56ee848e396e6e5d4e1d7d8280fb22f3b41e5e431ab4dfec4c4fdb2793f99a"
+      },
+      "review": "first_page_checked_and_figure_restoration"
+    },
+    {
+      "id": "10_Blignaut_2009",
+      "title_ja": "固視の識別：分散度アルゴリズムにおける最適な閾値",
+      "title_en": "Fixation identification: The optimum threshold for a dispersion algorithm",
+      "author_label": "Blignaut",
+      "year": 2009,
+      "source": "10_Blignaut_2009.pdf",
+      "source_sha256": "f5eee7216750c19fd1f2130d28b33a479bfbc217c0087e6aaafd0efa2b9b39e5",
+      "source_pages": 15,
+      "japanese": {
+        "file": "10_Blignaut_2009_ja.pdf",
+        "pages": 15,
+        "sha256": "85587199d64a3116b455971e8d9f51f175cbe339d27b15fbd069f828372090f9"
+      },
+      "bilingual": {
+        "file": "10_Blignaut_2009_en_ja.pdf",
+        "pages": 30,
+        "sha256": "2bd3930685eb3ef76eb271a7bdcbbd7225d673fce6a3aa043653ca2cad74b8b5"
+      },
+      "review": "machine_translation_with_spot_checks"
+    },
+    {
+      "id": "11_Zemblys_et_al_2019_Correction",
+      "title_ja": "訂正：「機械学習によるアイトラッキングデータのイベント検出」",
+      "title_en": "Correction to: “Using machine learning to detect events in eye-tracking data”",
+      "author_label": "Zemblys et al.",
+      "year": 2019,
+      "source": "11_Zemblys_et_al_2019_Correction.pdf",
+      "source_sha256": "5e0b86daf360b01db5bba619c1ac5911a613964b727bfcef8cacb8c1c070d3ab",
+      "source_pages": 2,
+      "japanese": {
+        "file": "11_Zemblys_et_al_2019_Correction_ja.pdf",
+        "pages": 2,
+        "sha256": "d55014c9fca308bb3872e6e1a28b73d53d4f59141cd8d47795f7490f6874a27d"
+      },
+      "bilingual": {
+        "file": "11_Zemblys_et_al_2019_Correction_en_ja.pdf",
+        "pages": 4,
+        "sha256": "31ca73fdd3fcc84c5102ed5913ec9a00c2229299a4ddcd2800c2f9d70f1e1392"
+      },
+      "review": "full_text_checked"
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+Variability and development of a normative
+data base for saccadic eye movements
+A. Terry Bahill, Allan Brockenbrough, and B. Todd Troost
+The duration, peak velocity, and acceleration of the saccadic eye movements of 13 normal
+subjects are plotted as functions of saccadic magnitude. The apparent peak velocity of a
+saccadic eye movement is sensitive to the algorithms used to calculate the velocity. The velocity
+channelfiltershould have zero phase shift and a cutoff frequency between 60 and 100 Hz in
+order to limit noise but pass all the signal information. Some subjects fatigue rapidly; their
+parameters fall outside the normal range of values.
+Key words: saccadic eye movements, main sequence, duration, velocity,
+acceleration, filtering, differentiation, power spectra, fatigue, bandwith, linearity
+
+v^accadic peak velocity-magnitude-duration parameters, called the main sequence
+parameters, 1 ' 2 have been used to define saccades. Eye movements were called saccades
+if their peak velocity-magnitude-duration
+parameters matched normative data. This
+technique has been used for regular saccades, 3 " 6 closely spaced saccades,7 overlapping saccades,8 non-Hering's law saccades,9
+fast phases of nystagmus, 10 " 12 voluntary nystagmus, 13 dynamic overshoots,14 and fractionated saccades in internuclear ophthalmoplegia.15 Many of these studies used different normative data bases. In this paper we
+try to explain possible reasons for the variability in these data bases.
+
+From the Department of Electrical Engineering, Carnegie-Mellon University and the Department of Neurology, University of Pittsburgh Medical School,
+Pittsburgh, Pa.
+Supported in part by grants from the National Institutes
+of Health (R23EY02382), the National Science Foundation (ENG 7722418) and the United States Naval Air
+Systems Command.
+Submitted for publication July 24, 1980.
+Reprint requests: A. Terry Bahill, Biomedical Engineering Program, Department of Electrical Engineering,
+Carnegie-Mellon University, Pittsburgh, Pa. 15213.
+
+116
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+The great utility of these peak velocitymagnitude-duration parameters has prompted questions of how much they are affected
+by fatigue, intersubject and intrasubject vari- ~
+ability, instrumental noise, low-pass filtering
+of the data, and by the algorithms used to
+compute the parameter values. We answered
+these questions in defining the quantitative
+aspects of a normal data base.
+Developing a consistent set of valid normative saccadic eye movement data that
+could be used for intralaboratory comparisons was difficult. First, many normal subjects in a homogeneous age group had to be
+recorded. Second, the eye movements of
+fatigued subjects had to be rejected. This required a visual examination of the velocity
+profile of each individual saccade. Third,
+peak velocities and durations had to be plotted as functions of saccadic magnitudes, not
+of target displacements. Fourth, the velocity
+waveform, not the position waveform, had to
+be used to define the beginning and end of
+each saccade. Fifth, zero-phase digital filters
+and algorithms had to be used to calculate
+velocity. Sixth, Bode diagrams of the filters
+had to be measured and plotted, particularly
+for the velocity channel. Seventh, it had to be
+
+0146-0404/81/070116+10$01.00/0 © 1981 Assoc. for Res. in Vis. and Ophthal., Inc.
+
+Volume 21
+Number 1, Part 1
+
+Variability and validity of saccadic parameters
+
+117
+
+TARGET
+
+L
+n
+I
+\
+
+' RIGHT EYE
+
+^^""""
+
+T ^
+
+/
+
+t t
+
+' LEFT EYE
+
+^S~
+
+^ Y
+
+SECONDS
+
+t
+
+I
+
+V-fi
+
+Fig. 1. Target and eye positions at the start of a typical recording session. The sinusoidal
+tracking is included to ensure linearity. Candidate saccades are pointed to by the arrows. The
+operator has rejected the eye blink (boxes with X) that occurred just before saccadic tracking
+began. The target jumps were 20 deg. Rightward movements are represented by upward
+deflections in all our figures. This figure shows a soft saturation, a nonlinearity, in the left eye
+channel, as illustrated by the attenuation of the two microsaccades of left eye on extreme right
+gaze.
+demonstrated that the recording system was
+linear for the entire range of measurement. A
+data base such as this has not been previously
+published. Some authors 1 published data for
+only one subject; they measured 16 but did not
+publish their velocity channel bandwidth.
+Some authors12' 17 published mixed electrooculogram (EOG) and photocell data and did
+not explicitly state the bandwidth of the eye
+velocity records. Some authors 18 did not
+measure their bandwidths, and others 19 used
+EOG and mixed the results of measurements
+of one eye alone and the movement of the
+two eyes averaged together.
+There are two purposes of this article: to
+provide a valid normative data base for human
+saccadic eye movements and to explain differences in previously published data.
+Methods
+Saccadic refixations in response to discrete
+target movements were measured. The target
+waveforms were generated either with an analog
+function generator or with a computer. The target
+was a small red laser dot (3 mm diameter) projected on a white screen 57 cm from the subject.
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+The target voltage drove a galvanometer that had
+a small mirror attached. The movement of the
+mirror deflected the laser beam to produce the
+horizontally moving dot on the screen. Subjects
+viewed the target binocularly in a dimly illuminated room. Informed consent was obtained after
+the equipment and the experiment were explained to the subjects.
+The movement of each eye was measured with
+standard photoelectric techniques.14 The linear
+range for the measurement of horizontal eye
+movements extended ±10 deg from primary position. The system was linear for 20 deg of eye
+rotation. This limit on linearity was prescribed by
+the size of the iris and the covering of the iris by
+the eyelids. It is difficult, but not impossible, to
+obtain valid data for saccadic eye movements
+larger than 20 deg with this technique.8 Instrument noise was less than 1 mv and was, therefore,
+smaller than signals produced by eye movements
+of 1 min arc, which were on the order of 30 mv.
+Saccades as small as 3 min arc have been recorded
+on this equipment.20 The target movement and
+the movements of the eyes were amplified (0 to 300
+Hz bandwidth), passed through an analog to digital converter sampling at 1000 Hz, and stored on a
+disk in the computer.
+It took 2 to 15 min to adjust the photocells and
+
+Invest. Ophthalmol. Vis. Sci.
+July 1981
+
+118 Bahill et al.
+
+0
+1
+SACCADIC MAGNITUDE
+
+10
+
+Fig. 2. Main sequence diagrams showing peak
+velocity, duration, and the first peak acceleration
+as functions of saccadic magnitude for the saccadic
+eye movements of 13 normal subjects. The magnitudes were computed from records with a
+bandwidth extending from 0 to 300 Hz; peak velocities and durations were derived from records
+with an 80 Hz bandwidth; accelerations were derived from 60 Hz bandwidth records. The units
+are degrees for magnitude, degrees per second for
+peak velocity, milliseconds for duration, and degrees per second squared for acceleration.
+
+obtain linear recordings over the central range.
+The subject was allowed to rest for a few minutes
+and was then asked to track a random amplitude
+square wave target movement for 3 min. A 3 min
+rest period was allowed, and then the calibration
+and the 3 min test were repeated. Finally, the
+calibration test was repeated and the session was
+over.
+The peak velocity-magnitude-duration parameters are changed primarily by fatigue.8 Fatigue is
+used here in a broad sense to include muscle
+fatigue, tiredness, and inattention. We have
+avoided these effects by keeping our recording
+sessions short, about 3 min each, and by ensuring
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+mental alertness through verbal admonishments
+such as, "Track very carefully now." We believe
+that a continuous interactive process is extremely
+important in obtaining consistent, valid data. Intrasubject and intersubject variability is significantly reduced by such attention to detail. We
+therefore monitored the analog records as the data
+were being taken. If the data were noisy or nonlinear they were discarded and the equipment was
+readjusted. These techniques have been successful
+in minimizing aberrant effects.
+An important aspect of the calibration routine
+was the tracking of a slow (0.2 Hz) sinusoid. A
+sinusoid of this frequency is very easy to track and
+most humans can track it with very few saccades.
+These records were inspected to ensure that the
+recording system was linear. With a linear system
+the eye movements looked sinusoidal, and microsaccades could be seen in each channel at both
+extremes of gaze. It is not sufficient to have the
+subject look at a few selected targets to check for
+linearity, since soft saturation at the end points
+and discontinuities will be missed. At least one
+cycle of this sinusoidal tracking was included in
+every disk file of data to ensure linear recordings
+(Fig. 1). Visual inspection of this sinusoid by the
+experimenter is a necessary and sufficient test to
+detect common instrumentation nonlinearities.
+Saccadic data analysis was performed on a PDP
+11/34 computer with interactive graphics programs. The eye movement data were displayed on
+a graphics terminal where the operator specified
+which sections of the data were to be averaged
+together to define the voltages corresponding to
+each of thefixationpoints. This produced the deg
+per volt calibration factors. Typically 5 to 10 sec of
+data were averaged to obtain each of these factors.
+The velocity as a function of time was calculated
+for each eye and was stored in a file called the
+velocity channel. The acceleration as a function of
+time was calculated from the velocity data with
+similar algorithms and filters. Saccadelike events,
+where the velocity exceeded 20 deg/sec, were
+marked while in the interactive graphics mode.
+The operator either accepted the event if it appeared to be a saccade or discarded the event if it
+appeared to be a blink or an artifact.
+The magnitude, duration, peak velocity, and
+size of the first peak acceleration were computed
+for each saccade. A two point central difference
+algorithm and a 80 Hz, zero-phase, low-pass filter
+were used to compute the velocity as a function of
+time. The beginning and end of each saccade was
+defined by this velocity trace. Since the peak velocity of a saccade occurs just about in the middle
+
+Volume 21
+Number 1, Part 1
+
+Variability and validity of saccadic parameters
+
+of the saccade, the time of peak velocity was determined. Then the points before and after the
+center of the saccade where the velocity was 5
+deg/sec were located. When the velocity dropped
+into the ± 5 deg/sec noise band, we said the eye
+had reached zero velocity. These points were
+defined to be the beginning and the end of the
+saccade and were used to determine the magnitude and duration of the saccade. Defining the
+saccadic size by means of the zero-velocity points
+rather than the presaccadic and postsaccadic positions eliminated the effects of glissades and thus
+greatly reduced the scatter in the data.
+We used a 80 Hz (3 dB point) filter in the velocity channel. It was a rectangular window in the
+frequency domain corresponding to 5 lobes of a
+sine function in the time domain, ±17 data
+points. 21 Its frequency response is shown in Fig. 4.
+The maximum attenuation in the passband was 1.2
+dB, and the maximum gain in the passband was
+0.3 dB. This filter had 6% overshoot when excited
+with a step input. Since normal eye movements do
+not look like step responses, this presented no
+limitations. The same filter was used for the acceleration channel, but the 3 dB point was reduced to
+60 Hz. When higher cutoff frequencies were tried,
+the computed peak accelerations changed, and the
+acceleration records became noisier. We did not
+believe that the peak accelerations computed with
+the higher bandwidths were more accurate. The
+60 Hz cutoff frequency was the best compromise
+between noise and high-frequency information.
+There were two reasons why we sampled at a
+rate as high as 1000 Hz: it allowed saccadic duration to be estimated within 1 msec, and it allowed
+a velocity channel bandwidth of over 100 Hz. A
+1000 Hz sampling rate yields a 500 Hz Nyquist
+frequency. Therefore all signal and noise components above 500 Hz had to be removed with
+analog filters before sampling. We used 300 Hz
+analog filters (20 dB/decade roll off). To calculate
+velocity we used a two point central difference
+algorithm, 2hy(i) = y(i + 1) — y(i — 1), where h,
+the sampling interval, is 1 msec. This algorithm
+acts as a low-pass filter that is shown 4 dB at 250
+Hz. It has no phase shift. For an analog-to-digital
+converter operating at 200 samples per second,
+this velocity algorithm would remove all frequencies above 50 Hz. Furthermore, for this algorithm
+there is an optimal sampling rate that gives
+the most accurate velocity estimates; this rate depends on the accuracy in evaluating the original
+function. The 1000 Hz sampling rate is optimal for
+the accuracy with which we can evaluate eye position.
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+119
+
+1000
+
+0
+
+5
+
+10
+
+15
+
+25
+
+SACCADIC MAGNITUDE
+
+Fig. 3. Same saccadic data of Fig. 2 plotted with
+linear coordinates.
+Table I
+Saccadic magnitude
+(deg)
+
+Peak velocity
+andS.D.
+(deg/sec)
+
+Duration
+andS.D.
+(msec)
+
+5
+10
+15
+20
+
+261 ± 42
+410 ± 67
+499 ± 43
+657 ± 78
+
+42 ± 8
+51 ± 8
+54 ± 7
+64 ± 6
+
+Results
+Our normative data base contains over 900
+saccadic eye movements from 13 normal subjects ranging from 20 to 35 years of age. Figs.
+2 and 3 show the peak acceleration, the peak
+velocity, and the duration all as functions of
+saccadic magnitude. The peak velocity and
+the duration were computed from the velocity data, which had a bandwidth of 80 Hz; the
+magnitude was derived from 300 Hz bandwidth eye position data by timing data derived from the velocity channel; and acceleration was derived from 60 Hz bandwidth
+
+Invest. Ophthalmol. Vis. Sci.
+July 1981
+
+120 Bahill et al.
+
+40
+
+SO
+
+60
+
+70
+
+SO 90 100
+
+125
+
+150
+
+200
+
+Frequency (Hz)
+
+Fig. 4. Apparent peak velocity of two typical saccades as a function of the low-pass filter cutoff
+frequency, and the response of our digital velocity channel filter. The optimal velocity channel
+filter should have a cutoff value above 60 Hz so that the apparent peak velocity is not attenuated, but below 100 Hz where computational noise increases the apparent peak velocity.
+
+data. The solid lines are the means and one
+standard deviation on each side of the mean.
+Table I provides numerical values for a few
+saccadic sizes.
+An equation that fits the data is:
+0 max = 684(1 - e - ° - I A « )
+
+The parameter values shown in Figs. 2 and
+3 are very sensitive to the bandwidths of the
+instrumentation. Low-pass filtering at various frequencies can effect the apparent peak
+velocity and the apparent duration. The apparent magnitude can also be affected, depending on the algorithm used. Fig. 4 shows
+the apparent peak velocity of two saccades as
+a function of the cutoff frequency of our velocity channel filter.
+When the cutoff frequency of our velocity
+channel filter was varied, the apparent peak
+velocity of most saccades behaved as shown
+in Fig. 4. It increased as the filter cutoff frequency increased from 15 to 50 Hz and remained relatively constant as this frequency
+increased from 50 to 100 Hz. We were surprised to see that varying the cutoff fre-
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+quency of the velocity channel filter in the
+range from 40 to 60 Hz would have an affect
+on the apparent peak velocity, since when we
+calculated the power spectrum of a saccade
+we found little energy above 40 Hz (Fig. 5).
+But then we realized that it was not the
+power spectrum of the position channel that
+we should be studying, but rather the power
+spectrum of the velocity channel. Fig. 5
+shows these two power spectra for a typical
+10 deg saccade. The power spectrum of the
+velocity channel is broader than the spectrum of the position channel. The velocity
+spectrum of the left eye is not down 40 dB
+until 74 Hz. Therefore the velocity channel
+filter may decrease the apparent peak velocity of a saccade unless its cutoff is 74 Hz or
+more. The gradual rise in the apparent peak
+velocity curve of Fig. 4 above 100 Hz is a
+consequence of the differentiation algorithm
+and quantization noise. A velocity channel
+filter with a cutoff between 60 and 100 Hz
+seems to be optimal. The shape of the apparent maximum acceleration plot was similar to
+the apparent peak velocity plot.
+
+Volume 21
+Number 1, Part 1
+
+Variability and validity of saccadic parameters
+
+10 "t>0
+
+40
+
+50
+
+60
+
+7 V 80
+
+90
+
+Velocity Power Spectrum, Right Eye
+
+Position Power Spectrum, Right Eye
+
+1
+
+Position Power Spectrum, Left Eye
+
+3"0
+
+121
+
+I |
+10
+
+|
+20
+
+30
+
+40
+
+|
+50
+
+|
+60
+
+70
+
+Velocity Power Spectrum , Left Eye
+
+Fig. 5. Power spectral density functions for a typical saccade. The velocity spectrum for the left
+eye has significant power out to 74 Hz. Such large differences between the spectra of the right
+and left eyes are not uncommon. Power is in decibels (dB) and frequency is in hertz (Hz).
+How many significant digits are there in
+our calculated values of magnitude and peak
+velocity? The biggest source of noise, and the
+only step involving a qualitative decision by a
+human, is setting the calibration levels to get
+the degrees per volt calibration factors. We
+had two experimenters do this 16 times on 3
+separate days. The largest difference was
+1.3%, with a 0.2% S.D., so that we can say
+with 95% confidence that our data are reproducible to ±0.4%. This means that the magnitude of a 10 deg saccade may vary from run
+to run in the second digit after the decimal
+point, but the first digit after the decimal
+point will not vary. For magnitude we list the
+first digit after the decimal point. The
+analog-to-digital converter has 12-bit resolution; this fact also implies that the first digit
+after the decimal place is significant but that
+the third digit cannot be fully resolved. For
+peak velocity the digit in the units place is subject to variation on repeated trials. For example, a velocity of 411 deg/sec may actually
+be 410 or 412 deg/sec. (The theoretical maximum error of our numerical algorithm is also
+1 deg/sec.) This implies that the 67 deg/sec
+S. D. of our data was due to human eye movement variability and not our data analysis programs. Because we sampled every millisecond, our average error in duration was 1 msec.
+In order to understand the large variability
+in saccadic parameters reported by others, on
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+2 separate days we recorded the slowest subject used by Schmidt et al. 18 We included his
+normometric 22 saccades (e.g., saccade 6 in
+Fig. 6) in our data base.
+Initially an automatic processing routine
+was used. It showed that half of the eye
+movements were more than 1 S.D. below the
+mean; many were apparently 3 and 4 S.D.
+below the mean. When such a quick look at
+the data reveals abnormalities, a detailed
+examination of the velocity profiles of the individual eye movements is called for.
+This inspection of the velocity traces
+showed that eye movements in the first 30
+sec of the session were normometric saccades
+within 1 S.D. of the mean; after this, none of
+the movements was normometric.
+Fig. 6 shows eye movements recorded 6,
+49, and 61 sec after the start of one session. It
+is easy to see that if movement 49 were
+treated as a 19 deg saccade (because the
+target jump was 19 deg) a great deal of variability would be added to the data. The peak
+velocity of movement 49 (460 deg/sec) would
+be much too slow for a 19 deg saccade, and its
+duration of 109 msec would be much too long
+for a 19 deg saccade. However, if this eye
+movement were treated as a 10 deg, 55 msec,
+460 deg/sec saccade followed by a 9 deg, 54
+msec, 333 deg/sec saccade, then little variability would be introduced into the data.
+The large glissade appended to the dynamic
+
+Invest. Ophthalmol. Vis. Sci.
+July 1981
+
+122 Bahill et al.
+
+saccade in record 61 offers a more subtle
+example of how the variability of saccadic
+parameters will be increased if the velocity
+traces are not used to monitor for fatigue.
+The saccadic deterioration was similar in
+both recording sessions. Once fatigued, this
+subject's fixations became unstable and
+smooth pursuit tracking was mostly saccadic.
+Humans make thousands of saccades a day.
+However, they are not repetitive in timing
+and amplitude, and they are seldom larger
+than 15 deg in amplitude. 23 A long recording
+session containing large saccades can fatigue
+humans. However, none of the other 27 patients and normals we have recorded this past
+year has fatigued as rapidly as the subject
+whose data are shown in Fig. 6.
+Discussion
+
+Fig. 6. Saccadic eye movements of a subject entering a state of fatigue. The records are from sixth,
+forty-ninth, and sixty-first seconds of the recording
+session. The saccade of record 6 is a normometric
+saccade that is within 1 S.D. of the mean shown in
+Figs. 2 and 3. The eye movement of record 49 is
+composed of two closely spaced saccades. The eye
+movement of record 61 has a dynamic saccade of
+15 deg and a glissade of 4 deg. If the peak velocity
+of such a movement were said to be the peak velocity of a 19 deg saccade, a great deal of variability
+would be added to the data. The calibration bars
+represent 10 deg, 500 deg/sec, 30,000 deg/sec2,
+and 100 msec. Bandwidths were 0 to 300 Hz for
+position, 0 to 80 Hz for velocity, and 0 to 60 Hz for
+acceleration. The photocells were adjusted quickly
+and consequently the data are noisy.
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+The particular computer algorithm used
+can affect the saccadic parameters. On one
+occasion the velocity records of a typical saccade were derived (1) with a finite-impulse
+response, noncausal, zero-phase, rectangular-window digital filter, with a cutoff frequency of 55 Hz and a spread of ±50 points
+(msec), and (2) with a fifth-order, recursive,
+linear-phase, digital, Butterworth filter with
+a cutoff of 55 Hz. 21 The peak velocities and
+durations derived with use of the two filters
+were almost the same; these measurements
+were not affected by the phase shift. However, the magnitudes calculated with the
+linear-phase filter were in error. The beginning and ending times of the saccade were
+determined on the velocity record and were
+then transferred to the position trace in order
+to calculate saccadic magnitude. A phase shift
+between these records produced errors. For
+the linear-phase filter, the calculated starting
+point was always too late, thus making the
+saccade seem too small. The calculated ending point was also too late; however, this
+made the saccade appear either too large or
+too small depending on whether or not the
+eye movement had overshoot. Hence the errors in magnitude were stochastic. Use of a
+linear-phase filter would have increased the
+standard deviation of the data. The results
+obtained with the zero-phase filter were
+
+Volume 21
+Number 1, Part 1
+
+Variability and validity of saccadic parameters 123
+
+more accurate, and the standard deviations of
+the data were smaller.
+We recommend the following overall
+bandwidthsforsaccadic eye movement data: 0
+to 300 Hz for position, 0 to 80 Hz for velocity,
+and 0 to 60 Hz for acceleration. Larger bandwidths produce larger standard deviations because of biological, instrumental, and computational noise. Smaller bandwidths produce
+variability between data bases. Zero-phase
+digital filters are best. If analogfiltersmust be
+used, then Butterworth filters with the above
+bandwidths could be used. However, timing
+information could not be transferred between
+the position and velocity channels.
+It is very important that the bandwidths be
+given when quantitative parameters for saccades are reported. However, it is not
+sufficient to give only the bandwidth of the
+recording system. The differentiators have
+dynamics, and interlaboratory comparisons
+can not be made unless the frequency characteristics of these differentiators are known. It
+would be best if this velocity channel bandwidth were measured by putting sinusoids in
+and measuring the sinusoids coming out. Because this bandwidth depends upon system
+bandwidth, sampling rate, the velocity algorithm, and the velocity channel filters,
+theoretical calculation of this bandwidth
+would be difficult.
+The analog and digital filters of Baloh
+et al.19 matched each other very well. They
+used 35 Hz analog filters on their data. They
+tried higher frequency filters and saw no effect
+on the apparent peak velocity. One of the
+reasons was that they used a 50 Hz digital filter
+and their velocity algorithm acted as an 89 Hz
+filter. Neither was flat in the pass band. The
+cascade of these two digital operations had a 3
+dB point at 35 Hz. If they had increased their
+sampling rate, then the digital operations
+would have had higher frequency cutoff values and there would have been some difference in apparent peak velocity as the cutoff
+frequency of the analog filter was increased.
+The differentiation algorithm acts as a lowpass filter. To evaluate the velocity at point i
+we used the data at points 1 msec before and
+after point i. For a 1000 Hz sampling rate, this
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+yields a bandwidth of 223 Hz. We could
+change the algorithm to use points 4 msec
+before and after the point i. This algorithm
+would have a bandwidth of 56 Hz. This
+would have reduced the accuracy of the velocity computation and increased the high
+frequency noise, but it would have saved the
+time and expense of the extra velocity channel
+filter. We did not do this originally because we
+wanted to see and understand each operation
+separately.
+For noisy data, the 5 deg/sec criterion for
+defining the beginning and end of the saccade
+did not work well. In these cases we found the
+points where the velocity was 5% of the peak
+velocity and then added 1 msec to the start
+and 3 msec to the end of the saccade. This new
+time interval was then used to calculate the
+magnitude and the duration of the saccade.
+The values of 1 and 3 msec were chosen because they predict the zero velocity points for
+noise-free records of saccades between 1 and
+20 deg. For noisy data, the bandwidth of the
+position channel was reduced from 300 to 125
+Hz, the bandwidth of the velocity channel was
+reduced from 80 to 60 Hz, and the bandwidth
+of the acceleration channel was reduced from
+60 Hz to 45 Hz. The noisy data algorithm and
+filters were not used to compile this normative
+data base; they were sometimes used in
+analyzing the data of clinical patients.
+The peak velocity main sequence diagram
+has been more useful than the duration diagram. Therefore, in this study, we tried to
+get accurate, consistent velocity data. If we
+had focused on the duration data, we would
+have used different algorithms. For example,
+our velocity channel filter in conjunction with
+defining the beginning and the end of a saccade with the zero-velocity points increased
+the apparent duration of some saccades by as
+much as 20%. We did not correct for this.
+There is an automatic processing feature in
+our program that does not require the intervention of an operator to make judgments
+about whether the event is a saccade or an
+artifact. The automatic processing feature
+works particularly well when a vertical EOG
+channel is recorded and used as an eyeblink
+detector. These programs were suitable for
+
+Invest. Ophthalmol. Vis. Sci.
+July 1981
+
+124 Bahill et at.
+
+fast screening of patients but not for the formulation of a normative data base. The automatic processing feature was not used for
+the peak velocity-magnitude-duration parameters of this report.
+The main sequence data have been plotted
+on both log-log coordinates and linear coordinates as Bahill16 did previously. Linear
+plots allocate most of the graph space to large
+saccades, whereas log-log plots give space
+proportional to the frequency of occurrence
+of the saccades. The frequency of occurrence
+of natural saccades is a decaying exponential,
+with most saccades having an amplitude of 15
+deg or less.23 Thus linear plots emphasize
+the physiologically unusual large saccades,
+whereas log-log plots give more weight to
+normal sized saccades and make it possible to
+include small saccades. However, the linear
+plots of Fig. 3 are often more useful in clinical
+situations.
+The data base we have described is useful
+not only for basic research but also for testing
+in the clinic. We plotted the eye movement
+parameters as functions of actual saccade size
+rather than the size of the target jumps. Our
+paradigm allowed us to accumulate large
+numbers of saccades in less than 3 min.
+Rather than have subjects make multiple
+refixations to a series offixedtargets, we randomly changed target size during the run.
+This helped to reduce fatigue and inattention, which often occur in recording sessions
+longer than 10 to 15 min. The technique is
+therefore well-suited for the study of patients. It is important to note, however, that
+a subject with data out of our normal range
+does not necessarily have a pathological condition. It suggests that the position and velocity waveforms of individual saccades
+should be studied in detail.
+The standard deviations of our data are
+small because (1) we rejected data taken when
+the subjects became fatigued, as judged by a
+careful inspection of the eye position and eye
+velocity records; (2) we plotted the parameters as functions of the size of the actual saccade, not as functions of the size of the target
+movement; (3) we only used data from the
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+linear range of our instrumentation; (4) the
+computer calculated the parameters from the
+velocity trace, derived with a zero-phase digital filter; and (5) we defined the size of the
+saccade as the size of the initial, dynamic saccade. Either the eye movements with long
+glissades or drifts were discarded or else the
+magnitude of the dynamic saccade was carefully calculated. For saccades with overshoot,
+the saccadic magnitude was defined to be the
+foot-to-peak angle, i.e., the angle between
+zero velocity at the start of the saccade and
+zero velocity at the end of the saccade. Less
+variability was provided by this definition for
+the size of the saccade than when the size of
+the saccade was defined as the angle between
+the two steady statefixationpoints. Saccades
+with dynamic overshoot were treated as two
+saccades: the main saccade and a small return
+saccade.
+We thank Jeffrey S. Kallman for writing the digital
+filters, Jon E. Lieberman for writing the power spectral
+density programs, and Larry A. Abel for comments and
+suggestions.
+REFERENCES
+1. Bahill AT, Clark MR, and Stark L: The main sequence, a tool for studying human eye movements.
+Math. Biosciences 24:191, 1975.
+2. Bahill AT and Stark L: The trajectories of saccadic
+eye movements. Sci Am 240:108, 1979.
+3. Dodge R and Cline TS: The angle velocity of eye
+movements. Psychol Rev 8:145, 1901.
+4. Westheimer G: Mechanism of saccadic eye movements. Arch Ophthalmol 52:710, 1954.
+5. Robinson DA: The mechanics of human saccadic eye
+movement. J Physiol 174:245, 1964.
+6. Becker W and Fuchs AF: Further properties of the
+human saccadic system: eye movements and correctional saccades with and without visual fixation
+points. Vision Res 9:1247, 1969.
+7. Bahill AT, Bahill KA, Clark MR, and Stark L:
+Closely spaced saccades. INVEST OPHTHALMOL 14:
+
+317, 1975.
+8. Bahill AT and Stark L: Overlapping saccades and
+glissades are produced by fatigue in the saccadic eye
+movement system. Exp Neurol 48:95, 1975.
+9. Kenyon RV, Ciuffreda KJ, and Stark L: Dynamic
+vergence eye movements in strabismus and amblyopia: symmetric vergence. INVEST OPHTHALMOL VIS
+
+SCI 19:60, 1980.
+10. Komatsuzaki A, Alpert J, Harris H, and Cohen B:
+Effects of mesencephalic reticular formation lesions
+on optokinetic nystagmus. Exp Neurol 34:522, 1972.
+
+Volume 21
+Number 1, Part 1
+
+Variability and validity of saccadic parameters
+
+11. Ron S, Robinson DA, and Skavenski AA: Saccades
+and the quick phase of nystagmus. Vision Res
+12:2015, 1972.
+12. Sharpe JA, Troost BT, Dell'Osso LF, and Daroff RB:
+Comparative velocities of different types of fast eye
+movements in man. INVEST OPHTHALMOL 14:689,
+
+1975.
+13. Shults WT, Stark L, Hoyt WF, and Ochs AL: Normal saccadic structure of voluntary nystagmus. Arch
+Ophthalmol 95:1399, 1977.
+14. Bahill AT, Clark MR, and Stark L: Dynamic overshoot in saccadic eye movements is caused by
+neurological control signal reversals. Exp Neurol
+48:107, 1975.
+15. Feldon SE, Hoyt WF, and Stark L: Disordered inhibition in internuclear ophthalmoplegia, analysis of
+eye movement recordings with computer simulations. Brain 103:113, 1980.
+16. Bahill AT: Neurological control and the hyperfine
+structure of saccadic eye movements. University of
+California Berkeley, Doctoral Dissertation for Department of Electrical Engineering and Computer
+Science, 1975.
+
+Downloaded from iovs.​arvojournals.​org on 11/​17/​2026
+
+125
+
+17. Boghen D, Troost BT, Daroff RB, Dell'Osso LF,
+and Birkett JE: Velocity characteristics of normal
+human saccades. INVEST OPHTHALMOL 13:619, 1974.
+
+18. Schmidt D, Abel LA, Dell'Osso LF, and Daroff RB:
+Saccadic velocity characteristics: intrinsic variability
+and fatigue. Aviat Space Environ Med 50:393, 1979.
+19. Baloh RW, Sills AW, Kumley WE, and Honrubia V:
+Quantitative measurement of saccade amplitude,
+duration, and velocity. Neurology 25:1065, 1975.
+20. Bahill AT, Clark MR, and Stark L: Computer simulation of overshoot in saccadic eye movements.
+Comput Programs Biomed 4:230, 1975.
+21. Oppenheim AV and Schafer RW: Digital Signal Processing. Englewood Cliffs, N. J., 1975, PrenticeHall, Inc.
+22. Bahill AT and Troost BT: Types of saccadic eye
+movements. Neurology 29:1150, 1979.
+23. Bahill AT, Adler D, and Stark L: Most naturally
+occurring human saccades have magnitudes of 15
+degrees or less. INVEST OPHTHALMOL 14:468, 1975.
+
+

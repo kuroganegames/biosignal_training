@@ -1,0 +1,32 @@
+{
+  "title": "訂正：「機械学習によるアイトラッキングデータのイベント検出」",
+  "authors": "Raimondas Zemblys・Diederick C. Niehorster・Kenneth Holmqvist",
+  "citation": "Behavior Research Methods (2019) 51:451–452. DOI: 10.3758/s13428-018-1127-3",
+  "date": "オンライン公開：2018年9月24日。© Psychonomic Society, Inc. 2018",
+  "pages": [
+    [
+      {"heading": "原論文の後処理の説明に関する訂正"},
+      {"text": "対象論文：Behavior Research Methods、DOI: 10.3758/s13428-017-0860-3。"},
+      {"text": "『Using Machine Learning to Detect Events in Eye-Tracking Data』（Zemblys, Niehorster, Komogortsev, & Holmqvist, 2018）の167ページにある『Post-processing: Labeling final events（後処理：最終イベントのラベル付け）』節に、後処理の実施方法について誤った記述があることが判明した。具体的には、『サッケード、PSO、または固視を削除するとは、そのサンプルを第4のクラスである未分類としてマークすることを意味する』という文を、次の文に置き換えるべきである。"},
+      {"quote": "『サッケード、PSO、または固視を削除するとは、そのサンプルが当該クラスに属する確率を引き下げること、すなわち0に設定することを意味する。したがって、イベントの削除は、実質的には、該当するサンプルを次に可能性の高いイベントとしてラベル付けすることである。』"},
+      {"text": "さらに、読者が実際の処理を正しく理解できるようにするには、後処理の方法をより詳しく説明する必要があることが分かった。そこで、本訂正の対象となる後処理節の末尾に、次の段落を追加する。"},
+      {"quote": "機械学習の文脈では、ヒューリスティックな規則に違反するサンプルの確率を引き下げることで後処理を行うのは自然な方法である。この点を理解することが重要である。上記のヒューリスティックな規則を用いる確率的な方法を採用したのは、最も可能性が高いと検出されたイベントの一部が、あらかじめ定めた基準を満たさない場合でも、分類を維持するためである。例えば、短いサッケードを単純に削除すると、短い未定義イベントの数が増える。一方、サッケードとしてマークされているが短すぎると判定されたサンプルの確率を引き下げれば、それらを次に可能性の高いクラスに所属させることができる。本研究でほかに用意されているクラスは、固視とPSOのクラスだけである。しかし、今後この方法を使う場合には、例えば滑動性追従眼球運動も含めてアルゴリズムを訓練したいという利用者も考えられる。その場合、『短すぎるサッケード』のサンプルは、確率を引き下げることにより、次に確率が高いクラスに応じて、固視、追従、またはその他のイベントのサンプルになり得る。"},
+      {"heading": "データセットの参照に関する訂正"},
+      {"text": "また、本研究で用いた生体認証データセットの1つについて、不正確な参照があることも分かった。原論文では、Eye Movement Biometric Databaseのversion 1（Komogortsev, 2011）とversion 2（Komogortsev, 2016）の2つを使用したと記載した。しかし、version 1ではなく、実際には公開されていない別のデータベースを使用していたことが判明した。したがって、version 1への参照は削除すべきである。"}
+    ],
+    [
+      {"heading": "コードの修正と結果の再現"},
+      {"text": "最後に、未知のデータ、すなわちランダムフォレストによる識別（IRF）アルゴリズムの構築時に訓練セットにも検証セットにも属していなかったデータにおいて、IRFイベント検出器が出力した一部のイベントが、原論文の『後処理』節に列挙されたヒューリスティックな後処理規則に違反していたにもかかわらず、誤って削除も他のイベントへの再分類もされていなかったことが分かった（Friedman, Rigas, Abdulin, & Komogortsev, 2018）。そのため、Zemblysら（2018）が報告したIRFの性能評価に含まれる誤ったイベントの数がわずかに増え、IRFの性能がわずかに低く評価された可能性がある。"},
+      {"text": "これらの発見を受け、このような誤動作を最小限に抑えるように後処理コードを更新した。さらに、確率的な後処理段階の出力を確認し、必要であれば、最終段階で決定論的な規則による『ハード』な後処理、すなわち規則に違反するイベントを完全に削除する処理を実行するルーチンを実装した。また、新しいアイトラッキングデータセットを収集して手動でラベル付けし、更新されたIRFアルゴリズムを用いて原研究の主要な結果を再現した。"},
+      {"text": "この再現の詳細、およびアルゴリズムの利用に必要なすべてのコードと入力データは、https://github.com/r-zemblys/irf から入手できる。再現に用いた訓練済みモデルは、https://doi.org/10.5281/zenodo.1343920 からも入手できる。"},
+      {"heading": "著者所属・連絡先"},
+      {"text": "1 シアウリアイ大学（リトアニア、シアウリアイ）。2 ルンド大学人文学研究所・心理学部（スウェーデン、ルンド）。3 レーゲンスブルク大学心理学部（ドイツ、レーゲンスブルク）。4 University of the Free State（南アフリカ、ブルームフォンテーン）。5 UPSET, NWU Vaal（南アフリカ、ヴァンダービールパーク）。6 マサリク大学文学部（チェコ共和国、ブルノ）。連絡先：Raimondas Zemblys, r.zemblys@tf.su.lt。"},
+      {"heading": "参考文献（書誌情報は原文表記）"},
+      {"reference": "Friedman, L., Rigas, I., Abdulin, E., & Komogortsev, O. V. (2018). A novel evaluation of two related and two independent algorithms for eye movement classification during reading. Behavior Research Methods. Advance online publication. https://doi.org/10.3758/s13428-018-1050-7"},
+      {"reference": "Komogortsev, O. V. (2011). Eye Movement Biometric Database (Version 1). San Marcos, TX: Texas State University. Retrieved from https://userweb.cs.txstate.edu/~ok11/embd_v1.html"},
+      {"reference": "Komogortsev, O. V. (2016). Eye Movement Biometric Database (Version 2). San Marcos, TX: Texas State University. Retrieved from https://userweb.cs.txstate.edu/~ok11/embd_v2.html"},
+      {"reference": "Zemblys, R., Niehorster, D. C., Komogortsev, O., & Holmqvist, K. (2018). Using machine learning to detect events in eye-tracking data. Behavior Research Methods, 50, 160–181. https://doi.org/10.3758/s13428-017-0860-3"}
+    ]
+  ],
+  "editorial_note": "非公式日本語訳。本文全体を原文と照合して訳出。PSOはサッケード後振動。読みやすさのため所属・連絡先を末尾にまとめ、見出しを補った。原文のページ境界とは一致しない。"
+}

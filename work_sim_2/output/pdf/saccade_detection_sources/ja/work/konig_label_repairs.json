@@ -1,0 +1,47 @@
+[
+  {
+    "document": "04_Konig_Buffalo_2014_ja.pdf",
+    "page": 1,
+    "rect": [
+      84.5,
+      305,
+      200,
+      318
+    ],
+    "text": "ハイライト",
+    "size": 9,
+    "font": "JPB",
+    "actual_font_size": 9,
+    "rendered_height": 10.799999999999999
+  },
+  {
+    "document": "04_Konig_Buffalo_2014_ja.pdf",
+    "page": 1,
+    "rect": [
+      84.5,
+      386,
+      205,
+      400
+    ],
+    "text": "論文情報",
+    "size": 9,
+    "font": "JPB",
+    "actual_font_size": 9,
+    "rendered_height": 10.799999999999999
+  },
+  {
+    "document": "04_Konig_Buffalo_2014_ja.pdf",
+    "page": 1,
+    "rect": [
+      251,
+      386,
+      400,
+      400
+    ],
+    "text": "要旨",
+    "size": 9,
+    "font": "JPB",
+    "actual_font_size": 9,
+    "rendered_height": 10.799999999999999
+  }
+]

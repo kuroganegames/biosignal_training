@@ -1,0 +1,65 @@
+[
+  {
+    "document": "10_Blignaut_2009_ja.pdf",
+    "page": 1,
+    "rect": [
+      91,
+      83.3,
+      494,
+      128
+    ],
+    "text": "固視の識別：\n分散度アルゴリズムにおける最適な閾値",
+    "size": 17,
+    "align": 1,
+    "font": "JPB",
+    "actual_font_size": 17,
+    "rendered_height": 40.8
+  },
+  {
+    "document": "10_Blignaut_2009_ja.pdf",
+    "page": 1,
+    "rect": [
+      91,
+      139.2,
+      494,
+      165
+    ],
+    "text": "Pieter Blignaut\nフリーステート大学（ブルームフォンテーン、南アフリカ）",
+    "size": 9.5,
+    "align": 1,
+    "font": "JP",
+    "actual_font_size": 9.5,
+    "rendered_height": 22.8
+  },
+  {
+    "document": "10_Blignaut_2009_ja.pdf",
+    "page": 1,
+    "rect": [
+      91,
+      173.3,
+      494,
+      269
+    ],
+    "text": "分散度に基づく固視検出アルゴリズムでは、固視の数、位置、大きさ、持続時間は、分散度の算出に用いる指標と閾値の関数であると仮定する。記憶再生実験に参加したチェスプレイヤーの視線データを解析し、各独立変数に対するI-DTアルゴリズムの感度を調べた。5種類の分散度指標それぞれについて、一定範囲の閾値を区切って変化させ、各閾値で視線軌跡を生成した。使用された注視点（POR）の割合、検出された固視の数、固視内のPORの空間的分散度、視線軌跡間の差を、最適な閾値を決めるための指標として用いた。その結果、固視の半径を1°とする閾値では、取得した視線データの約90%を利用しながら、固視の数と位置について再現可能な結果を得られることが分かった。",
+    "size": 9.3,
+    "align": 0,
+    "font": "JP",
+    "actual_font_size": 9.3,
+    "rendered_height": 89.28
+  },
+  {
+    "document": "10_Blignaut_2009_ja.pdf",
+    "page": 15,
+    "rect": [
+      294.84058837890626,
+      431.7801025390625,
+      519.1599609375,
+      452.14488525390624
+    ],
+    "text": "による眼の固視検出. ACM Transactions on Multimedia and Computing, Communications and Applications, 3, 23:1–23:20. West, J. ",
+    "size": 6.8,
+    "lineheight": 1.18,
+    "actual_font_size": 6.5,
+    "rendered_height": 15.340000000000002
+  }
+]

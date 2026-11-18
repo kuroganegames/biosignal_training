@@ -1,0 +1,141 @@
+[
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 1,
+    "rect": [
+      54,
+      70,
+      558,
+      114
+    ],
+    "text": "アイトラッキング記録における\n固視とサッケードの識別",
+    "size": 17,
+    "align": 1,
+    "font": "JPB",
+    "actual_font_size": 17,
+    "rendered_height": 40.8
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 1,
+    "rect": [
+      75,
+      118,
+      295,
+      213
+    ],
+    "text": "Dario D. Salvucci\n日産ケンブリッジ基礎研究所\nFour Cambridge Center\nCambridge, MA 02142, USA\n+1 617 374 9669\ndario@cbr.com",
+    "size": 9,
+    "align": 1,
+    "font": "JP",
+    "actual_font_size": 9,
+    "rendered_height": 64.8
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 1,
+    "rect": [
+      317,
+      118,
+      562,
+      213
+    ],
+    "text": "Joseph H. Goldberg\nペンシルベニア州立大学 産業・製造工学科\n310 Leonhard Building\nUniversity Park, PA 16802, USA\n+1 814 863 2370\njgoldberg@psu.edu",
+    "size": 9,
+    "align": 1,
+    "font": "JP",
+    "actual_font_size": 9,
+    "rendered_height": 64.8
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 1,
+    "rect": [
+      54.3,
+      248.8,
+      295.4,
+      422
+    ],
+    "text": "固視の識別、すなわちアイトラッキング記録に含まれる固視とサッケードを分離してラベルを付ける処理は、眼球運動データ解析に不可欠であり、より高次の解析に大きな影響を及ぼしうる。しかし、固視識別のアルゴリズムは非形式的に記述されることが多く、有意義な比較もほとんど行われていない。本論文では、アイトラッキング記録の空間情報と時間情報をどのように利用するかに基づいて、固視識別アルゴリズムの分類体系を提案する。この体系に沿って、異なる分類群を代表し、広く使われている技法に基づく5つのアルゴリズムを記述する。続いて、複数の定性的な特性について、これらのアルゴリズムを評価・比較する。比較結果からは、今後の研究における各アルゴリズムの利用について、興味深い示唆が得られる。",
+    "size": 9.4,
+    "align": 0,
+    "font": "JP",
+    "actual_font_size": 9.4,
+    "rendered_height": 157.92
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 3,
+    "rect": [
+      58.5,
+      433.5,
+      286,
+      588
+    ],
+    "text": "I-VT（記録、速度閾値）\n\n記録内の各点について、点間速度を計算する。\n速度が閾値より低い点を固視点、それ以外をサッケード点とする。\n連続する固視点を固視群にまとめ、サッケード点を除く。\n各固視群を、その点群の重心にある1つの固視に対応付ける。\n固視を返す。",
+    "size": 9,
+    "lineheight": 1.38,
+    "actual_font_size": 9,
+    "rendered_height": 124.19999999999999
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 4,
+    "rect": [
+      58.5,
+      99.5,
+      286,
+      244
+    ],
+    "text": "I-HMM（記録、HMM）\n\n記録内の各点について、点間速度を計算する。\n2状態HMMで速度系列をデコードし、各点を固視点かサッケード点に分類する。\n連続する固視点を固視群にまとめ、サッケード点を除く。\n各固視群を、その点群の重心にある1つの固視に対応付ける。\n固視を返す。",
+    "size": 9,
+    "lineheight": 1.38,
+    "actual_font_size": 9,
+    "rendered_height": 124.19999999999999
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 4,
+    "rect": [
+      58.5,
+      267.5,
+      286,
+      491
+    ],
+    "text": "I-DT（記録、分散度閾値、持続時間閾値）\n\n点が残っている間、以下を繰り返す。\n　先頭の点から、持続時間閾値を満たす窓を初期化する。\n　窓内の点の分散度 ≤ 閾値の場合：\n　　分散度 > 閾値となるまで窓に点を追加する。\n　　窓内の点群の重心を固視として記録する。\n　　窓内の点を処理対象から除く。\n　それ以外の場合：\n　　先頭の点を処理対象から除く。\n固視を返す。",
+    "size": 9,
+    "lineheight": 1.38,
+    "actual_font_size": 9,
+    "rendered_height": 136.61999999999998
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 5,
+    "rect": [
+      58.5,
+      99.5,
+      286,
+      285
+    ],
+    "text": "I-MST（記録、辺長比、辺長の標準偏差）\n\nPrimのアルゴリズムにより、記録のデータ点から最小全域木（MST）を構築する。\n深さ優先探索で、各MST点の最大分岐深さを求める。\n距離が事前に定めた基準を超える辺をサッケードとする。\n局所的な辺のパラメータ（μ, σ）を定義し、辺長が所定の比率を超えた場合にサッケードと判定する。\nサッケードで分離されていない点のクラスタを固視とする。\n固視を返す。",
+    "size": 9,
+    "lineheight": 1.38,
+    "actual_font_size": 9,
+    "rendered_height": 149.03999999999996
+  },
+  {
+    "document": "06_Salvucci_Goldberg_2000_ja.pdf",
+    "page": 5,
+    "rect": [
+      58.5,
+      308.5,
+      286,
+      486
+    ],
+    "text": "I-AOI（記録、持続時間閾値、対象領域）\n\n各点を、それが含まれる対象領域の固視点としてラベル付けする。どの領域にも入らない場合はサッケード点とする。\n同じ対象に属する連続した固視点を固視群にまとめ、サッケード点を除く。\n最小持続時間閾値に満たない固視群を除く。\n各固視群を、その点群の重心にある1つの固視に対応付ける。\n固視を返す。",
+    "size": 9,
+    "lineheight": 1.38,
+    "actual_font_size": 9,
+    "rendered_height": 136.61999999999998
+  }
+]

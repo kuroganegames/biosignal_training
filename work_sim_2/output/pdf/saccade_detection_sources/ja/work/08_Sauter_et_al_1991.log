@@ -1,0 +1,95 @@
+[11/18/26 06:09:32] INFO     INFO:babeldoc.docvision.base_d base_doclayout.py:43
+                             oclayout:Loading ONNX model...                     
+[11/18/26 06:09:33] INFO     INFO:babeldoc.docvision.doclayout:A doclayout.py:73
+                             vailable Provider:                                 
+                             CPUExecutionProvider                               
+                    INFO     INFO:babeldoc.main:Loaded glossary      main.py:625
+                             'glossary' with 47 entries.                        
+                    WARNING  WARNING:babeldoc.format.p translation_config.py:254
+                             df.translation_config:Wat                          
+                             ermark output mode is                              
+                             deprecated: it no longer                           
+                             adds a watermark; it                               
+                             still controls output                              
+                             file names and count.                              
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:583
+                             el:start to translate:                             
+                             /tmp/saccade_translation_inputs/0                  
+                             8_Sauter_et_al_1991.pdf                            
+[11/18/26 06:12:28] INFO     INFO:babeldoc.format.pdf.documen pdf_creater.py:548
+                             t_il.backend.pdf_creater:Font                      
+                             subsetting completed                               
+                             successfully                                       
+[11/18/26 06:12:29] INFO     INFO:babeldoc.format.pdf.documen pdf_creater.py:659
+                             t_il.backend.pdf_creater:PDF                       
+                             save with clean=True completed                     
+                             successfully                                       
+                    INFO     INFO:babeldoc.format.pdf.documen pdf_creater.py:659
+                             t_il.backend.pdf_creater:PDF                       
+                             save with clean=True completed                     
+                             successfully                                       
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:457
+                             el:Peak memory usage: 2440.98 MB                   
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:748
+                             el:finish translate:                               
+                             /tmp/saccade_translation_inputs/0                  
+                             8_Sauter_et_al_1991.pdf, cost:                     
+                             174.71222686767578 s                               
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:813
+                             el:skipping TOC migration for                      
+                             "use_alternating_pages_dual" mode                  
+                    INFO     INFO:babeldoc.main:Translation results: main.py:782
+                                     Original PDF:                              
+                             /tmp/saccade_translation_inputs/08_Saut            
+                             er_et_al_1991.pdf                                  
+                                     Total time: 174.71 seconds                 
+                                     Monolingual PDF:                           
+                             /media/kurogane/backup/bisignal_trainin            
+                             g/work_sim_2/output/pdf/saccade_detecti            
+                             on_sources/ja/08_Sauter_et_al_1991.no_w            
+                             atermark.ja.mono.pdf                               
+                                     Dual-language PDF:                         
+                             /media/kurogane/backup/bisignal_trainin            
+                             g/work_sim_2/output/pdf/saccade_detecti            
+                             on_sources/ja/08_Sauter_et_al_1991.no_w            
+                             atermark.ja.dual.pdf                               
+                                     Peak memory usage: 2440.984375             
+                             MB                                                 
+                                     Total valid character count:               
+                             30971                                              
+                                     Total valid text token count               
+                             (gpt-4o): 7863                                     
+translate                                              ━━━━━ 100/… 0:02:… 0:00:…
+Parse PDF and Create Intermediate Representation (1/1) ━━━━━ 7/7   0:00:… 0:00:…
+Parse Page Layout (1/1)                                ━━━━━ 14/14 0:00:… 0:00:…
+Parse Paragraphs (1/1)                                 ━━━━━ 7/7   0:00:… 0:00:…
+Parse Formulas and Styles (1/1)                        ━━━━━ 7/7   0:00:… 0:00:…
+Translate Paragraphs (1/1)                             ━━━━━ 345/… 0:02:… 0:00:…
+Typesetting (1/1)                                      ━━━━━ 7/7   0:00:… 0:00:…
+Add Fonts (1/1)                                        ━━━━━ 197/… 0:00:… 0:00:…
+Generate drawing instructions (1/1)                    ━━━━━ 7/7   0:00:… 0:00:…
+Subset font (1/1)                                      ━━━━━ 1/1   0:00:… 0:00:…
+Save PDF (1/1)                                         ━━━━━ 2/2   0:00:… 0:00:…translate                                              ━━━━━ 100/… 0:02:… 0:00:…
+Parse PDF and Create Intermediate Representation (1/1) ━━━━━ 7/7   0:00:… 0:00:…
+Parse Page Layout (1/1)                                ━━━━━ 14/14 0:00:… 0:00:…
+Parse Paragraphs (1/1)                                 ━━━━━ 7/7   0:00:… 0:00:…
+Parse Formulas and Styles (1/1)                        ━━━━━ 7/7   0:00:… 0:00:…
+Translate Paragraphs (1/1)                             ━━━━━ 345/… 0:02:… 0:00:…
+Typesetting (1/1)                                      ━━━━━ 7/7   0:00:… 0:00:…
+Add Fonts (1/1)                                        ━━━━━ 197/… 0:00:… 0:00:…
+Generate drawing instructions (1/1)                    ━━━━━ 7/7   0:00:… 0:00:…
+Subset font (1/1)                                      ━━━━━ 1/1   0:00:… 0:00:…
+Save PDF (1/1)                                         ━━━━━ 2/2   0:00:… 0:00:…
+                    INFO     INFO:babeldoc.main:Total tokens: 194234 main.py:791
+                    INFO     INFO:babeldoc.main:Prompt tokens:       main.py:792
+                             173694                                             
+                    INFO     INFO:babeldoc.main:Completion tokens:   main.py:793
+                             20540                                              
+                    INFO     INFO:babeldoc.main:Cache hit prompt     main.py:794
+                             tokens: 0                                          
+                    INFO     INFO:babeldoc.main:Term extraction      main.py:797
+                             tokens: total=0 prompt=0 completion=0              
+                             cache_hit_prompt=0                                 
+                    INFO     INFO:babeldoc.format.pdf.high_lev high_level.py:421
+                             el:Waiting for translation to                      
+                             finish...                                          

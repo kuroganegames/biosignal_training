@@ -1,0 +1,107 @@
+{
+  "documents": [
+    {
+      "document": "00_Dai_et_al_2021_target",
+      "pages": [
+        18,
+        18,
+        36
+      ]
+    },
+    {
+      "document": "01_Engbert_Kliegl_2003",
+      "pages": [
+        11,
+        11,
+        22
+      ]
+    },
+    {
+      "document": "02_Nystrom_Holmqvist_2010",
+      "pages": [
+        17,
+        17,
+        34
+      ]
+    },
+    {
+      "document": "03_Friedman_et_al_2018",
+      "pages": [
+        24,
+        24,
+        48
+      ]
+    },
+    {
+      "document": "04_Konig_Buffalo_2014",
+      "pages": [
+        11,
+        11,
+        22
+      ]
+    },
+    {
+      "document": "05_Zemblys_et_al_2018",
+      "pages": [
+        22,
+        22,
+        44
+      ]
+    },
+    {
+      "document": "06_Salvucci_Goldberg_2000",
+      "pages": [
+        8,
+        8,
+        16
+      ]
+    },
+    {
+      "document": "07_Komogortsev_et_al_2010",
+      "pages": [
+        11,
+        11,
+        22
+      ]
+    },
+    {
+      "document": "08_Sauter_et_al_1991",
+      "pages": [
+        7,
+        7,
+        14
+      ]
+    },
+    {
+      "document": "09_Bahill_et_al_1981",
+      "pages": [
+        10,
+        10,
+        20
+      ]
+    },
+    {
+      "document": "10_Blignaut_2009",
+      "pages": [
+        15,
+        15,
+        30
+      ]
+    },
+    {
+      "document": "11_Zemblys_et_al_2019_Correction",
+      "pages": [
+        2,
+        2,
+        4
+      ]
+    }
+  ],
+  "combined_pages": 157,
+  "bookmarks": 12,
+  "clickable_contents": 12,
+  "zip_pdf_files": 37,
+  "original_checksums": "unchanged",
+  "html_links": "valid",
+  "zip_integrity": "passed"
+}

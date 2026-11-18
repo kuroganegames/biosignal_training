@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>検出手法の説明をハイライトした原文PDF | サッケード検出法</title>
+<style>
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:#1c2f3d;font:16px/1.85 system-ui,-apple-system,"Noto Sans CJK JP",sans-serif}main{max-width:1120px;margin:auto;padding:40px 28px 72px}a{color:#075e88;text-underline-offset:3px}a:hover{color:#a24b16}h1{font-size:31px;line-height:1.5;margin:12px 0 16px}h2{font-size:23px;line-height:1.5;margin:10px 0}p{margin:10px 0}.eyebrow{font-size:13px;color:#536b7d;letter-spacing:.02em}.intro{background:#fff;border:1px solid #d8e1e7;border-radius:10px;padding:24px 28px}.legend{display:flex;flex-wrap:wrap;gap:14px;margin:16px 0}.legend span{padding:5px 12px;border-radius:4px}.yellow{background:#fff3a8}.orange{background:#ffdcba}.help{font-size:14px;color:#425c6e}.toc{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}.toc li{border-bottom:1px solid #d9e3ea;padding:9px 0}.toc span{display:block;font-size:13px;color:#526775}.summary{font-weight:650;color:#166b70}article{background:white;border:1px solid #d7e1e8;border-radius:10px;padding:25px 28px;margin:24px 0;scroll-margin-top:18px}.title-ja{margin:10px 0 4px}.title-en{font-size:13px;color:#526775;margin:0 0 16px}.actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.button{background:#e9f3f4;border:1px solid #9cc7cd;border-radius:5px;padding:7px 14px;text-decoration:none}.note{font-size:14px;background:#fff4e9;border-left:3px solid #de9654;padding:12px 14px;margin:18px 0}table{width:100%;border-collapse:collapse;margin:20px 0 10px;font-size:14px}thead{background:#edf2f6}th,td{padding:11px 14px;border-bottom:1px solid #dce4e9;text-align:left;vertical-align:top}tbody th{width:92px;white-space:nowrap}.caution-label{display:block;font-size:11px;color:#8d4b15;font-weight:500}.back{font-size:13px;text-align:right}footer{font-size:13px;color:#536b7d}@media(max-width:650px){main{padding:24px 16px}h1{font-size:25px}.intro,article{padding:20px}.toc{grid-template-columns:1fr}th,td{padding:10px 9px}tbody th{width:65px}}@media print{body{background:white}main{max-width:none;padding:0}.toc, .back{display:none}article{break-before:page;border:0;padding:0}a{color:inherit}}
+</style></head><body><main id="top">
+<div class="eyebrow">サッケード検出法 / 原文読解ガイド / 2026-11-18</div>
+<h1>検出手法の説明をハイライトした原文PDF</h1>
+<section class="intro"><p>各論文の検出原理、数式、処理手順、パラメータと関係する図表の説明を選び、原文PDFの複製にハイライトを付けました。原本はそのまま保存しています。</p>
+<p class="summary">12本のPDF / 対象49ページ / 日本語注釈・しおり付き</p>
+<div class="legend"><span class="yellow">黄色：検出手法の説明</span><span class="orange">オレンジ色：IRFの訂正と併読する箇所</span></div>
+<p class="help">下表の頁リンク、またはPDFの「しおり」から該当箇所へ移動できます。ハイライトの注釈には日本語で説明項目を記載しました。色は通常のPDF注釈として保存しているため、対応する閲覧ソフトで確認・編集できます。</p>
+<p class="help">頁番号はPDFの先頭から数えた番号です。誌面に印刷されたページ番号とは異なります。</p></section>
+<nav aria-label="論文一覧"><ol class="toc"><li><a href="#Dai2021">Dai et al. (2021)</a><span>Dai提案法：疎な微分を利用した雑音除去と速度閾値</span></li><li><a href="#Engbert2003">Engbert &amp; Kliegl (2003)</a><span>Engbert法：適応速度閾値と両眼の重なり</span></li><li><a href="#Nystrom2010">Nyström &amp; Holmqvist (2010)</a><span>Nyström-Holmqvist法：NH / ONH</span></li><li><a href="#Friedman2018">Friedman et al. (2018)</a><span>Friedman法：MNH</span></li><li><a href="#Konig2014">König &amp; Buffalo (2014)</a><span>König法：Cluster Fix</span></li><li><a href="#Zemblys2018">Zemblys et al. (2018)</a><span>Zemblys法：IRF / I-RF</span></li><li><a href="#Salvucci2000">Salvucci &amp; Goldberg (2000)</a><span>I-VT・I-HMM・I-DT・I-MSTの基礎記述</span></li><li><a href="#Komogortsev2010">Komogortsev et al. (2010)</a><span>I-VT・I-HMM・I-KF・I-MST・I-DTの比較実装</span></li><li><a href="#Sauter1991">Sauter et al. (1991)</a><span>カルマンフィルタとHinkley法</span></li><li><a href="#Bahill1981">Bahill et al. (1981)</a><span>速度閾値法の背景文献</span></li><li><a href="#Blignaut2009">Blignaut (2009)</a><span>分散閾値法：尺度の定義と閾値選択</span></li><li><a href="#Zemblys2019Correction">Zemblys et al. (2019)</a><span>IRFの後処理に関する訂正</span></li></ol></nav>
+<article id="Dai2021">
+<div class="eyebrow">00 / Dai et al. (2021) / 原文全18頁</div>
+<h2>Dai提案法：疎な微分を利用した雑音除去と速度閾値</h2>
+<p class="title-ja">陰的な区分多項式近似を用いた正常サッケードおよび低速サッケードの検出</p>
+<p class="title-en">Detection of normal and slow saccades using implicit piecewise polynomial approximation</p>
+<p class="actions"><a class="button" href="00_Dai_et_al_2021_target_methods_highlighted.pdf#page=4">ハイライト付きPDFを開く</a><a href="https://doi.org/10.1167/jov.21.6.8">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="00_Dai_et_al_2021_target_methods_highlighted.pdf#page=4">4頁</a></th><td>提案法の全体像と疎な1階・3階微分の仮定</td></tr><tr><th scope="row"><a href="00_Dai_et_al_2021_target_methods_highlighted.pdf#page=5">5頁</a></th><td>目的関数・差分行列・正則化の意味（式5～7）</td></tr><tr><th scope="row"><a href="00_Dai_et_al_2021_target_methods_highlighted.pdf#page=6">6頁</a></th><td>TV正則化との関係と区分多項式モデル</td></tr><tr><th scope="row"><a href="00_Dai_et_al_2021_target_methods_highlighted.pdf#page=7">7頁</a></th><td>MM法による反復最適化と更新式（式8～15）<br>雑音除去後の速度計算と速度閾値判定<br>正則化係数の設定と調整の意味</td></tr><tr><th scope="row"><a href="00_Dai_et_al_2021_target_methods_highlighted.pdf#page=8">8頁</a></th><td>正則化係数の設定と調整の意味<br>雑音・平均振幅・平均持続時間の推定</td></tr><tr><th scope="row"><a href="00_Dai_et_al_2021_target_methods_highlighted.pdf#page=9">9頁</a></th><td>雑音・平均振幅・平均持続時間の推定<br>サンプリング周波数に応じた係数（式18～19）<br>開始・終了閾値と共通後処理<br>比較対象の実装出典（VT・DTは著者実装）</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Engbert2003">
+<div class="eyebrow">01 / Engbert &amp; Kliegl (2003) / 原文全11頁</div>
+<h2>Engbert法：適応速度閾値と両眼の重なり</h2>
+<p class="title-ja">マイクロサッケードが明らかにする潜在的注意の方向</p>
+<p class="title-en">Microsaccades uncover the orientation of covert attention</p>
+<p class="actions"><a class="button" href="01_Engbert_Kliegl_2003_methods_highlighted.pdf#page=2">ハイライト付きPDFを開く</a><a href="https://doi.org/10.1016/S0042-6989(03)00084-1">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="01_Engbert_Kliegl_2003_methods_highlighted.pdf#page=2">2頁</a></th><td>第2節：2次元速度空間と5点速度計算（式1）<br>中央値に基づく適応速度閾値と最短時間（式2～3）<br>両眼イベントの時間的重なり条件（式4）<br>図1：眼位・速度空間での検出の説明<br>主系列による妥当性確認と検出原理のまとめ</td></tr><tr><th scope="row"><a href="01_Engbert_Kliegl_2003_methods_highlighted.pdf#page=3">3頁</a></th><td>主系列による妥当性確認と検出原理のまとめ</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Nystrom2010">
+<div class="eyebrow">02 / Nyström &amp; Holmqvist (2010) / 原文全17頁</div>
+<h2>Nyström-Holmqvist法：NH / ONH</h2>
+<p class="title-ja">アイトラッキングデータから固視・サッケード・グリセードを検出する適応的アルゴリズム</p>
+<p class="title-en">An adaptive algorithm for fixation, saccade, and glissade detection in eyetracking data</p>
+<p class="actions"><a class="button" href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=4">ハイライト付きPDFを開く</a><a href="https://doi.org/10.3758/BRM.42.1.188">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=4">4頁</a></th><td>提案する検出法の全体像<br>表1：処理手順の擬似コード<br>SGフィルタによる速度・加速度の計算</td></tr><tr><th scope="row"><a href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=5">5頁</a></th><td>SGフィルタによる速度・加速度の計算<br>無効点・瞬目・雑音区間の除外と拡張</td></tr><tr><th scope="row"><a href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=6">6頁</a></th><td>無効点・瞬目・雑音区間の除外と拡張<br>図4：ピーク速度閾値の反復推定<br>ピーク速度閾値の更新と収束条件</td></tr><tr><th scope="row"><a href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=7">7頁</a></th><td>ピーク速度閾値の更新と収束条件<br>表2：フィルタ・閾値・時間条件の設定<br>サッケードの開始・終了境界と局所雑音</td></tr><tr><th scope="row"><a href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=8">8頁</a></th><td>サッケードの開始・終了境界と局所雑音<br>グリセード検出の条件と境界</td></tr><tr><th scope="row"><a href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=9">9頁</a></th><td>グリセード検出の条件と境界<br>固視の検出条件と最短時間の根拠</td></tr><tr><th scope="row"><a href="02_Nystrom_Holmqvist_2010_methods_highlighted.pdf#page=10">10頁</a></th><td>固視の検出条件と最短時間の根拠</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Friedman2018">
+<div class="eyebrow">03 / Friedman et al. (2018) / 原文全24頁</div>
+<h2>Friedman法：MNH</h2>
+<p class="title-ja">読書中の眼球運動分類に関する、関連する2手法と独立した2手法の新たな評価</p>
+<p class="title-en">A novel evaluation of two related and two independent algorithms for eye movement classification during reading</p>
+<p class="actions"><a class="button" href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=4">ハイライト付きPDFを開く</a><a href="https://doi.org/10.3758/s13428-018-1050-7">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=4">4頁</a></th><td>Algorithm narrative：ONHとMNHの処理の比較<br>入力の欠損処理とSGフィルタの変更<br>水平・垂直成分からの速度・加速度の合成<br>雑音・アーティファクトの検出とRIONEPS</td></tr><tr><th scope="row"><a href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=5">5頁</a></th><td>雑音・アーティファクトの検出とRIONEPS<br>雑音区間の拡張とMNHの90パーセンタイル閾値<br>比較元ONHの開始・終了判定と局所閾値<br>比較元ONHの適応閾値と更新式</td></tr><tr><th scope="row"><a href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=6">6頁</a></th><td>比較元ONHの適応閾値と更新式<br>図2：ONHとMNHのサッケード境界の違い</td></tr><tr><th scope="row"><a href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=7">7頁</a></th><td>MNHの固定速度閾値と位置波形に合わせた境界補正</td></tr><tr><th scope="row"><a href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=8">8頁</a></th><td>MNHのPSO検出と終了条件</td></tr><tr><th scope="row"><a href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=9">9頁</a></th><td>MNHのPSO検出と終了条件<br>図5：MNHのPSO検出の説明<br>MNHの固視判定と最短時間・空間範囲</td></tr><tr><th scope="row"><a href="03_Friedman_et_al_2018_methods_highlighted.pdf#page=10">10頁</a></th><td>MNHの固視判定と最短時間・空間範囲<br>表3：MNHの固定パラメータ一覧</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Konig2014">
+<div class="eyebrow">04 / König &amp; Buffalo (2014) / 原文全11頁</div>
+<h2>König法：Cluster Fix</h2>
+<p class="title-ja">クラスタ分析による固視とサッケードのノンパラメトリック検出法：恣意的な閾値を不要にする</p>
+<p class="title-en">A nonparametric method for detecting fixations and saccades using cluster analysis: Removing the need for arbitrary thresholds</p>
+<p class="actions"><a class="button" href="04_Konig_Buffalo_2014_methods_highlighted.pdf#page=2">ハイライト付きPDFを開く</a><a href="https://doi.org/10.1016/j.jneumeth.2014.01.032">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="04_Konig_Buffalo_2014_methods_highlighted.pdf#page=2">2頁</a></th><td>Cluster Fixの原理：特徴空間でのクラスタリング<br>2.2節：前処理とリサンプリング<br>表1：Cluster Fixの処理手順</td></tr><tr><th scope="row"><a href="04_Konig_Buffalo_2014_methods_highlighted.pdf#page=3">3頁</a></th><td>2.2節：前処理とリサンプリング<br>4特徴量の定義・外れ値の制限・正規化<br>全体クラスタリング・クラスタ数・固視クラスタの判定<br>局所再クラスタリングによる小振幅サッケードの検出<br>時間条件による再分類と出力周波数への復帰</td></tr><tr><th scope="row"><a href="04_Konig_Buffalo_2014_methods_highlighted.pdf#page=4">4頁</a></th><td>図1：全体クラスタリングの説明</td></tr><tr><th scope="row"><a href="04_Konig_Buffalo_2014_methods_highlighted.pdf#page=5">5頁</a></th><td>図2：局所再クラスタリングの説明</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Zemblys2018">
+<div class="eyebrow">05 / Zemblys et al. (2018) / 原文全22頁</div>
+<h2>Zemblys法：IRF / I-RF</h2>
+<p class="title-ja">機械学習によるアイトラッキングデータのイベント検出</p>
+<p class="title-en">Using machine learning to detect events in eye-tracking data</p>
+<p class="actions"><a class="button" href="05_Zemblys_et_al_2018_methods_highlighted.pdf#page=4">ハイライト付きPDFを開く</a><a href="https://doi.org/10.3758/s13428-017-0860-3">書誌・原文の出典</a></p>
+<p class="note">8-9頁のオレンジ色の記述は、<a href="11_Zemblys_et_al_2019_Correction_methods_highlighted.pdf#page=1">2019年の訂正論文（1-2頁）</a>と併読してください。元論文の本文は書き換えず、訂正内容を日本語注釈で案内しています。</p>
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="05_Zemblys_et_al_2018_methods_highlighted.pdf#page=4">4頁</a></th><td>学習用データの周波数変更と雑音追加</td></tr><tr><th scope="row"><a href="05_Zemblys_et_al_2018_methods_highlighted.pdf#page=5">5頁</a></th><td>特徴抽出前の欠損補間と14特徴の構成<br>ランダムフォレストと後処理の全体構成</td></tr><tr><th scope="row"><a href="05_Zemblys_et_al_2018_methods_highlighted.pdf#page=6">6頁</a></th><td>ランダムフォレストと後処理の全体構成<br>表1：14特徴量の定義と計算窓<br>決定木と確率平均による分類</td></tr><tr><th scope="row"><a href="05_Zemblys_et_al_2018_methods_highlighted.pdf#page=7">7頁</a></th><td>決定木と確率平均による分類<br>木の本数・分岐基準・クラス重みなどの学習設定<br>特徴と木の本数の削減</td></tr><tr><th scope="row"><a href="05_Zemblys_et_al_2018_methods_highlighted.pdf#page=8">8頁</a><span class="caution-label">訂正参照</span></th><td>特徴と木の本数の削減<br>3クラス確率の平滑化とラベル化<br>後処理規則：2019年訂正と併読すること<br>要訂正：未分類に置き換えるという説明は2019年訂正で変更。該当クラスの確率を0にし、次に確からしいクラスへ再分類する。訂正論文PDF 1～2頁を参照。</td></tr><tr><th scope="row"><a href="05_Zemblys_et_al_2018_methods_highlighted.pdf#page=9">9頁</a><span class="caution-label">訂正参照</span></th><td>要訂正：未分類に置き換えるという説明は2019年訂正で変更。該当クラスの確率を0にし、次に確からしいクラスへ再分類する。訂正論文PDF 1～2頁を参照。</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Salvucci2000">
+<div class="eyebrow">06 / Salvucci &amp; Goldberg (2000) / 原文全8頁</div>
+<h2>I-VT・I-HMM・I-DT・I-MSTの基礎記述</h2>
+<p class="title-ja">アイトラッキング記録における固視とサッケードの識別</p>
+<p class="title-en">Identifying fixations and saccades in eye-tracking protocols</p>
+<p class="actions"><a class="button" href="06_Salvucci_Goldberg_2000_methods_highlighted.pdf#page=3">ハイライト付きPDFを開く</a><a href="https://doi.org/10.1145/355017.355028">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="06_Salvucci_Goldberg_2000_methods_highlighted.pdf#page=3">3頁</a></th><td>I-VT：原理・処理手順・速度閾値（表2）<br>I-HMM：2状態・観測確率・遷移確率<br>I-HMM：復号・パラメータ・再推定（表3）</td></tr><tr><th scope="row"><a href="06_Salvucci_Goldberg_2000_methods_highlighted.pdf#page=4">4頁</a></th><td>I-HMM：復号・パラメータ・再推定（表3）<br>I-DT：擬似コード（表4）<br>I-DT：分散の定義・移動窓・時間と空間の閾値<br>I-MST：最小全域木・枝の探索・局所適応</td></tr><tr><th scope="row"><a href="06_Salvucci_Goldberg_2000_methods_highlighted.pdf#page=5">5頁</a></th><td>I-MST：最小全域木・枝の探索・局所適応<br>I-MST：擬似コード（表5）</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Komogortsev2010">
+<div class="eyebrow">07 / Komogortsev et al. (2010) / 原文全11頁</div>
+<h2>I-VT・I-HMM・I-KF・I-MST・I-DTの比較実装</h2>
+<p class="title-ja">固視およびサッケード行動の自動解析の標準化</p>
+<p class="title-en">Standardization of automated analyses of oculomotor fixation and saccadic behaviors</p>
+<p class="actions"><a class="button" href="07_Komogortsev_et_al_2010_methods_highlighted.pdf#page=3">ハイライト付きPDFを開く</a><a href="https://doi.org/10.1109/TBME.2010.2057429">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="07_Komogortsev_et_al_2010_methods_highlighted.pdf#page=3">3頁</a></th><td>比較実装の共通入力・イベント結合・除外条件<br>I-VTの分類規則<br>I-HMM：初期化・Viterbi・Baum–Welch再推定<br>I-KF：位置・速度状態と予測誤差のカイ二乗検定（式1）<br>I-MST：最小全域木と200 msの窓</td></tr><tr><th scope="row"><a href="07_Komogortsev_et_al_2010_methods_highlighted.pdf#page=4">4頁</a></th><td>I-MST：最小全域木と200 msの窓<br>I-DT：分散の式と移動窓</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Sauter1991">
+<div class="eyebrow">08 / Sauter et al. (1991) / 原文全7頁</div>
+<h2>カルマンフィルタとHinkley法</h2>
+<p class="title-ja">カルマンフィルタが生成するイノベーションを用いた追跡眼球運動の解析</p>
+<p class="title-en">Analysis of eye tracking movements using innovations generated by a Kalman filter</p>
+<p class="actions"><a class="button" href="08_Sauter_et_al_1991_methods_highlighted.pdf#page=2">ハイライト付きPDFを開く</a><a href="https://doi.org/10.1007/BF02446297">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="08_Sauter_et_al_1991_methods_highlighted.pdf#page=2">2頁</a></th><td>問題設定：追従モデルからの変化としてサッケードを検出<br>速度信号のARモデルと同定（式1～6）</td></tr><tr><th scope="row"><a href="08_Sauter_et_al_1991_methods_highlighted.pdf#page=3">3頁</a></th><td>予測残差の生成と仮説検定（式8～9）<br>状態空間表現と観測雑音（式10～14）</td></tr><tr><th scope="row"><a href="08_Sauter_et_al_1991_methods_highlighted.pdf#page=4">4頁</a></th><td>カルマンフィルタの更新と残差分散（式15～20）<br>Hinkley法による開始・終了時点の推定（式21～23）</td></tr><tr><th scope="row"><a href="08_Sauter_et_al_1991_methods_highlighted.pdf#page=5">5頁</a></th><td>Hinkley法による開始・終了時点の推定（式21～23）<br>図5：累積和と境界推定の説明<br>4.4節：検出処理全体のまとめ</td></tr><tr><th scope="row"><a href="08_Sauter_et_al_1991_methods_highlighted.pdf#page=6">6頁</a></th><td>実装に必要な窓長・検定閾値・雑音分散</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Bahill1981">
+<div class="eyebrow">09 / Bahill et al. (1981) / 原文全10頁</div>
+<h2>速度閾値法の背景文献</h2>
+<p class="title-ja">サッケード眼球運動の正常基準データベース：ばらつきとその構築</p>
+<p class="title-en">Variability and development of a normative data base for saccadic eye movements</p>
+<p class="actions"><a class="button" href="09_Bahill_et_al_1981_methods_highlighted.pdf#page=3">ハイライト付きPDFを開く</a><a href="https://pubmed.ncbi.nlm.nih.gov/7251295/">書誌・原文の出典</a></p>
+<p class="note">DaiらのVTの背景として引用された文献です。DaiらのVT自作実装を、そのまま記述した論文ではありません。</p>
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="09_Bahill_et_al_1981_methods_highlighted.pdf#page=3">3頁</a></th><td>速度20度/秒で候補を抽出し、操作者が確認する手順。Dai論文のVT自作実装そのものではなく背景文献。<br>中心差分・80 Hzフィルタと開始終了の速度5度/秒基準</td></tr><tr><th scope="row"><a href="09_Bahill_et_al_1981_methods_highlighted.pdf#page=4">4頁</a></th><td>中心差分・80 Hzフィルタと開始終了の速度5度/秒基準<br>速度・加速度のフィルタ仕様<br>サンプリング周波数と中心差分の計算式</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Blignaut2009">
+<div class="eyebrow">10 / Blignaut (2009) / 原文全15頁</div>
+<h2>分散閾値法：尺度の定義と閾値選択</h2>
+<p class="title-ja">固視の識別：分散度アルゴリズムにおける最適な閾値</p>
+<p class="title-en">Fixation identification: The optimum threshold for a dispersion algorithm</p>
+<p class="actions"><a class="button" href="10_Blignaut_2009_methods_highlighted.pdf#page=6">ハイライト付きPDFを開く</a><a href="https://doi.org/10.3758/APP.71.4.881">書誌・原文の出典</a></p>
+<p class="note">分散尺度によって閾値の意味が異なります。14頁の数値範囲は原著の測定条件での結果として確認してください。</p>
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="10_Blignaut_2009_methods_highlighted.pdf#page=6">6頁</a></th><td>5.3節：I-DTの手順と閾値を超えた末尾点の除外<br>最短持続時間と分散尺度を比較する目的<br>5種類の分散尺度と重心再計算。Slvは水平・垂直範囲の平均であり、Salvucci原著の和とは尺度が異なる。</td></tr><tr><th scope="row"><a href="10_Blignaut_2009_methods_highlighted.pdf#page=7">7頁</a></th><td>等価な半径閾値への換算と比較<br>閾値の設定範囲と測定分解能</td></tr><tr><th scope="row"><a href="10_Blignaut_2009_methods_highlighted.pdf#page=14">14頁</a></th><td>閾値選択の結論：原著のデータ条件での範囲。全装置に共通する推奨値ではない。</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<article id="Zemblys2019Correction">
+<div class="eyebrow">11 / Zemblys et al. (2019) / 原文全2頁</div>
+<h2>IRFの後処理に関する訂正</h2>
+<p class="title-ja">訂正：「機械学習によるアイトラッキングデータのイベント検出」</p>
+<p class="title-en">Correction to: “Using machine learning to detect events in eye-tracking data”</p>
+<p class="actions"><a class="button" href="11_Zemblys_et_al_2019_Correction_methods_highlighted.pdf#page=1">ハイライト付きPDFを開く</a><a href="https://doi.org/10.3758/s13428-018-1127-3">書誌・原文の出典</a></p>
+
+<table><thead><tr><th>PDF頁</th><th>ハイライトした説明</th></tr></thead><tbody><tr><th scope="row"><a href="11_Zemblys_et_al_2019_Correction_methods_highlighted.pdf#page=1">1頁</a></th><td>2018年論文の後処理記述の訂正：確率を0にして次のクラスへ再分類<br>確率に基づく後処理の具体的な説明<br>後処理コードの修正と最終的な決定論的規則</td></tr><tr><th scope="row"><a href="11_Zemblys_et_al_2019_Correction_methods_highlighted.pdf#page=2">2頁</a></th><td>後処理コードの修正と最終的な決定論的規則</td></tr></tbody></table>
+<p class="back"><a href="#top">一覧に戻る</a></p>
+</article>
+<footer><p><a href="manifest.json">収録ファイル・ハイライト箇所・検証記録（JSON）</a></p><p>12本には比較元のDai論文、比較手法の原典・実装出典・背景文献、IRFの訂正論文を含みます。手法と論文は1対1ではありません。</p></footer>
+</main></body></html>
