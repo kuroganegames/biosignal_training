@@ -20,11 +20,11 @@ ChatGPTに網膜データを用いた解析のチュートリアルを作成し�
 
 結果としてはリッジ回帰の性能は低く、過去三回平均の値をそのまま用いる方が予測性能としては高い。
 
-![image-20261119070059971](/home/kurogane/.config/Typora/typora-user-images/image-20261119070059971.png)
+![image-20261119070059971](./assets/image-20261119070059971.png)
 
 測定点平均でのMAEの結果を見ても、少なくとも目視の範囲ではridgeの予測性能が悪い。
 
-![image-20261119070157580](/home/kurogane/.config/Typora/typora-user-images/image-20261119070157580.png)
+![image-20261119070157580](./assets/image-20261119070157580.png)
 
 paired boootstrapという手法。基本的には2群間での比較を行う。多重比較なのでBonferroni補正を適用。やはりリッジ回帰のほうが性能が不十分だった。
 
@@ -79,11 +79,11 @@ paired boootstrapという手法。基本的には2群間での比較を行う�
 
 最もridge回帰の誤差が大きい患者データを可視化。
 
-![image-20261119074749591](/home/kurogane/.config/Typora/typora-user-images/image-20261119074749591.png)
+![image-20261119074749591](./assets/image-20261119074749591.png)
 
 同患者について直近値、過去3回平均と、ridge回帰の値の相関を見た。概ね相関なし。
 
-![image-20261119200414074](/home/kurogane/.config/Typora/typora-user-images/image-20261119200414074.png)
+![image-20261119200414074](./assets/image-20261119200414074.png)
 
 
 
